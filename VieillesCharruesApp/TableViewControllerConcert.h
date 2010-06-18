@@ -12,7 +12,7 @@
 
 @interface TableViewControllerConcert : UITableViewController {
 	IBOutlet UISegmentedControl *selector;
-	IBOutlet UIButton *boutonMiseAjour;
+	IBOutlet UIBarButtonItem *boutonMiseAjour;
 	IBOutlet UIActivityIndicatorView *activityIndicator;
 	
 	VCDataBaseController *dataBase;

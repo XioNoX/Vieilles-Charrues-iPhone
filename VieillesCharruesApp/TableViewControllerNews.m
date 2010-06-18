@@ -12,8 +12,12 @@
 #import "VCNewsParser.h"
 #import "NewsDetailsView.h"
 #import "constantes.h"
+#import "VieillesCharruesAppAppDelegate.h"
+
 
 @implementation TableViewControllerNews
+
+@synthesize maj;
 
 /*
 - (id)initWithStyle:(UITableViewStyle)style {
@@ -37,12 +41,9 @@
 {
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	
-	
 	[NSThread sleepForTimeInterval:2];
 	
-	UIView *vueMessage = [self.view.window viewWithTag:1024];
-	
-	[vueMessage removeFromSuperview];
+	[loadingMajView removeFromSuperview];
 	
 	[pool drain];
 }
@@ -53,13 +54,15 @@
 	
 	
 	UIView *loadingView = [[[NSBundle mainBundle] loadNibNamed:@"LoadingView" owner:self options:nil] objectAtIndex:0];
-	loadingView.tag = 1024;
+	loadingMajView = [loadingView retain];
 	
 	UILabel *labelPereDeSaints = ((UILabel*)[loadingView viewWithTag:1]);
 	labelPereDeSaints.text = msg;
-	[self.view.window addSubview:loadingView];
+	VieillesCharruesAppAppDelegate *appDelegate = (VieillesCharruesAppAppDelegate *) [[UIApplication sharedApplication] delegate];
 	
-	[self performSelectorInBackground:@selector(timerBeforeDeletingLaodingView) withObject:nil];
+	[[appDelegate window] addSubview:loadingView];
+	
+	[self performSelectorOnMainThread:@selector(timerBeforeDeletingLaodingView) withObject:nil waitUntilDone:NO];
 	
 	[pool drain];
 	
@@ -69,7 +72,8 @@
 {
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	
-	BOOL parsingSuccess = NO;
+	[maj maj];
+/*	BOOL parsingSuccess = NO;
 	
 	NSURL *url = [NSURL URLWithString: TWITSOURCE];
 	
@@ -104,7 +108,7 @@
 	}
 
 	
-	[parser release];
+	[parser release];*/
 	[activityIndicator stopAnimating];
 	[activityIndicator removeFromSuperview];
 	boutonMiseAjour.enabled = YES;
@@ -119,7 +123,7 @@
 	
 	[self performSelectorInBackground:@selector(recupererNews) withObject:nil];
 	boutonMiseAjour.enabled = NO;
-	
+	NSLog(@"MAJ begin");
 	
 	activityIndicator.frame = CGRectMake(07, 27, 30, 30);
 	[self.view.window addSubview:activityIndicator];
@@ -129,6 +133,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+	self.maj = [[MAJ alloc] init];
+	[maj setDelegate:self];
 	
 	
 	if(dataBase == nil) dataBase = [VCDataBaseController sharedInstance];
@@ -160,6 +166,13 @@
 }
 */
 
+#pragma mark MAJ delegate
+
+-(void)majEnded:(NSNumber *)test{
+	NSLog(@"MAJ fini");
+	[self reloadTable];	
+	
+}
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
