@@ -19,14 +19,6 @@
 
 @synthesize maj;
 
-/*
-- (id)initWithStyle:(UITableViewStyle)style {
-    // Override initWithStyle: if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-    if (self = [super initWithStyle:style]) {
-    }
-    return self;
-}
-*/
 
 -(void) reloadTable
 {
@@ -72,43 +64,8 @@
 {
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	
-	[maj maj];
-/*	BOOL parsingSuccess = NO;
+	[maj miseAjourNews];
 	
-	NSURL *url = [NSURL URLWithString: TWITSOURCE];
-	
-	VCNewsParser* parser = [[VCNewsParser alloc] initWithContentsOfURL:url andType:@"Twitter"];
-	[parser setDelegate:parser];
-	parsingSuccess = [parser parse];
-	
-	
-	url = [NSURL URLWithString:FBSOURCE];
-	[parser initWithContentsOfURL:url andType:@"Facebook"];
-	
-	parsingSuccess = parsingSuccess && [parser parse];
-	
-	url = [NSURL URLWithString: VCSOURCE];
-	[parser initWithContentsOfURL:url andType:@"VieillesCharrues"];
-	
-	parsingSuccess = parsingSuccess && [parser parse];
-	
-	if(dataBase == nil) dataBase = [VCDataBaseController sharedInstance];
-	
-	if(parsingSuccess)
-	{
-		[self popUpLoadingWithMessage:@"Actualités mises à jour"];
-		[self reloadTable];
-		[dataBase mettreAJourNews:parser.listeNews];
-	}
-	else 
-	{
-		UIAlertView *errorMessage = [[UIAlertView alloc] initWithTitle:@"Erreur" message:@"Une erreur s'est produite lors de la récupération des actualités. Veuillez véfifier vos paramètres de connexion et reessayer" delegate:nil cancelButtonTitle:@"Fermer" otherButtonTitles:nil];
-		[errorMessage show];
-		[errorMessage release];
-	}
-
-	
-	[parser release];*/
 	[activityIndicator stopAnimating];
 	[activityIndicator removeFromSuperview];
 	boutonMiseAjour.enabled = YES;
@@ -123,7 +80,6 @@
 	
 	[self performSelectorInBackground:@selector(recupererNews) withObject:nil];
 	boutonMiseAjour.enabled = NO;
-	NSLog(@"MAJ begin");
 	
 	activityIndicator.frame = CGRectMake(07, 27, 30, 30);
 	[self.view.window addSubview:activityIndicator];
@@ -133,7 +89,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	self.maj = [[MAJ alloc] init];
+	self.maj = [[VCFluxUpdater alloc] init];
 	[maj setDelegate:self];
 	
 	
@@ -169,7 +125,8 @@
 #pragma mark MAJ delegate
 
 -(void)majEnded:(NSNumber *)test{
-	NSLog(@"MAJ fini");
+	[self popUpLoadingWithMessage:@"infos mises à jour"];
+	
 	[self reloadTable];	
 	
 }

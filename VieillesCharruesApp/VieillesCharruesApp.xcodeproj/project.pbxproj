@@ -183,7 +183,7 @@
 		E2E341641163AE670073B122 /* ViewLocation.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2E341621163AE670073B122 /* ViewLocation.xib */; };
 		E2E3419F1163B0F00073B122 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E3419E1163B0F00073B122 /* CoreLocation.framework */; };
 		E2F120C8118732440026B468 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F120C6118732440026B468 /* LoadingView.xib */; };
-		E2F8470211CBDF6200613529 /* MAJ.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F8470111CBDF6200613529 /* MAJ.m */; };
+		E2F8470211CBDF6200613529 /* VCFluxUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F8470111CBDF6200613529 /* VCFluxUpdater.m */; };
 		E2F97DE111A6D3630019E9ED /* chezMoi.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F97DE011A6D3630019E9ED /* chezMoi.png */; };
 		E2F97E5D11A6E7980019E9ED /* Polytech.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F97E5C11A6E7980019E9ED /* Polytech.png */; };
 /* End PBXBuildFile section */
@@ -402,8 +402,8 @@
 		E2E341621163AE670073B122 /* ViewLocation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewLocation.xib; sourceTree = "<group>"; };
 		E2E3419E1163B0F00073B122 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		E2F120C6118732440026B468 /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
-		E2F8470011CBDF6200613529 /* MAJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAJ.h; sourceTree = "<group>"; };
-		E2F8470111CBDF6200613529 /* MAJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAJ.m; sourceTree = "<group>"; };
+		E2F8470011CBDF6200613529 /* VCFluxUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCFluxUpdater.h; sourceTree = "<group>"; };
+		E2F8470111CBDF6200613529 /* VCFluxUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCFluxUpdater.m; sourceTree = "<group>"; };
 		E2F97DE011A6D3630019E9ED /* chezMoi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chezMoi.png; sourceTree = "<group>"; };
 		E2F97E5C11A6E7980019E9ED /* Polytech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Polytech.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -791,8 +791,8 @@
 		E2CEC4F91156817B00ABEE81 /* VCClasses */ = {
 			isa = PBXGroup;
 			children = (
-				E2F8470011CBDF6200613529 /* MAJ.h */,
-				E2F8470111CBDF6200613529 /* MAJ.m */,
+				E2F8470011CBDF6200613529 /* VCFluxUpdater.h */,
+				E2F8470111CBDF6200613529 /* VCFluxUpdater.m */,
 				E24D3561118A2246009A589E /* VCObjets */,
 				E24D355F118A2234009A589E /* Parseurs */,
 				E28E8ACA115B9956002239D5 /* constantes.h */,
@@ -1025,7 +1025,7 @@
 				E27C631211A5CE4E000DF7A5 /* UINavigationBar+Image.m in Sources */,
 				E2B84A9311BA35F60040A9B9 /* TableVIewControllerPartenaires.m in Sources */,
 				E2B84AA711BA3B2C0040A9B9 /* CellPartenaires.m in Sources */,
-				E2F8470211CBDF6200613529 /* MAJ.m in Sources */,
+				E2F8470211CBDF6200613529 /* VCFluxUpdater.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

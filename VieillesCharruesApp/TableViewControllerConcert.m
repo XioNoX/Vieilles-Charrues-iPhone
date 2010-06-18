@@ -14,10 +14,13 @@
 #import "constantes.h"
 #import "VCUtils.h"
 #import "TableViewDetailsConcert.h"
+#import "VCFluxUpdater.h"
+#import "VieillesCharruesAppAppDelegate.h"
 
 
 @implementation TableViewControllerConcert
 
+@synthesize popUpView;
 
 - (IBAction) reloadTable
 {
@@ -35,9 +38,7 @@
 	
 	[NSThread sleepForTimeInterval:2];
 	
-	UIView *vueMessage = [self.view.window viewWithTag:50000];
-	
-	[vueMessage removeFromSuperview];
+	[popUpView removeFromSuperview];
 	
 	[pool drain];
 }
@@ -47,12 +48,14 @@
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	
 	
-	UIView *loadingView = [[[NSBundle mainBundle] loadNibNamed:@"LoadingView" owner:self options:nil] objectAtIndex:0];
-	loadingView.tag = 50000;
+	self.popUpView = [[[NSBundle mainBundle] loadNibNamed:@"LoadingView" owner:self options:nil] objectAtIndex:0];
 	
-	UILabel *labelPereDeSaints = ((UILabel*)[loadingView viewWithTag:1]);
+	UILabel *labelPereDeSaints = ((UILabel*)[popUpView viewWithTag:1]);
 	labelPereDeSaints.text = msg;
-	[self.view.window addSubview:loadingView];
+	
+	VieillesCharruesAppAppDelegate *appDelegate = (VieillesCharruesAppAppDelegate *) [[UIApplication sharedApplication] delegate];
+	
+	[[appDelegate window] addSubview:popUpView];
 	
 	[self performSelectorInBackground:@selector(timerBeforeDeletingLaodingView) withObject:nil];
 	
@@ -64,49 +67,15 @@
 {
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	
-	NSURL *urlProg = [NSURL URLWithString: SOURCE_XML_CONCERTS];
-	NSURL *urlArtistes = [NSURL URLWithString:SOURCE_XML_ARTISTES];
+	VCFluxUpdater *updater = [[VCFluxUpdater alloc] init];
 	
-	VCConcertParser* parserProg = [[VCConcertParser alloc] initWithContentsOfURL:urlProg];
-	[parserProg setDelegate:parserProg];
-	
-	BOOL parsingSuccess = NO;
-	
-	parsingSuccess = [parserProg parse];
-	if(!parsingSuccess){
-		//NSLog(@"erreur de parsing du flux de la programmation");
-	}
-	
-	VCArtisteParser* parserArt = [[VCArtisteParser alloc] initWithContentsOfURL:urlArtistes];
-	[parserArt setDelegate:parserArt];
-	
-	parsingSuccess = parsingSuccess && [parserArt parse];
-	
-	if(!parsingSuccess){
-		NSLog(@"erreur de parsing du flux des artistes");
-	}
-	
-	if(parsingSuccess)
-	{
-		if(dataBase == nil) dataBase = [VCDataBaseController sharedInstance];
-		[dataBase mettreAJourConcert:parserProg.listeConcert];
-		[dataBase mettreAJourArtistes:parserArt.listeArtistes];
-		[self popUpLoadingWithMessage:@"Programmation mise à jour"];
-		[self reloadTable];
-	}
-	else 
-	{
-		UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"erreur" message:@"Une erreur s'est produite lors de la récupération de le programmation. Verifiez vos paramètres de connexion et recommencez" delegate:nil cancelButtonTitle:@"fermer" otherButtonTitles:nil];
-		
-		[message show];
-		[message release];
-	}
+	[updater setDelegate:self];
 	
 	[activityIndicator stopAnimating];
 	[activityIndicator removeFromSuperview];
 	boutonMiseAjour.enabled = YES;
 	
-	[parserProg release];
+	[updater miseAjourProg];
 	
 	[pool drain];
 	
@@ -152,34 +121,6 @@
 }
 
 
-/*
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-}
-*/
-/*
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-}
-*/
-/*
-- (void)viewWillDisappear:(BOOL)animated {
-	[super viewWillDisappear:animated];
-}
-*/
-/*
-- (void)viewDidDisappear:(BOOL)animated {
-	[super viewDidDisappear:animated];
-}
-*/
-
-
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return YES;
-}
-
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
@@ -188,11 +129,13 @@
 	// Release any cached data, images, etc that aren't in use.
 }
 
-- (void)viewDidUnload {
-	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
+-(void) majEnded:(NSNumber *)test {
+	
+	[self popUpLoadingWithMessage:@"programmation à jour"];
+	
+	[self reloadTable];
+	
 }
-
 
 #pragma mark Table view methods
 
@@ -282,45 +225,6 @@
 	[anotherViewController release];
 }
 
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:YES];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 
 - (void)dealloc {

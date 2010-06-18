@@ -1,7 +1,7 @@
 TVieillesCharruesApp
 v7
 r0
-t298573683.638527
+t298575275.627229
 cCheck dependencies
 cProcessInfoPlistFile /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/Info.plist VieillesCharruesApp-Info.plist
 cCompileXIB /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/MainWindow.xib
@@ -178,7 +178,7 @@ cCompileC build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharrues
 cCompileC build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/UINavigationBar+Image.o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/UINavigationBar+Image.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableVIewControllerPartenaires.o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/TableVIewControllerPartenaires.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellPartenaires.o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/CellPartenaires.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/MAJ.o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/MAJ.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCFluxUpdater.o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/VCFluxUpdater.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp normal i386
 cGenerateDSYMFile /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app.dSYM /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp
 cTouch /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app
@@ -1955,9 +1955,9 @@ s386
 i"MainTabBar.h"
 
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/../TableViewControllerConcert.m
-c000000004C1BA5150000000000002488
-t1276880149
-s9352
+c000000004C1BAD7600000000000018F1
+t1276882294
+s6385
 i"TableViewControllerConcert.h"
 i"TableViewControllerArtistes.h"
 i"CellConcert.h"
@@ -1973,9 +1973,9 @@ t1276880149
 s21888
 
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/../TableViewControllerNews.m
-c000000004C1BA6DB000000000000224B
-t1276880603
-s8779
+c000000004C1BAD1B0000000000001CDB
+t1276882203
+s7387
 i"TableViewControllerNews.h"
 i"CellNews.h"
 i"VCNews.h"
@@ -2306,6 +2306,23 @@ s14503
 i"VCDataBaseController.h"
 i"constantes.h"
 
+N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/VCFluxUpdater.h
+c000000004C1BABD4000000000000020B
+t1276881876
+s523
+i<Foundation/Foundation.h>
+i"constantes.h"
+i"VCNewsParser.h"
+
+N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/VCFluxUpdater.m
+c000000004C1BAB350000000000000B50
+t1276881717
+s2896
+i"VCFluxUpdater.h"
+i"VCDataBaseController.h"
+i"VCArtisteParser.h"
+i"VCConcertParser.h"
+
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/VCHTMLRemover.h
 c000000004C1BA506000000000000016C
 t1276880134
@@ -2437,9 +2454,9 @@ i<UIKit/UIKit.h>
 i<Foundation/Foundation.h>
 
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/ViewPlanVC.m
-c000000004C1BA506000000000000042E
-t1276880134
-s1070
+c000000004C1BAE100000000000000442
+t1276882448
+s1090
 i"ViewPlanVC.h"
 i"ViewLocation.h"
 i"ViewOuEstMaTente.h"
@@ -2622,20 +2639,21 @@ t1276880149
 s315251
 
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/TableViewControllerConcert.h
-c000000004C1BA6DB00000000000002CD
-t1276880603
-s717
+c000000004C1BACC30000000000000348
+t1276882115
+s840
 i<UIKit/UIKit.h>
 i"VCDataBaseController.h"
+i"VCFluxUpdater.h"
 
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/TableViewControllerNews.h
-c000000004C1BA6DB0000000000000257
-t1276880603
-s599
+c000000004C1BABF5000000000000027F
+t1276881909
+s639
 i<UIKit/UIKit.h>
 i"sqlite3.h"
 i"VCDataBaseController.h"
-i"MAJ.h"
+i"VCFluxUpdater.h"
 
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Twitter.png
 c000000004C1BA515000000000000084E
@@ -2684,11 +2702,11 @@ t1276880149
 s4265
 
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app
-t1276880883
+t1276882452
 s4930
 
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app.dSYM
-t1276880883
+t1276882452
 s136
 
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/20Minutes.jpg
@@ -3204,8 +3222,8 @@ t1276880613
 s6875
 
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp
-t1276880883
-s167624
+t1276882452
+s167940
 
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/ViewControllerInfo.nib
 t1276880143
@@ -3312,12 +3330,12 @@ t1276880616
 s42512
 
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerConcert.o
-t1276880615
-s59180
+t1276882300
+s59912
 
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerNews.o
-t1276880882
-s58272
+t1276882220
+s58432
 
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewDetailsConcert.o
 t1276880617
@@ -3355,6 +3373,10 @@ N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/b
 t1276880616
 s46120
 
+N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCFluxUpdater.o
+t1276881877
+s23564
+
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCHTMLRemover.o
 t1276880617
 s7436
@@ -3376,9 +3398,9 @@ t1276880617
 s15412
 
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VieillesCharruesApp.LinkFileList
-c000000004C1BA7F20000000000001AD1
-t1276880882
-s6865
+c000000004C1BAA7E0000000000001ADB
+t1276881534
+s6875
 
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VieillesCharruesAppAppDelegate.o
 t1276880615
@@ -3397,8 +3419,8 @@ t1276880618
 s51324
 
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewPlanVC.o
-t1276880618
-s38196
+t1276882452
+s38244
 
 N/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/main.o
 t1276880615
@@ -3465,7 +3487,7 @@ s1010
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies298573682#298573682#0(0"0(0#1#0"4300911832#0"0#
+lSLF07#2@18"Check dependencies298575275#298575275#0(0"0(0#1#0"4300911832#0"0#
 
 CCompileC build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellConcert.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../CellConcert.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s297865281.520628
@@ -3806,8 +3828,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@104"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerConcert.m297865281#297865281#0(0"0(0#0#96"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerConcert.m4300911832#2350"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-absnrswqbghvzibuynlkbbqfygow/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerConcert.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerConcert.o0#
 
 CCompileC build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerConcert.o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/../TableViewControllerConcert.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s298573415.737568
-e298573415.959057
+s298575099.979617
+e298575100.157446
 r1
 xCompileC
 xbuild/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerConcert.o
@@ -3816,7 +3838,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@125"Compile /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/../TableViewControllerConcert.m298573415#298573415#0(0"0(0#0#117"/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/../TableViewControllerConcert.m4300911832#2581"    cd /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/include -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/g8/g8tm8rh5Fn4805vHUcIISU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-buzxjvqtdosqvjemivctcspavjmm/VieillesCharruesApp_Prefix.pch -c /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/../TableViewControllerConcert.m -o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerConcert.o0#
+lSLF07#2@125"Compile /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/../TableViewControllerConcert.m298575099#298575100#0(0"0(0#0#117"/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/../TableViewControllerConcert.m4300911832#2581"    cd /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/include -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/g8/g8tm8rh5Fn4805vHUcIISU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-buzxjvqtdosqvjemivctcspavjmm/VieillesCharruesApp_Prefix.pch -c /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/../TableViewControllerConcert.m -o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerConcert.o0#
 
 CCompileC build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerNews.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerNews.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s297865281.365876
@@ -3837,8 +3859,8 @@ o/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewCo
 lSLF07#2@101"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerNews.m297865281#297865281#0(749"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerNews.m: In function '-[TableViewControllerNews viewDidLoad]':/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerNews.m:134: warning: 'UINavigationBar' may not respond to '-setBackgroundImage'/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerNews.m:134: warning: (Messages without a matching method signature/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerNews.m:134: warning: will be assumed to return 'id' and accept/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerNews.m:134: warning: '...' as arguments.)2(22@58"'UINavigationBar' may not respond to '-setBackgroundImage'297865281#149#167#0(6@93"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerNews.m297432161#134#0#134#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)297865281#316#154#0(6@93"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerNews.m297432161#134#0#134#0#0"0(0#0#93"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerNews.m4300911832#2344"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-absnrswqbghvzibuynlkbbqfygow/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerNews.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerNews.o0#
 
 CCompileC build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerNews.o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/../TableViewControllerNews.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s298573682.308459
-e298573682.589736
+s298575020.040917
+e298575020.275291
 r1
 xCompileC
 xbuild/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerNews.o
@@ -3847,7 +3869,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@122"Compile /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/../TableViewControllerNews.m298573682#298573682#0(0"0(0#0#114"/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/../TableViewControllerNews.m4300911832#2575"    cd /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/include -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/g8/g8tm8rh5Fn4805vHUcIISU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-buzxjvqtdosqvjemivctcspavjmm/VieillesCharruesApp_Prefix.pch -c /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/../TableViewControllerNews.m -o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerNews.o0#
+lSLF07#2@122"Compile /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/../TableViewControllerNews.m298575020#298575020#0(0"0(0#0#114"/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/../TableViewControllerNews.m4300911832#2575"    cd /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/include -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/g8/g8tm8rh5Fn4805vHUcIISU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-buzxjvqtdosqvjemivctcspavjmm/VieillesCharruesApp_Prefix.pch -c /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/../TableViewControllerNews.m -o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerNews.o0#
 
 CCompileC build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewDetailsConcert.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/TableViewDetailsConcert.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s297865282.461711
@@ -4087,6 +4109,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@116"Compile /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/VCDataBaseController.m298573416#298573416#0(0"0(0#0#108"/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/VCDataBaseController.m4300911832#2566"    cd /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/include -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/g8/g8tm8rh5Fn4805vHUcIISU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-buzxjvqtdosqvjemivctcspavjmm/VieillesCharruesApp_Prefix.pch -c /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/VCDataBaseController.m -o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCDataBaseController.o0#
+
+CCompileC build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCFluxUpdater.o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/VCFluxUpdater.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298574677.185013
+e298574677.287518
+r1
+xCompileC
+xbuild/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCFluxUpdater.o
+x/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/VCFluxUpdater.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/VCFluxUpdater.m298574677#298574677#0(0"0(0#0#101"/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/VCFluxUpdater.m4300911832#2552"    cd /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/include -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/g8/g8tm8rh5Fn4805vHUcIISU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-buzxjvqtdosqvjemivctcspavjmm/VieillesCharruesApp_Prefix.pch -c /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/VCFluxUpdater.m -o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCFluxUpdater.o0#
 
 CCompileC build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCHTMLRemover.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCHTMLRemover.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s297865282.299421
@@ -4346,8 +4381,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@85"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/ViewPlanVC.m297865282#297865282#0(0"0(0#0#77"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/ViewPlanVC.m4300911832#2315"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-absnrswqbghvzibuynlkbbqfygow/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/ViewPlanVC.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewPlanVC.o0#
 
 CCompileC build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewPlanVC.o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/ViewPlanVC.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s298573417.916965
-e298573418.119225
+s298575252.417806
+e298575252.560942
 r1
 xCompileC
 xbuild/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewPlanVC.o
@@ -4356,7 +4391,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@106"Compile /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/ViewPlanVC.m298573417#298573418#0(0"0(0#0#98"/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/ViewPlanVC.m4300911832#2546"    cd /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/include -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/g8/g8tm8rh5Fn4805vHUcIISU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-buzxjvqtdosqvjemivctcspavjmm/VieillesCharruesApp_Prefix.pch -c /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/ViewPlanVC.m -o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewPlanVC.o0#
+lSLF07#2@106"Compile /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/ViewPlanVC.m298575252#298575252#0(0"0(0#0#98"/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/ViewPlanVC.m4300911832#2546"    cd /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/include -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/g8/g8tm8rh5Fn4805vHUcIISU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-buzxjvqtdosqvjemivctcspavjmm/VieillesCharruesApp_Prefix.pch -c /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/ViewPlanVC.m -o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewPlanVC.o0#
 
 CCompileC build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/main.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s297865280.505956
@@ -5743,13 +5778,13 @@ x/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimu
 lSLF07#2@145"GenerateDSYMFile build/Debug-iphonesimulator/VieillesCharruesApp.app.dSYM build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp297865283#297865283#0(0"0(0#0#128"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp4300911832#473"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app.dSYM0#
 
 CGenerateDSYMFile /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app.dSYM /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp
-s298573683.429808
-e298573683.609848
+s298575252.612953
+e298575252.683967
 r1
 xGenerateDSYMFile
 x/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app.dSYM
 x/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp
-lSLF07#2@145"GenerateDSYMFile build/Debug-iphonesimulator/VieillesCharruesApp.app.dSYM build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp298573683#298573683#0(0"0(0#0#149"/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp4300911832#536"    cd /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp -o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app.dSYM0#
+lSLF07#2@145"GenerateDSYMFile build/Debug-iphonesimulator/VieillesCharruesApp.app.dSYM build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp298575252#298575252#0(0"0(0#0#149"/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp4300911832#536"    cd /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp -o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app.dSYM0#
 
 CLd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp normal i386
 s297865283.017253
@@ -5762,14 +5797,14 @@ xi386
 lSLF07#2@133"Link /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp297865283#297865283#0(0"0(0#0#0"4300911832#1048"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -L/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimulator -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimulator -filelist /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VieillesCharruesApp.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -framework CoreLocation -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp0#
 
 CLd /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp normal i386
-s298573682.589839
-e298573683.429684
+s298575252.561054
+e298575252.612833
 r1
 xLd
 x/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp
 xnormal
 xi386
-lSLF07#2@154"Link /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp298573682#298573683#0(0"0(0#0#0"4300911832#1153"    cd /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -L/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator -F/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator -filelist /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VieillesCharruesApp.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -framework CoreLocation -o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp0#
+lSLF07#2@154"Link /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp298575252#298575252#0(0"0(0#0#0"4300911832#1153"    cd /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -L/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator -F/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator -filelist /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/VieillesCharruesApp.build/Debug-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VieillesCharruesApp.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -framework CoreLocation -o /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp0#
 
 CProcessInfoPlistFile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app/Info.plist VieillesCharruesApp-Info.plist
 s297865275.745448
@@ -5814,10 +5849,10 @@ x/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimu
 lSLF07#2@114"Touch /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app297865283#297865283#0(0"0(0#0#0"4300911832#326"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app0#
 
 CTouch /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app
-s298573683.609950
-e298573683.637872
+s298575252.684080
+e298575252.688151
 r1
 xTouch
 x/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app
-lSLF07#2@135"Touch /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app298573683#298573683#0(0"0(0#0#0"4300911832#368"    cd /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app0#
+lSLF07#2@135"Touch /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app298575252#298575252#0(0"0(0#0#0"4300911832#368"    cd /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/build/Debug-iphonesimulator/VieillesCharruesApp.app0#
 

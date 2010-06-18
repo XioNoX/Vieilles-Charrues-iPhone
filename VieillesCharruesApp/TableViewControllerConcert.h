@@ -8,12 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "VCDataBaseController.h"
+#import "VCFluxUpdater.h"
 
 
-@interface TableViewControllerConcert : UITableViewController {
+@interface TableViewControllerConcert : UITableViewController <VCFluxUpdaterDelegate> {
 	IBOutlet UISegmentedControl *selector;
 	IBOutlet UIBarButtonItem *boutonMiseAjour;
 	IBOutlet UIActivityIndicatorView *activityIndicator;
+	
+	UIView	*popUpView;
 	
 	VCDataBaseController *dataBase;
 	NSMutableArray *datas;
@@ -21,6 +24,9 @@
 	NSDictionary *listeGroupe;
 	NSDictionary *tableauDesScenes; //tableau contenant les noms des différentes scenes
 }
+
+@property (retain, nonatomic) UIView *popUpView;
+
 - (IBAction)reloadTable;
 - (IBAction) changerTri;
 - (IBAction)mettreAJour:(id)sender;

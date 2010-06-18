@@ -9,19 +9,19 @@
 #import <UIKit/UIKit.h>
 #import "sqlite3.h"
 #import "VCDataBaseController.h"
-#import "MAJ.h"
+#import "VCFluxUpdater.h"
 
-@interface TableViewControllerNews : UITableViewController <MAJDelegate>
+@interface TableViewControllerNews : UITableViewController <VCFluxUpdaterDelegate>
 {
 	NSArray *listeNews;
 	VCDataBaseController *dataBase;
 	IBOutlet UIBarButtonItem *boutonMiseAjour;
 	IBOutlet UIActivityIndicatorView *activityIndicator;
-	MAJ* maj;
+	VCFluxUpdater* maj;
 	UIView		*loadingMajView;
 }
 
-@property (nonatomic, retain) MAJ *maj
+@property (nonatomic, retain) VCFluxUpdater *maj
 ;
 - (IBAction)mettreAJour:(id)sender;
 

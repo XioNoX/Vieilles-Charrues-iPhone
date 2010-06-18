@@ -10,7 +10,7 @@
 #import "constantes.h"
 #import "VCNewsParser.h"
 
-@protocol MAJDelegate <NSObject>
+@protocol VCFluxUpdaterDelegate <NSObject>
 
 @optional
 - (void)majEnded:(NSNumber*)test;
@@ -18,15 +18,16 @@
 @end
 
 
-@interface MAJ : NSObject {
+@interface VCFluxUpdater : NSObject {
 
 	
 	
-	id<MAJDelegate> delegate;
+	id<VCFluxUpdaterDelegate> delegate;
 }
 
-@property (nonatomic, assign) id<MAJDelegate> delegate;
+@property (nonatomic, assign) id<VCFluxUpdaterDelegate> delegate;
 
--(void)maj;
+-(void)miseAjourNews;
+-(void)miseAjourProg;
 
 @end
