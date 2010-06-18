@@ -326,7 +326,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E21B554311BD80E0009CD19E</string>
+										<string>E2F846F011CBDD1900613529</string>
 										<key>history</key>
 										<array>
 											<string>E2CEC498115678CF00ABEE81</string>
@@ -429,7 +429,7 @@
 											<string>E2C8095711BA7E9B00F2A230</string>
 											<string>E2C8095811BA7E9B00F2A230</string>
 											<string>E2DC242111BAB7030021CA24</string>
-											<string>E2DC242D11BAB8DB0021CA24</string>
+											<string>E21B554311BD80E0009CD19E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -441,14 +441,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1353, 505}}</string>
+								<string>{{0, 0}, {1353, 496}}</string>
 								<key>RubberWindowFrame</key>
 								<string>2 62 1662 966 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>505pt</string>
+							<string>496pt</string>
 						</dict>
 						<dict>
 							<key>BecomeActive</key>
@@ -463,14 +463,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 510}, {1353, 415}}</string>
+								<string>{{0, 501}, {1353, 424}}</string>
 								<key>RubberWindowFrame</key>
 								<string>2 62 1662 966 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>415pt</string>
+							<string>424pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -489,9 +489,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>E21B553A11BD7BF2009CD19E</string>
+				<string>E2F846F111CBDD1900613529</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>E21B553B11BD7BF2009CD19E</string>
+				<string>E2F846F211CBDD1900613529</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -631,7 +631,7 @@
 	<array>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>E2CEC4521156723F00ABEE81</string>
-		<string>/Users/tom/Documents/Projets-info/VieillesCharrues/VieillesCharruesApp/VieillesCharruesApp.xcodeproj</string>
+		<string>/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/VieillesCharruesApp.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>2 62 1662 966 0 0 1680 1028 </string>
@@ -711,7 +711,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>E2CEC4521156723F00ABEE81</string>
-				<string>E21B553C11BD7BF2009CD19E</string>
+				<string>E2F846F311CBDD1900613529</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -835,13 +835,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>E21B553D11BD7BF2009CD19E</string>
+				<string>E2F846F411CBDD1900613529</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>E21B553E11BD7BF2009CD19E</string>
-				<string>E21B553F11BD7BF2009CD19E</string>
-				<string>E21B554011BD7BF2009CD19E</string>
-				<string>E21B554111BD7BF2009CD19E</string>
-				<string>E21B554211BD7BF2009CD19E</string>
+				<string>E2F846F511CBDD1900613529</string>
+				<string>E2F846F611CBDD1900613529</string>
+				<string>E2F846F711CBDD1900613529</string>
+				<string>E2F846F811CBDD1900613529</string>
+				<string>E2F846F911CBDD1900613529</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
