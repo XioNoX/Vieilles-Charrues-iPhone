@@ -13,14 +13,67 @@
 
 @implementation TableViewControllerArtistes
 
-@synthesize dataBase, listeConcertParScene, listeGroupe, tableauDesScenes;
+#pragma mark alphabetic sort
 
+-(id) init {
+	if(self = [super init]) {
+		[self setView:[[UIView alloc] initWithFrame:CGRectMake(.0, .0, 320.0, 367.0)]];
+		[self.view setBackgroundColor:[UIColor whiteColor]];
+		
+		artistesTableView = [[[UITableView alloc] initWithFrame:CGRectMake(.0, .0, 320.0, 367.0)] retain];
+		[artistesTableView setDelegate:self];
+		[artistesTableView setDataSource:self];
+		[[self view]addSubview:artistesTableView];
+		[artistesTableView release];
+		
+		
+		dataBase = [VCDataBaseController sharedInstance];
+		arrayOfBandOrdered = [[dataBase getListeArtistesOrdered] retain];	
+		arrayOfLetters = [[NSMutableArray alloc] init];
+		
+		[self createDictionary];
+				
+		artistesTableView.rowHeight = 50;
+		
+	}
+	return self;
+}
+
+- (void)createDictionary {
+	
+	BandSorted = [[NSMutableDictionary alloc] init];
+	
+	NSString *lettreCourante = nil;
+	NSString *lettrePrecedente = nil;
+	
+	NSMutableArray *tempArrayOfBand = [[NSMutableArray alloc] init];
+	for (VCArtiste *art in arrayOfBandOrdered) {
+		NSString *nom = [art nom];
+		lettreCourante = [nom substringToIndex:1];
+		if (lettrePrecedente != nil) {
+			
+			if (![lettreCourante isEqualToString:lettrePrecedente]) {
+				[arrayOfLetters addObject:lettrePrecedente];
+				[BandSorted setObject:tempArrayOfBand forKey:lettrePrecedente];
+				[tempArrayOfBand release];
+				tempArrayOfBand = [[NSMutableArray alloc] init];
+			}
+		}
+		
+		[tempArrayOfBand addObject:art];
+		lettrePrecedente = lettreCourante;
+	}
+	[arrayOfLetters addObject:lettreCourante];
+	[BandSorted setObject:tempArrayOfBand forKey:lettreCourante];
+	[lettreCourante release];
+	[lettrePrecedente release];
+	
+}
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	arrayOfBandOrdered = [[dataBase getListeArtistesOrdered] retain];	
-	self.tableView.rowHeight = 50;
+	
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
@@ -32,55 +85,24 @@
 	// Release any cached data, images, etc that aren't in use.
 }
 
-#pragma mark alphabetic sort
 
-
-- (void)sortCompagniesByFirstLetter {
-	self.arrayOfFirstLetters = [[NSMutableArray alloc] initWithArray:[[dictonnaryOfCompagnies allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)]];
-}
-
-- (void)populateCompagniesAlphabeticalDictionary {
-	
-	self.dictonnaryOfCompagnies = [[NSMutableDictionary alloc] init];
-	
-	for(NSString *firstLetter in [NSArray arrayWithObjects:UITableViewIndexSearch,@"0", @"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", @"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", @"W", @"X", @"Y", @"Z", nil]) {
-		NSMutableArray *tempArray = [[NSMutableArray alloc] init];
-		[dictonnaryOfCompagnies setObject:tempArray forKey:firstLetter];
-		[tempArray release];
-	}
-	
-	for(Evenement *evenement in arrayOfCompagnies) {
-		
-		NSString *firstLetter = [[[evenement label] substringToIndex:1] uppercaseString];
-		NSMutableArray *existingArray;
-		
-		if([[NSArray arrayWithObjects:@"0", @"1", @"2", @"3", @"4", @"5", @"6", @"7", @"8", @"9", nil] containsObject:firstLetter]) {
-			existingArray = [dictonnaryOfCompagnies valueForKey:@"0"];
-			[existingArray addObject:evenement];
-		}
-		
-		// Check if an array already exists for this first letter
-		else if (existingArray = [dictonnaryOfCompagnies valueForKey:firstLetter]) {
-			[existingArray addObject:evenement];
-		}
-	}
-	
-	// Sorting result
-	[self sortCompagniesByFirstLetter];	
-}
 
 
 
 #pragma mark Table view methods
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
+    return [BandSorted count];
 }
 
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [arrayOfBandOrdered count];
+    return [[BandSorted objectForKey:[arrayOfLetters objectAtIndex:section]] count];
+}
+
+-(NSString*) tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+	return [arrayOfLetters objectAtIndex:section];
 }
 
 
@@ -96,16 +118,16 @@
     }
 	
 	
-
+	
 	
     //cell.groupe.text = [listeGroupe objectForKey:[NSString stringWithFormat:@"%i",[[arrayOfBandOrdered objectAtIndex:indexPath.row]intValue]]];
 	[cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
-	cell.tag = [((NSNumber*)[arrayOfBandOrdered objectAtIndex:indexPath.row]) intValue];
+	VCArtiste *artiste = [[BandSorted objectForKey:[arrayOfLetters objectAtIndex:indexPath.section]] objectAtIndex:indexPath.row];
 	
-	NSString *artiste = [listeGroupe objectForKey:[NSString stringWithFormat:@"%i",[[arrayOfBandOrdered objectAtIndex:indexPath.row]intValue]]];
+	cell.tag = [[artiste ident] intValue];
 	int res = indexPath.row%2;
-	[cell loadWithArtiste:artiste parity:(res == 0)];
-
+	[cell loadWithArtiste:[artiste nom] parity:(res != 0)];
+	
 	
     return cell;
 }
@@ -131,11 +153,11 @@
 
 
 - (void)dealloc {
+	[artistesTableView release];
 	[dataBase release];
-	[listeGroupe release];
 	[arrayOfBandOrdered release];
-	[tableauDesScenes release];
-	[listeConcertParScene release];
+	[BandSorted release];
+	[arrayOfLetters release];
     [super dealloc];
 }
 @end

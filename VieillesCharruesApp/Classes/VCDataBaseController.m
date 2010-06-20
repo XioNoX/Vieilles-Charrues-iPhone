@@ -425,9 +425,9 @@ static VCDataBaseController *sharedInstance = nil;
 	{
 		while (sqlite3_step(statement)==SQLITE_ROW) 
 		{
-			NSNumber *idGroupe = [NSNumber numberWithInt: sqlite3_column_int(statement, 0)];
+			VCArtiste *artiste = [[VCArtiste alloc] initWithSQLStatement:statement];
 			
-			[retour addObject:idGroupe];
+			[retour addObject:artiste];
 		}
 	}
 	

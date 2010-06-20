@@ -7,22 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "sqlite3.h"
 #import "VCDataBaseController.h"
 
 
-@interface TableViewControllerArtistes : UITableViewController 
+@interface TableViewControllerArtistes : UIViewController <UITableViewDelegate, UITableViewDataSource> 
 {
-	VCDataBaseController *dataBase;
-	NSArray *listeConcertParScene;
-	NSDictionary *listeGroupe;
-	NSArray *arrayOfBandOrdered;
-	NSDictionary *tableauDesScenes; //tableau contenant les noms des différentes scenes
+	UITableView					*artistesTableView;
+	
+	VCDataBaseController		*dataBase;
+	NSMutableArray				*arrayOfLetters;
+	NSArray						*arrayOfBandOrdered;
+	NSMutableDictionary			*BandSorted;
 }
 
-@property (retain, nonatomic) VCDataBaseController *dataBase;
-@property (retain, nonatomic) NSArray *listeConcertParScene;
-@property (retain, nonatomic) NSDictionary *listeGroupe;
-@property (retain, nonatomic) NSDictionary *tableauDesScenes;
+-(void)createDictionary;
 
 @end

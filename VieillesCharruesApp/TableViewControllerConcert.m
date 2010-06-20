@@ -228,11 +228,11 @@
 
 - (IBAction) changerTri
 {
-	TableViewControllerArtistes *anotherViewController = [[TableViewControllerArtistes alloc] initWithNibName:@"TableViewControllerArtistes" bundle:nil];
-	anotherViewController.listeGroupe = listeGroupe;
+	TableViewControllerArtistes *anotherViewController = [[TableViewControllerArtistes alloc] init];
+	/*anotherViewController.listeGroupe = listeGroupe;
 	anotherViewController.tableauDesScenes = tableauDesScenes;
 	anotherViewController.listeConcertParScene = listeConcertParScene;
-	anotherViewController.dataBase = dataBase;
+	anotherViewController.dataBase = dataBase;*/
 	[self.navigationController pushViewController:anotherViewController animated:YES];
 	
 	[anotherViewController release];
