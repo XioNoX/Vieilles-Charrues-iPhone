@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* VieillesCharruesAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* VieillesCharruesAppAppDelegate.m */; };
+		1D3623260D0F684500981E51 /* VieillesCharruesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* VieillesCharruesAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -192,8 +192,8 @@
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* VieillesCharruesAppAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VieillesCharruesAppAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* VieillesCharruesAppAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VieillesCharruesAppAppDelegate.m; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* VieillesCharruesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VieillesCharruesAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* VieillesCharruesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VieillesCharruesAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* VieillesCharruesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VieillesCharruesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -433,8 +433,8 @@
 			children = (
 				E2CEC4F91156817B00ABEE81 /* VCClasses */,
 				E2CEC464115672CD00ABEE81 /* ViewControllers */,
-				1D3623240D0F684500981E51 /* VieillesCharruesAppAppDelegate.h */,
-				1D3623250D0F684500981E51 /* VieillesCharruesAppAppDelegate.m */,
+				1D3623240D0F684500981E51 /* VieillesCharruesAppDelegate.h */,
+				1D3623250D0F684500981E51 /* VieillesCharruesAppDelegate.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1000,7 +1000,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* VieillesCharruesAppAppDelegate.m in Sources */,
+				1D3623260D0F684500981E51 /* VieillesCharruesAppDelegate.m in Sources */,
 				E2CEC45D115672B100ABEE81 /* TableViewControllerConcert.m in Sources */,
 				E2CEC462115672C400ABEE81 /* TableViewControllerNews.m in Sources */,
 				E2CEC470115673BF00ABEE81 /* CellConcert.m in Sources */,

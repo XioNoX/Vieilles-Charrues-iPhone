@@ -1,10 +1,23 @@
-//
-//  ViewLocation.m
-//  VieillesCharruesApp
-//
-//  Created by ToM on 31/03/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
-//
+/*
+ * Copyright Thomas Belin 2010
+ *
+ * This file is part of Vieilles Charrues 2010.
+ *
+ * Vieilles Charrues 2010 is free software: you can redistribute it
+ and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Vieilles Charrues 2010 is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Vieilles Charrues 2010.  If not, see
+ <http://www.gnu.org/licenses/>.
+ */
 
 #import "ViewLocation.h"
 
@@ -64,6 +77,11 @@
 	float positionX = [self determinerPositionX:locationAcutelle.x] - (pointLocalisation.frame.size.height/2);
 	float positionY = [self determinerPositionY:locationAcutelle.y] - (pointLocalisation.frame.size.width/2);
 	
+	if (![pointTente isHidden]) {
+		float posTenteX = [self determinerPositionX:tente.longitude] - (pointTente.frame.size.width/2);
+		float positionY = [self determinerPositionY:tente.latitude]- (pointTente.frame.size.height/2);
+		pointTente.frame = CGRectMake(posTenteX, positionY, pointTente.frame.size.width, pointTente.frame.size.height);
+	}
 	
 	pointLocalisation.frame = CGRectMake(positionX, positionY, pointLocalisation.frame.size.width, pointLocalisation.frame.size.height);
 	
@@ -163,12 +181,12 @@
 	
 }
 
--(void) setTenteLocation:(VCTente *)tente
+-(void) setTenteLocation:(VCTente *)tenteParam
 {
+	tente = [tenteParam retain];
 	nomTente.text = tente.nom;
 	float positionX = [self determinerPositionX:tente.longitude] - (pointTente.frame.size.width/2);
 	float positionY = [self determinerPositionY:tente.latitude]- (pointTente.frame.size.height/2);
-	NSLog(@"%@ : %f, %f", tente.nom, positionX, positionY);
 	
 	pointTente.frame = CGRectMake(positionX, positionY, pointTente.frame.size.width, pointTente.frame.size.height);
 	[pointTente setHidden:NO];

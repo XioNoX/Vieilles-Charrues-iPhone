@@ -1,10 +1,23 @@
-//
-//  TableViewControllerNews.m
-//  VieillesCharruesApp
-//
-//  Created by ToM on 21/03/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
-//
+/*
+ * Copyright Thomas Belin 2010
+ *
+ * This file is part of Vieilles Charrues 2010.
+ *
+ * Vieilles Charrues 2010 is free software: you can redistribute it
+ and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Vieilles Charrues 2010 is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Vieilles Charrues 2010.  If not, see
+ <http://www.gnu.org/licenses/>.
+ */
 
 #import "TableViewControllerNews.h"
 #import "CellNews.h"
@@ -12,7 +25,7 @@
 #import "VCNewsParser.h"
 #import "NewsDetailsView.h"
 #import "constantes.h"
-#import "VieillesCharruesAppAppDelegate.h"
+#import "VieillesCharruesAppDelegate.h"
 
 
 @implementation TableViewControllerNews
@@ -50,7 +63,7 @@
 	
 	UILabel *labelPereDeSaints = ((UILabel*)[loadingView viewWithTag:1]);
 	labelPereDeSaints.text = msg;
-	VieillesCharruesAppAppDelegate *appDelegate = (VieillesCharruesAppAppDelegate *) [[UIApplication sharedApplication] delegate];
+	VieillesCharruesAppDelegate *appDelegate = (VieillesCharruesAppDelegate *) [[UIApplication sharedApplication] delegate];
 	
 	[[appDelegate window] addSubview:loadingView];
 	
@@ -100,27 +113,6 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
-
-/*
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-}
-*/
-/*
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-}
-*/
-/*
-- (void)viewWillDisappear:(BOOL)animated {
-	[super viewWillDisappear:animated];
-}
-*/
-/*
-- (void)viewDidDisappear:(BOOL)animated {
-	[super viewDidDisappear:animated];
-}
-*/
 
 #pragma mark MAJ delegate
 
@@ -218,6 +210,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
+	
 	NewsDetailsView *anotherViewController = [[NewsDetailsView alloc] init];
 	
 	//récupération de la nouvelle dans la base de données
@@ -231,47 +225,12 @@
 }
 
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:YES];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
 
 - (void)dealloc {
+	[maj release];
+	[listeNews release];
+	[dataBase release];
+	[loadingMajView release];
     [super dealloc];
 }
 

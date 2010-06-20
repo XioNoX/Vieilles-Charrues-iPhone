@@ -18,20 +18,14 @@
  * along with Vieilles Charrues 2010.  If not, see
  <http://www.gnu.org/licenses/>.
  */
-
 #import <UIKit/UIKit.h>
-#import <Foundation/Foundation.h>
-#import "VCArtiste.h"
 
-@interface CellDetailHeader : UITableViewCell {
-    IBOutlet UILabel *genre;
-    IBOutlet UIImageView *imageGroupe;
-    IBOutlet UILabel *nomGroupe;
-    IBOutlet UILabel *origine;
-	IBOutlet UITextView *site;
+@interface VieillesCharruesAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
+    UIWindow *window;
+    UITabBarController *tabBarController;
 }
 
-
--(void)initWithArtiste:(VCArtiste*)artiste;
+@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
 
 @end
