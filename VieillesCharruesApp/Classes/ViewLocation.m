@@ -125,8 +125,16 @@
 
 -(void) viewWillDisappear:(BOOL)animated {
 	[super viewWillDisappear:animated];
+	[locationController.locationManager stopUpdatingLocation];
 	[self.navigationController.navigationBar setAlpha:1];
 }
+
+-(void) viewWillAppear:(BOOL)animated {
+	[super viewWillAppear:animated];
+	[locationController.locationManager startUpdatingLocation];
+}
+
+
 -(float) determinerPositionX:(float) longitude
 {
 	float LONGUEUR = (pointHautGauche.x	- pointBasDroit.x);
@@ -193,6 +201,7 @@
 
 
 - (void)dealloc {
+	[timer release];
     [super dealloc];
 }
 

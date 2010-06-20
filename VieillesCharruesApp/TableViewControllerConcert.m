@@ -199,7 +199,7 @@
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 	int idArtiste = [tableView cellForRowAtIndexPath:indexPath].tag;
 	
 	VCArtiste *artisteCourant = [dataBase getArtiste:idArtiste];
@@ -228,6 +228,12 @@
 
 
 - (void)dealloc {
+	[dataBase release];
+	[listeGroupe release];
+	[listeConcertParScene release];
+	[tableauDesScenes release];
+	[listeConcertParScene release];
+	[popUpView release];
     [super dealloc];
 }
 
