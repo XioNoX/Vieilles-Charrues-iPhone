@@ -96,7 +96,7 @@
 		longi = longit;
 		lati = latit;
 		[indicateur stopAnimating];
-		[cacheBouton removeFromSuperview];
+		//[cacheBouton removeFromSuperview];
 	}
 }
 
