@@ -7,8 +7,8 @@
 //
 
 #import "TableViewControllerArtistes.h"
-#import "CellConcert.h"
 #import "TableViewDetailsConcert.h"
+#import "CellArtiste.h"
 
 
 @implementation TableViewControllerArtistes
@@ -32,11 +32,6 @@
 	// Release any cached data, images, etc that aren't in use.
 }
 
-- (void)viewDidUnload {
-	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
-}
-
 
 #pragma mark Table view methods
 
@@ -56,26 +51,23 @@
     
     static NSString *CellIdentifier = @"Cell";
     
-    CellConcert *cell = (CellConcert*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    CellArtiste *cell = (CellArtiste*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-		cell = [[[NSBundle mainBundle] loadNibNamed:@"CellConcert" owner:self options:nil] objectAtIndex:0];
+		//cell = [[[NSBundle mainBundle] loadNibNamed:@"CellConcert" owner:self options:nil] objectAtIndex:0];
+		cell = [[[CellArtiste alloc] initWithStyle:UITableViewCellAccessoryDisclosureIndicator reuseIdentifier:CellIdentifier] autorelease];
     }
-    cell.groupe.text = [listeGroupe objectForKey:[NSString stringWithFormat:@"%i",[[arrayOfBandOrdered objectAtIndex:indexPath.row]intValue]]];
+	
+	
+
+	
+    //cell.groupe.text = [listeGroupe objectForKey:[NSString stringWithFormat:@"%i",[[arrayOfBandOrdered objectAtIndex:indexPath.row]intValue]]];
+	[cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
 	cell.tag = [((NSNumber*)[arrayOfBandOrdered objectAtIndex:indexPath.row]) intValue];
 	
-	
+	NSString *artiste = [listeGroupe objectForKey:[NSString stringWithFormat:@"%i",[[arrayOfBandOrdered objectAtIndex:indexPath.row]intValue]]];
 	int res = indexPath.row%2;
-	
-	[cell.boutonFavori setHidden:YES];
-	cell.groupe.frame = CGRectMake(cell.groupe.frame.origin.x -30, cell.groupe.frame.origin.y, cell.groupe.frame.size.width, cell.groupe.frame.size.height);
-	if(res == 0)
-	{
-		UIView *bg = [[UIView alloc] initWithFrame:cell.frame];
-		bg.backgroundColor = [UIColor colorWithRed:1 green:1 blue:0.90 alpha:1]; 
-		cell.backgroundView = bg;
-		[bg release];
-		
-	}
+	[cell loadWithArtiste:artiste parity:(res == 0)];
+
 	
     return cell;
 }

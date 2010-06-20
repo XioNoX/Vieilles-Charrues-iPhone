@@ -18,14 +18,33 @@
  * along with Vieilles Charrues 2010.  If not, see
  <http://www.gnu.org/licenses/>.
  */
-#import <UIKit/UIKit.h>
 
-@interface VieillesCharruesAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
-    UIWindow *window;
-    UITabBarController *tabBarController;
+#import "VieillesCharruesAppAppDelegate.h"
+
+
+@implementation VieillesCharruesAppAppDelegate
+
+@synthesize window;
+@synthesize tabBarController;
+
+
+- (void)applicationDidFinishLaunching:(UIApplication *)application {
+    
+    // Add the tab bar controller's current view as a subview of the window
+    [window addSubview:tabBarController.view];
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations
+    return (interfaceOrientation == YES);
+}
+
+
+- (void)dealloc {
+    [tabBarController release];
+    [window release];
+    [super dealloc];
+}
 
 @end
+

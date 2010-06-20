@@ -940,7 +940,7 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>VieillesCharruesAppDelegate</string>
+					<string>VieillesCharruesAppAppDelegate</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
 			</object>
@@ -1068,7 +1068,7 @@
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">VieillesCharruesAppDelegate</string>
+					<string key="className">VieillesCharruesAppAppDelegate</string>
 					<string key="superclassName">NSObject</string>
 					<object class="NSMutableDictionary" key="outlets">
 						<bool key="EncodedWithXMLCoder">YES</bool>

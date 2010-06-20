@@ -25,7 +25,7 @@
 #import "VCNewsParser.h"
 #import "NewsDetailsView.h"
 #import "constantes.h"
-#import "VieillesCharruesAppDelegate.h"
+#import "VieillesCharruesAppAppDelegate.h"
 
 
 @implementation TableViewControllerNews
@@ -63,7 +63,7 @@
 	
 	UILabel *labelPereDeSaints = ((UILabel*)[loadingView viewWithTag:1]);
 	labelPereDeSaints.text = msg;
-	VieillesCharruesAppDelegate *appDelegate = (VieillesCharruesAppDelegate *) [[UIApplication sharedApplication] delegate];
+	VieillesCharruesAppAppDelegate *appDelegate = (VieillesCharruesAppAppDelegate *) [[UIApplication sharedApplication] delegate];
 	
 	[[appDelegate window] addSubview:loadingView];
 	

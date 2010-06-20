@@ -28,7 +28,7 @@
 #import "VCUtils.h"
 #import "TableViewDetailsConcert.h"
 #import "VCFluxUpdater.h"
-#import "VieillesCharruesAppDelegate.h"
+#import "VieillesCharruesAppAppDelegate.h"
 
 
 @implementation TableViewControllerConcert
@@ -66,7 +66,7 @@
 	UILabel *labelPereDeSaints = ((UILabel*)[popUpView viewWithTag:1]);
 	labelPereDeSaints.text = msg;
 	
-	VieillesCharruesAppDelegate *appDelegate = (VieillesCharruesAppDelegate *) [[UIApplication sharedApplication] delegate];
+	VieillesCharruesAppAppDelegate *appDelegate = (VieillesCharruesAppAppDelegate *) [[UIApplication sharedApplication] delegate];
 	
 	[[appDelegate window] addSubview:popUpView];
 	
