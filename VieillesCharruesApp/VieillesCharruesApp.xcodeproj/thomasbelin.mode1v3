@@ -315,7 +315,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Artiste1003.jpg</string>
+								<string>CellPartenaires.nib</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,11 +323,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Artiste1003.jpg</string>
-										<key>_historyCapacity</key>
-										<integer>0</integer>
-										<key>bookmark</key>
-										<string>B7EBADF211CE670B00ADF62C</string>
+										<string>CellPartenaires.nib</string>
 										<key>history</key>
 										<array>
 											<string>B740898B1196D6DD00086CF8</string>
@@ -382,7 +378,6 @@
 											<string>B7EBADED11CE670B00ADF62C</string>
 											<string>B7EBADEE11CE670B00ADF62C</string>
 											<string>B7EBADEF11CE670B00ADF62C</string>
-											<string>B7EBADF011CE670B00ADF62C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -394,14 +389,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {892, 455}}</string>
+								<string>{{0, 0}, {892, 441}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>455pt</string>
+							<string>441pt</string>
 						</dict>
 						<dict>
 							<key>BecomeActive</key>
@@ -416,14 +411,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 460}, {892, 218}}</string>
+								<string>{{0, 446}, {892, 232}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>218pt</string>
+							<string>232pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -442,9 +437,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>B7EBADF411CE670B00ADF62C</string>
+				<string>B7EBAE5B11CE78C400ADF62C</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>B7EBADF511CE670B00ADF62C</string>
+				<string>B7EBAE5C11CE78C400ADF62C</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -582,10 +577,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>B7EBADF611CE670B00ADF62C</string>
-		<string>B7EBADF711CE670B00ADF62C</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>B740897B1196D6A300086CF8</string>
 		<string>/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/VieillesCharruesApp.xcodeproj</string>
 	</array>
@@ -667,7 +658,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>B740897B1196D6A300086CF8</string>
-				<string>B7EBADC211CE632F00ADF62C</string>
+				<string>B7EBAE5D11CE78C400ADF62C</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -789,13 +780,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>B7EBADC311CE632F00ADF62C</string>
+				<string>B7EBAE2211CE6C0000ADF62C</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>B7EBADC411CE632F00ADF62C</string>
-				<string>B7EBADC511CE632F00ADF62C</string>
-				<string>B7EBADC611CE632F00ADF62C</string>
-				<string>B7EBADC711CE632F00ADF62C</string>
-				<string>B7EBADC811CE632F00ADF62C</string>
+				<string>B7EBAE2311CE6C0000ADF62C</string>
+				<string>B7EBAE2411CE6C0000ADF62C</string>
+				<string>B7EBAE2511CE6C0000ADF62C</string>
+				<string>B7EBAE2611CE6C0000ADF62C</string>
+				<string>B7EBAE2711CE6C0000ADF62C</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>

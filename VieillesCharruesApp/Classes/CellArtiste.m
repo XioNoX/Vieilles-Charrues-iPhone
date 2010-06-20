@@ -15,7 +15,7 @@
 
 -(id) initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString*)CellIdentifier {
 	
-	[super initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+	self = [super initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
 	[self setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
 	
 	self.groupeLabel = [[UILabel alloc] initWithFrame:CGRectMake(10.0, 15.0, 250.0, 20.0)];
