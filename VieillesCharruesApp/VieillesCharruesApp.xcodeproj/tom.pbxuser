@@ -347,6 +347,15 @@
 			E27BFF6C11CE77C8003B7AE2 /* PBXTextBookmark */ = E27BFF6C11CE77C8003B7AE2 /* PBXTextBookmark */;
 			E27BFF7511CE7844003B7AE2 /* PBXTextBookmark */ = E27BFF7511CE7844003B7AE2 /* PBXTextBookmark */;
 			E27BFF7611CE7844003B7AE2 /* PBXTextBookmark */ = E27BFF7611CE7844003B7AE2 /* PBXTextBookmark */;
+			E27BFFD611CE79CA003B7AE2 /* PBXTextBookmark */ = E27BFFD611CE79CA003B7AE2 /* PBXTextBookmark */;
+			E27BFFDC11CE7A6A003B7AE2 /* PBXTextBookmark */ = E27BFFDC11CE7A6A003B7AE2 /* PBXTextBookmark */;
+			E27BFFDD11CE7A6A003B7AE2 /* PBXTextBookmark */ = E27BFFDD11CE7A6A003B7AE2 /* PBXTextBookmark */;
+			E27BFFDE11CE7A6A003B7AE2 /* PBXTextBookmark */ = E27BFFDE11CE7A6A003B7AE2 /* PBXTextBookmark */;
+			E27BFFE211CE7A7C003B7AE2 /* PBXTextBookmark */ = E27BFFE211CE7A7C003B7AE2 /* PBXTextBookmark */;
+			E27BFFE611CE7B28003B7AE2 /* PBXTextBookmark */ = E27BFFE611CE7B28003B7AE2 /* PBXTextBookmark */;
+			E27BFFE711CE7B28003B7AE2 /* PBXTextBookmark */ = E27BFFE711CE7B28003B7AE2 /* PBXTextBookmark */;
+			E27BFFEA11CE7B46003B7AE2 /* PBXTextBookmark */ = E27BFFEA11CE7B46003B7AE2 /* PBXTextBookmark */;
+			E27BFFED11CE7B7D003B7AE2 /* PBXTextBookmark */ = E27BFFED11CE7B7D003B7AE2 /* PBXTextBookmark */;
 			E27C632E11A5D2DE000DF7A5 = E27C632E11A5D2DE000DF7A5 /* PBXTextBookmark */;
 			E27C633711A5D2DE000DF7A5 = E27C633711A5D2DE000DF7A5 /* PBXTextBookmark */;
 			E27C633811A5D2DE000DF7A5 = E27C633811A5D2DE000DF7A5 /* PlistBookmark */;
@@ -716,7 +725,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1445, 1313}}";
 			sepNavSelRange = "{1780, 0}";
-			sepNavVisRange = "{1023, 1698}";
+			sepNavVisRange = "{1023, 1613}";
 		};
 	};
 	E26F2E7A1196F33000D047C6 /* PBXTextBookmark */ = {
@@ -770,7 +779,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		location = libobjc.A.dylib;
-		modificationTime = 298743699.963639;
+		modificationTime = 298744617.299909;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 		symbolName = objc_exception_throw;
@@ -1304,6 +1313,7 @@
 	};
 	E27BFEA911CE6C98003B7AE2 /* tom.pbxuser */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = text;
 		name = tom.pbxuser;
 		path = "/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/VieillesCharruesApp.xcodeproj/tom.pbxuser";
 		sourceTree = "<absolute>";
@@ -1531,9 +1541,9 @@
 	};
 	E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1292, 689}}";
-			sepNavSelRange = "{836, 0}";
-			sepNavVisRange = "{227, 944}";
+			sepNavIntBoundsRect = "{{0, 0}, {1292, 715}}";
+			sepNavSelRange = "{821, 0}";
+			sepNavVisRange = "{412, 813}";
 		};
 	};
 	E27BFEEC11CE7296003B7AE2 /* PBXTextBookmark */ = {
@@ -1631,7 +1641,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 24";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 700;
 		rType = 0;
 		vrLen = 683;
 		vrLoc = 146;
@@ -1641,7 +1651,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 24";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 700;
 		rType = 0;
 		vrLen = 688;
 		vrLoc = 146;
@@ -1651,7 +1661,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 24";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 700;
 		rType = 0;
 		vrLen = 683;
 		vrLoc = 146;
@@ -1661,7 +1671,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 24";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 700;
 		rType = 0;
 		vrLen = 688;
 		vrLoc = 146;
@@ -1708,7 +1718,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 18";
 		rLen = 0;
-		rLoc = 404;
+		rLoc = 411;
 		rType = 0;
 		vrLen = 683;
 		vrLoc = 146;
@@ -1728,7 +1738,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 18";
 		rLen = 0;
-		rLoc = 404;
+		rLoc = 411;
 		rType = 0;
 		vrLen = 778;
 		vrLoc = 49;
@@ -1738,7 +1748,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 18";
 		rLen = 0;
-		rLoc = 331;
+		rLoc = 338;
 		rType = 0;
 		vrLen = 657;
 		vrLoc = 146;
@@ -1767,7 +1777,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 18";
 		rLen = 0;
-		rLoc = 331;
+		rLoc = 338;
 		rType = 0;
 		vrLen = 688;
 		vrLoc = 146;
@@ -1787,7 +1797,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 29";
 		rLen = 64;
-		rLoc = 856;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 798;
 		vrLoc = 143;
@@ -1837,7 +1847,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 29";
 		rLen = 64;
-		rLoc = 856;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 796;
 		vrLoc = 146;
@@ -1847,7 +1857,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 29";
 		rLen = 64;
-		rLoc = 856;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 794;
 		vrLoc = 146;
@@ -1887,7 +1897,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 29";
 		rLen = 64;
-		rLoc = 856;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 792;
 		vrLoc = 146;
@@ -1897,7 +1907,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 18";
 		rLen = 0;
-		rLoc = 404;
+		rLoc = 411;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 146;
@@ -1907,7 +1917,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 18";
 		rLen = 0;
-		rLoc = 404;
+		rLoc = 411;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 146;
@@ -1917,7 +1927,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 18";
 		rLen = 0;
-		rLoc = 404;
+		rLoc = 411;
 		rType = 0;
 		vrLen = 831;
 		vrLoc = 146;
@@ -1927,7 +1937,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 32";
 		rLen = 0;
-		rLoc = 1115;
+		rLoc = 1100;
 		rType = 0;
 		vrLen = 810;
 		vrLoc = 171;
@@ -1937,7 +1947,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 32";
 		rLen = 0;
-		rLoc = 1115;
+		rLoc = 1100;
 		rType = 0;
 		vrLen = 810;
 		vrLoc = 171;
@@ -1947,7 +1957,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 35";
 		rLen = 0;
-		rLoc = 1115;
+		rLoc = 1100;
 		rType = 0;
 		vrLen = 928;
 		vrLoc = 147;
@@ -1967,7 +1977,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 35";
 		rLen = 0;
-		rLoc = 1115;
+		rLoc = 1100;
 		rType = 0;
 		vrLen = 949;
 		vrLoc = 147;
@@ -1977,7 +1987,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 25";
 		rLen = 0;
-		rLoc = 838;
+		rLoc = 823;
 		rType = 0;
 		vrLen = 925;
 		vrLoc = 201;
@@ -1987,7 +1997,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 42";
 		rLen = 0;
-		rLoc = 1216;
+		rLoc = 1201;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 202;
@@ -1997,7 +2007,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 32";
 		rLen = 0;
-		rLoc = 936;
+		rLoc = 921;
 		rType = 0;
 		vrLen = 955;
 		vrLoc = 202;
@@ -2007,7 +2017,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 32";
 		rLen = 0;
-		rLoc = 936;
+		rLoc = 921;
 		rType = 0;
 		vrLen = 955;
 		vrLoc = 202;
@@ -2017,7 +2027,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 18";
 		rLen = 1;
-		rLoc = 404;
+		rLoc = 411;
 		rType = 0;
 		vrLen = 1105;
 		vrLoc = 7;
@@ -2066,7 +2076,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 29";
 		rLen = 0;
-		rLoc = 838;
+		rLoc = 823;
 		rType = 0;
 		vrLen = 689;
 		vrLoc = 475;
@@ -2076,7 +2086,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 38";
 		rLen = 0;
-		rLoc = 1100;
+		rLoc = 1085;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 320;
@@ -2096,7 +2106,7 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 30";
 		rLen = 0;
-		rLoc = 836;
+		rLoc = 821;
 		rType = 0;
 		vrLen = 944;
 		vrLoc = 227;
@@ -2106,10 +2116,100 @@
 		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
 		name = "CellArtiste.m: 30";
 		rLen = 0;
-		rLoc = 836;
+		rLoc = 821;
 		rType = 0;
 		vrLen = 944;
 		vrLoc = 227;
+	};
+	E27BFFD611CE79CA003B7AE2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
+		name = "CellArtiste.m: 18";
+		rLen = 0;
+		rLoc = 330;
+		rType = 0;
+		vrLen = 957;
+		vrLoc = 201;
+	};
+	E27BFFDC11CE7A6A003B7AE2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2CEC45B115672B100ABEE81 /* TableViewControllerConcert.m */;
+		name = "TableViewControllerConcert.m: 20";
+		rLen = 0;
+		rLoc = 769;
+		rType = 0;
+		vrLen = 893;
+		vrLoc = 6324;
+	};
+	E27BFFDD11CE7A6A003B7AE2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
+		name = "CellArtiste.m: 18";
+		rLen = 0;
+		rLoc = 326;
+		rType = 0;
+		vrLen = 553;
+		vrLoc = 701;
+	};
+	E27BFFDE11CE7A6A003B7AE2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
+		name = "CellArtiste.m: 30";
+		rLen = 0;
+		rLoc = 821;
+		rType = 0;
+		vrLen = 837;
+		vrLoc = 412;
+	};
+	E27BFFE211CE7A7C003B7AE2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
+		name = "CellArtiste.m: 25";
+		rLen = 0;
+		rLoc = 702;
+		rType = 0;
+		vrLen = 835;
+		vrLoc = 412;
+	};
+	E27BFFE611CE7B28003B7AE2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
+		name = "CellArtiste.m: 30";
+		rLen = 0;
+		rLoc = 821;
+		rType = 0;
+		vrLen = 838;
+		vrLoc = 412;
+	};
+	E27BFFE711CE7B28003B7AE2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
+		name = "CellArtiste.m: 30";
+		rLen = 0;
+		rLoc = 821;
+		rType = 0;
+		vrLen = 833;
+		vrLoc = 412;
+	};
+	E27BFFEA11CE7B46003B7AE2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
+		name = "CellArtiste.m: 30";
+		rLen = 0;
+		rLoc = 821;
+		rType = 0;
+		vrLen = 835;
+		vrLoc = 412;
+	};
+	E27BFFED11CE7B7D003B7AE2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */;
+		name = "CellArtiste.m: 29";
+		rLen = 0;
+		rLoc = 821;
+		rType = 0;
+		vrLen = 813;
+		vrLoc = 412;
 	};
 	E27C631011A5CE4E000DF7A5 /* UINavigationBar+Image.h */ = {
 		uiCtxt = {
@@ -2925,9 +3025,9 @@
 	};
 	E2CEC45B115672B100ABEE81 /* TableViewControllerConcert.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1292, 3172}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1292, 3081}}";
 			sepNavSelRange = "{769, 0}";
-			sepNavVisRange = "{4382, 1407}";
+			sepNavVisRange = "{6324, 893}";
 			sepNavWindowFrame = "{{61, 45}, {968, 936}}";
 		};
 	};

@@ -27,7 +27,6 @@
 	
 	colorView = [[UIView alloc] initWithFrame:self.frame];
 	[self setBackgroundView:colorView];
-	[colorView release];
 	
 	return self;
 }
