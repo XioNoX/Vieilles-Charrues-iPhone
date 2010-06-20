@@ -32,6 +32,44 @@
 	// Release any cached data, images, etc that aren't in use.
 }
 
+#pragma mark alphabetic sort
+
+
+- (void)sortCompagniesByFirstLetter {
+	self.arrayOfFirstLetters = [[NSMutableArray alloc] initWithArray:[[dictonnaryOfCompagnies allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)]];
+}
+
+- (void)populateCompagniesAlphabeticalDictionary {
+	
+	self.dictonnaryOfCompagnies = [[NSMutableDictionary alloc] init];
+	
+	for(NSString *firstLetter in [NSArray arrayWithObjects:UITableViewIndexSearch,@"0", @"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", @"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", @"W", @"X", @"Y", @"Z", nil]) {
+		NSMutableArray *tempArray = [[NSMutableArray alloc] init];
+		[dictonnaryOfCompagnies setObject:tempArray forKey:firstLetter];
+		[tempArray release];
+	}
+	
+	for(Evenement *evenement in arrayOfCompagnies) {
+		
+		NSString *firstLetter = [[[evenement label] substringToIndex:1] uppercaseString];
+		NSMutableArray *existingArray;
+		
+		if([[NSArray arrayWithObjects:@"0", @"1", @"2", @"3", @"4", @"5", @"6", @"7", @"8", @"9", nil] containsObject:firstLetter]) {
+			existingArray = [dictonnaryOfCompagnies valueForKey:@"0"];
+			[existingArray addObject:evenement];
+		}
+		
+		// Check if an array already exists for this first letter
+		else if (existingArray = [dictonnaryOfCompagnies valueForKey:firstLetter]) {
+			[existingArray addObject:evenement];
+		}
+	}
+	
+	// Sorting result
+	[self sortCompagniesByFirstLetter];	
+}
+
+
 
 #pragma mark Table view methods
 
