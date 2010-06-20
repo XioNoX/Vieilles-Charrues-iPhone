@@ -19,10 +19,17 @@
 	IBOutlet UIImageView *carte;
 	IBOutlet UIView *plan;
 	IBOutlet UIScrollView *contenantPlan;
+	
+	
 	NSTimer *timer;
 	CGFloat initialDistance;
 	CGRect cadreInitial;
 	CGPoint pointInitial;
+	
+	CGPoint pointHautGauche;
+	CGPoint pointBasDroit;
+	
+	CGPoint locationAcutelle;
 }
 
 @property (retain, nonatomic) VCCLLocationController *locationController;
@@ -31,4 +38,9 @@
 
 -(void) setTenteLocation:(VCTente*)tente;
 
+-(void) changerCarte:(id) sender;
+
+-(float) determinerPositionX:(float) longitude;
+
+-(float) determinerPositionY:(float) latitude;
 @end

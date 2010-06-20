@@ -36,13 +36,13 @@
 
 - (void)viewWillAppear:(BOOL)animated {
 	[super viewWillDisappear:animated];
-	[self.navigationController.navigationBar setHidden:NO];
+	//[self.navigationController.navigationBar setHidden:NO];
 }
 
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-	[self.navigationController.navigationBar setHidden:YES];
+	//[self.navigationController.navigationBar setHidden:YES];
 }
 
 -(void)reloadDataFromDataBase

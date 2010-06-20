@@ -11,6 +11,7 @@
 @interface ViewPlanVC : UIViewController {
     IBOutlet UIButton *buttonOuEstTente;
     IBOutlet UIButton *buttonPlanDuSite;
+	IBOutlet UISegmentedControl *carteSegmentedControl;
 }
 - (IBAction)chargerPlan:(id)sender;
 - (IBAction)ouEstMaTente:(id)sender;

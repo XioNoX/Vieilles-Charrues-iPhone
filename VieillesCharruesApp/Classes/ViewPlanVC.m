@@ -14,9 +14,9 @@
 
  - (void)viewDidAppear:(BOOL)animated {
 	[super viewDidLoad];
-	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Pour bientôt" message:@"Le plan du site sera disponible juste avant le festival, n'oublie pas de télécharger la mise à jour avant d'arriver sur le site" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-	[alert show];
-	[alert release];
+	//UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Pour bientôt" message:@"Le plan du site sera disponible juste avant le festival, n'oublie pas de télécharger la mise à jour avant d'arriver sur le site" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+	//[alert show];
+	//[alert release];
 }
 
 - (IBAction)chargerPlan:(id)sender {
