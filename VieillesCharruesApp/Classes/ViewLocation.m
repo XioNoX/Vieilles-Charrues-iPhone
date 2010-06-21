@@ -87,7 +87,7 @@
 	
 }
 
--(id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil isExtern:(BOOL)isExtern{
+-(id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil isExtern:(BOOL)isExtern {
 	
 	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
 	
@@ -97,6 +97,7 @@
 	carte = [[UIImageView alloc] init];
 	UIImage *imageCarte = nil;
 	[carteScrollView setZoomScale:0];
+	
 	if(isExtern) {
 		imageCarte = [UIImage imageNamed:@"carte_exterieure.jpg"];
 		[carte setFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/4, imageCarte.size.height/4)];
@@ -146,7 +147,7 @@
 		[self setEdgesForExternMap:NO];
 	}
 	[carte setImage:imageCarte];
-	[carteScrollView addSubview:imageCarte];
+	[plan addSubview:carte];
 	[carteScrollView setContentSize:carte.frame.size];
 	[imageCarte release];
 	[self recalculateLocation];
