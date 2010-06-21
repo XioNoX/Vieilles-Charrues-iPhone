@@ -101,8 +101,8 @@
 
 -(void)updateLocation
 {
-	CGFloat longit = locationController.locationManager.location.coordinate.longitude;
-	CGFloat latit = locationController.locationManager.location.coordinate.latitude;
+	CGFloat longit = -3.5557938; //locationController.locationManager.location.coordinate.longitude;
+	CGFloat latit = 48.2714828; //locationController.locationManager.location.coordinate.latitude;
 	NSLog(@"longi : %f , lati : %f", longit, latit);
 	if(longit != 0.0 || latit != 0.0)
 	{			
@@ -186,7 +186,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
-	 ViewLocation *detailViewController = [[ViewLocation alloc] initWithNibName:@"ViewLocation" bundle:nil];
+	 ViewLocation *detailViewController = [[ViewLocation alloc] initMap:YES];
 
 	
 	[self.navigationController pushViewController:detailViewController animated:YES];

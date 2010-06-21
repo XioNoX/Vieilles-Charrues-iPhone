@@ -123,8 +123,24 @@
 	
 	pointLocalisation = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"point_localisation.png"]];
 	
+	
+	pointTente = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 100.0, 20.0)];
+	
+	UIImageView *imageDrapeauTente = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"dapreauTente.png"]];
+	[imageDrapeauTente setFrame:CGRectMake(50 - (imageDrapeauTente.frame.size.width / 2), 20.0, imageDrapeauTente.frame.size.width, imageDrapeauTente.frame.size.height)];
+	[pointTente addSubview:imageDrapeauTente];
+	[pointTente setFrame:CGRectMake(0.0, 0.0, imageDrapeauTente.frame.size.width, imageDrapeauTente.frame.size.height + 20.0)];
+	
+	nomTente = [[UILabel alloc] initWithFrame:CGRectMake(0.0, 0.0, 100.0, 20.0)];
+	[nomTente setTextAlignment:UITextAlignmentCenter];
+	[nomTente setBackgroundColor:[UIColor clearColor]];
+	[pointTente addSubview:nomTente];
+	[pointTente setHidden:YES];
+	[imageDrapeauTente release];
+	
 	[plan setFrame:carte.frame];
 	[plan addSubview:carte];
+	[plan addSubview:pointTente];
 	[plan addSubview:pointLocalisation];
 	[carteScrollView setMaximumZoomScale:3];
 	[carteScrollView setMinimumZoomScale:1];
@@ -132,28 +148,16 @@
 	[carteScrollView addSubview:plan];
 	[carteScrollView setContentSize:carte.frame.size];
 	
-	//[carteScrollView setZoomScale:1/4];
 	[carte release];
 	
 	[self setView:carteScrollView];
 	[carteScrollView release];
 	
 	
-	
-	/*NSArray *choixSegmentedControll = [NSArray arrayWithObjects:@"Interieure", @"Exterieure", nil];
-	
-	carteSegmentedControl = [[UISegmentedControl alloc] initWithItems:choixSegmentedControll];
-	[carteSegmentedControl setSegmentedControlStyle:UISegmentedControlStyleBar];
-	[carteSegmentedControl setSelectedSegmentIndex:0];
-	[carteSegmentedControl addTarget:self action:@selector(changerCarte:) forControlEvents:UIControlEventValueChanged];
-	[carteSegmentedControl setFrame:CGRectMake(0.0, .0, 200.0, 30.0)];
-	
-	self.navigationItem.titleView = carteSegmentedControl;
-	[carteSegmentedControl release];*/
-	
 	return self;
 	
 }
+
 
 /*
 -(void) changerCarte:(id)sender {
@@ -180,13 +184,6 @@
 	
 }*/
 
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];    
-	
-    //[locationController.locationManager startUpdatingLocation];
-	
-}
 
 -(void) viewWillDisappear:(BOOL)animated {
 	[super viewWillDisappear:animated];
@@ -199,11 +196,6 @@
 	[locationController.locationManager startUpdatingLocation];
 }
 
--(void) viewDidAppear:(BOOL)animated {
-	//[self changerCarte:carteSegmentedControl];
-	//[carteScrollView setFrame:CGRectMake(0.0, 0.0, 320.0, 411.0)];
-	//[self.navigationController.navigationBar setAlpha:0.5];
-}
 
 -(float) determinerPositionX:(float) longitude
 {
@@ -211,7 +203,7 @@
 	
 	float distance = (pointHautGauche.x - longitude);
 	NSLog(@"width : %f", carte.frame.size.width);
-	return (distance/LONGUEUR) * carte.frame.size.width;
+	return (distance/LONGUEUR) * plan.frame.size.width;
 }
 
 -(float) determinerPositionY:(float) latitude
@@ -220,13 +212,13 @@
 	
 	float distance = (pointHautGauche.y - latitude);
 	NSLog(@"height : %f", carte.frame.size.height);
-	return (distance/HAUTEUR) * carte.frame.size.height;
+	return (distance/HAUTEUR) * plan.frame.size.height;
 }
 
 -(void) updateLocation
 {
-	locationAcutelle.y = -3.5557938; //self.locationController.locAtuelle.coordinate.longitude; //48.2713400; 
-	locationAcutelle.x = 48.2714828; //self.locationController.locAtuelle.coordinate.latitude; //;
+	locationAcutelle.y = -3.5557938; //self.locationController.locAtuelle.coordinate.longitude;  
+	locationAcutelle.x = 48.2714828; //self.locationController.locAtuelle.coordinate.latitude;
 	float positionX = [self determinerPositionX:locationAcutelle.x] - (pointLocalisation.frame.size.height/2);
 	float positionY = [self determinerPositionY:locationAcutelle.y] - (pointLocalisation.frame.size.width/2);
 	
@@ -238,11 +230,15 @@
 {
 	tente = [tenteParam retain];
 	nomTente.text = tente.nom;
-	float positionX = [self determinerPositionX:tente.longitude] - (pointTente.frame.size.width/2);
-	float positionY = [self determinerPositionY:tente.latitude]- (pointTente.frame.size.height/2);
+	[pointTente setHidden:NO];
+	
+	float positionX = [self determinerPositionX:tente.latitude] - 50;
+	float positionY = [self determinerPositionY:tente.longitude] - (pointTente.frame.size.height);
+	
+	NSLog(@"X : %f", positionX);
+	NSLog(@"Y : %f", positionY);
 	
 	pointTente.frame = CGRectMake(positionX, positionY, pointTente.frame.size.width, pointTente.frame.size.height);
-	[pointTente setHidden:NO];
 }
 
 -(UIView*)viewForZoomingInScrollView:(UIScrollView*) view
@@ -275,6 +271,14 @@
 
 - (void)dealloc {
 	[timer release];
+	[locationController release];
+	[carteScrollView release];
+	[plan release];
+	[pointLocalisation release];
+	[carte release];
+	[pointTente release];
+	[nomTente release];
+	[tente release];
     [super dealloc];
 }
 
