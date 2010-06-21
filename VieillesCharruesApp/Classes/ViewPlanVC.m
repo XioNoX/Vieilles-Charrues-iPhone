@@ -34,14 +34,14 @@
 }
 
 - (IBAction)chargerPlanInterieur:(id)sender {
-	ViewLocation *planDuSite = [[ViewLocation alloc] initWithNibName:@"ViewLocation" bundle:nil isExtern:NO];
+	ViewLocation *planDuSite = [[ViewLocation alloc] initMap:NO];
 	[self.navigationController pushViewController:planDuSite animated:YES];
 	[planDuSite release];
     
 }
 
 - (IBAction)chargerPlanExterieur:(id)sender {
-	ViewLocation *planDuSite = [[ViewLocation alloc] initWithNibName:@"ViewLocation" bundle:nil isExtern:YES];
+	ViewLocation *planDuSite = [[ViewLocation alloc] initMap:YES];
 	[self.navigationController pushViewController:planDuSite animated:YES];
 	[planDuSite release];
     

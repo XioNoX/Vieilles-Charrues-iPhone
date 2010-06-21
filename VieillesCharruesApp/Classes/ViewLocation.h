@@ -25,27 +25,28 @@
 
 @interface ViewLocation : UIViewController <UIScrollViewDelegate>
 {
-	VCCLLocationController *locationController;
-	IBOutlet UIImageView *pointLocalisation;
-	IBOutlet UIView *pointTente;
-	IBOutlet UIScrollView	*carteScrollView;
-	IBOutlet UILabel *nomTente;
-	UIImageView *carte;
-	IBOutlet UIView *plan;
-	IBOutlet UIScrollView *contenantPlan;
+	VCCLLocationController		*locationController;
 	
-	UISegmentedControl *carteSegmentedControl;
 	
-	NSTimer *timer;
-	CGFloat initialDistance;
-	CGRect cadreInitial;
-	CGPoint pointInitial;
+	UIScrollView				*carteScrollView;	
+	UIView						*plan;
+	UIImageView					*pointLocalisation;
+	UIImageView					*carte;
 	
-	CGPoint pointHautGauche;
-	CGPoint pointBasDroit;
+	UIView						*pointTente;
+	UILabel						*nomTente;
 	
-	CGPoint locationAcutelle;
-	VCTente *tente;
+	
+	NSTimer						*timer;
+	CGFloat						initialDistance;
+	CGRect						cadreInitial;
+	CGPoint						pointInitial;
+	
+	CGPoint						pointHautGauche;
+	CGPoint						pointBasDroit;
+	
+	CGPoint						locationAcutelle;
+	VCTente						*tente;
 }
 
 @property (retain, nonatomic) VCCLLocationController *locationController;

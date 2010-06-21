@@ -87,12 +87,14 @@
 	
 }
 
--(id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil isExtern:(BOOL)isExtern {
+-(id) initMap:(BOOL)isExtern {
 	
-	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+	self = [super init];
 	
 	[self setEdgesForExternMap:isExtern];
 
+	
+	carteScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 367.0)];
 	
 	carte = [[UIImageView alloc] init];
 	UIImage *imageCarte = nil;
@@ -129,7 +131,7 @@
 	
 }
 
-
+/*
 -(void) changerCarte:(id)sender {
 	
 	carte = [[UIImageView alloc] init];
@@ -152,7 +154,7 @@
 	[imageCarte release];
 	[self recalculateLocation];
 	
-}
+}*/
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
