@@ -126,14 +126,17 @@
 	
 	pointTente = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 100.0, 20.0)];
 	
-	UIImageView *imageDrapeauTente = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"dapreauTente.png"]];
-	[imageDrapeauTente setFrame:CGRectMake(50 - (imageDrapeauTente.frame.size.width / 2), 20.0, imageDrapeauTente.frame.size.width, imageDrapeauTente.frame.size.height)];
+	UIImageView *imageDrapeauTente = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bulle_tente.png"]];
+	[imageDrapeauTente setFrame:CGRectMake(0.0, 0.0, imageDrapeauTente.frame.size.width , imageDrapeauTente.frame.size.height)];
+	[pointTente setFrame:CGRectMake(0.0, 0.0,imageDrapeauTente.frame.size.width*2, imageDrapeauTente.frame.size.height*2)];
 	[pointTente addSubview:imageDrapeauTente];
-	[pointTente setFrame:CGRectMake(0.0, 0.0, imageDrapeauTente.frame.size.width, imageDrapeauTente.frame.size.height + 20.0)];
 	
-	nomTente = [[UILabel alloc] initWithFrame:CGRectMake(0.0, 0.0, 100.0, 20.0)];
+	nomTente = [[UILabel alloc] initWithFrame:CGRectMake(20.0, 0.0, 100.0, 25.0)];
 	[nomTente setTextAlignment:UITextAlignmentCenter];
 	[nomTente setBackgroundColor:[UIColor clearColor]];
+	[nomTente setTextColor:[UIColor whiteColor]];
+	[nomTente setFont:[UIFont fontWithName:@"Verdana" size:12.0]];
+	[nomTente setText:@"test"];
 	[pointTente addSubview:nomTente];
 	[pointTente setHidden:YES];
 	[imageDrapeauTente release];
@@ -217,8 +220,8 @@
 
 -(void) updateLocation
 {
-	locationAcutelle.y = -3.5557938; //self.locationController.locAtuelle.coordinate.longitude;  
-	locationAcutelle.x = 48.2714828; //self.locationController.locAtuelle.coordinate.latitude;
+	locationAcutelle.y = -3.5624027; //self.locationController.locAtuelle.coordinate.longitude;  
+	locationAcutelle.x = 48.2702259; //self.locationController.locAtuelle.coordinate.latitude;
 	float positionX = [self determinerPositionX:locationAcutelle.x] - (pointLocalisation.frame.size.height/2);
 	float positionY = [self determinerPositionY:locationAcutelle.y] - (pointLocalisation.frame.size.width/2);
 	
@@ -232,8 +235,8 @@
 	nomTente.text = tente.nom;
 	[pointTente setHidden:NO];
 	
-	float positionX = [self determinerPositionX:tente.latitude] - 50;
-	float positionY = [self determinerPositionY:tente.longitude] - (pointTente.frame.size.height);
+	float positionX = [self determinerPositionX:tente.latitude] - (pointTente.frame.size.width/2);
+	float positionY = [self determinerPositionY:tente.longitude] - (pointTente.frame.size.height/2);
 	
 	NSLog(@"X : %f", positionX);
 	NSLog(@"Y : %f", positionY);
@@ -251,6 +254,7 @@
 {
 	pointLocalisation.transform = CGAffineTransformMakeScale(1/sqrt(scale), 1/sqrt(scale));
 	pointTente.transform = CGAffineTransformMakeScale(1/sqrt(scale), 1/sqrt(scale));
+	
 	
 	[carteScrollView setContentSize:plan.frame.size];
 }
