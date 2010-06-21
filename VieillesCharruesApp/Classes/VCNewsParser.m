@@ -28,7 +28,6 @@ didStartElement:(NSString *)elementName
  qualifiedName:(NSString *)qName
 	attributes:(NSDictionary *)attributeDict
 {
-	NSLog(@"test");
 	if ([elementName isEqualToString:@"entry"]) 
 	{
 		isFB = YES;
