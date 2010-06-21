@@ -68,7 +68,7 @@
 		pointBasDroit.x = 48.29372;
 		pointBasDroit.y = -3.5350;
 	}
-
+	
 	
 }
 
@@ -122,7 +122,7 @@
 	[imageCarte release];
 	
 	pointLocalisation = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"point_localisation.png"]];
-	
+	[pointLocalisation setHidden:YES];
 	
 	pointTente = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 100.0, 20.0)];
 	
@@ -162,32 +162,6 @@
 }
 
 
-/*
--(void) changerCarte:(id)sender {
-	
-	carte = [[UIImageView alloc] init];
-	UIImage *imageCarte = nil;
-	[carteScrollView setZoomScale:0];
-	if([(UISegmentedControl *)sender selectedSegmentIndex] == 1) {
-		imageCarte = [UIImage imageNamed:@"carte_exterieure.jpg"];
-		[carte setFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/4, imageCarte.size.height/4)];
-		[self setEdgesForExternMap:YES];
-		
-	}
-	else {
-		imageCarte = [UIImage imageNamed:@"carte_interieure.jpg"];
-		[carte setFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/2, imageCarte.size.height/2)];
-		[self setEdgesForExternMap:NO];
-	}
-	[carte setImage:imageCarte];
-	[plan addSubview:carte];
-	[carteScrollView setContentSize:carte.frame.size];
-	[imageCarte release];
-	[self recalculateLocation];
-	
-}*/
-
-
 -(void) viewWillDisappear:(BOOL)animated {
 	[super viewWillDisappear:animated];
 	[locationController.locationManager stopUpdatingLocation];
@@ -205,7 +179,6 @@
 	float LONGUEUR = (pointHautGauche.x	- pointBasDroit.x);
 	
 	float distance = (pointHautGauche.x - longitude);
-	NSLog(@"width : %f", carte.frame.size.width);
 	return (distance/LONGUEUR) * plan.frame.size.width;
 }
 
@@ -214,19 +187,36 @@
 	float HAUTEUR = (pointHautGauche.y	- pointBasDroit.y);
 	
 	float distance = (pointHautGauche.y - latitude);
-	NSLog(@"height : %f", carte.frame.size.height);
 	return (distance/HAUTEUR) * plan.frame.size.height;
+}
+
+-(BOOL) isInBounds:(CGPoint) loc {
+	
+	BOOL test1 = loc.x >= pointHautGauche.x && loc.y >= pointHautGauche.y;
+	BOOL test2 = loc.x <= pointBasDroit.x && loc.y <= pointBasDroit.y;
+	return test1 && test2;
+	
 }
 
 -(void) updateLocation
 {
 	locationAcutelle.y = -3.5624027; //self.locationController.locAtuelle.coordinate.longitude;  
 	locationAcutelle.x = 48.2702259; //self.locationController.locAtuelle.coordinate.latitude;
-	float positionX = [self determinerPositionX:locationAcutelle.x] - (pointLocalisation.frame.size.height/2);
-	float positionY = [self determinerPositionY:locationAcutelle.y] - (pointLocalisation.frame.size.width/2);
 	
-	pointLocalisation.frame = CGRectMake(positionX, positionY, pointLocalisation.frame.size.width, pointLocalisation.frame.size.height);
-	
+	if ([self isInBounds:locationAcutelle]) {
+		[pointLocalisation setHidden:NO];
+		float positionX = [self determinerPositionX:locationAcutelle.x] - (pointLocalisation.frame.size.height/2);
+		float positionY = [self determinerPositionY:locationAcutelle.y] - (pointLocalisation.frame.size.width/2);
+		
+		pointLocalisation.frame = CGRectMake(positionX, positionY, pointLocalisation.frame.size.width, pointLocalisation.frame.size.height);
+	}
+	else {
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Attention" message:@"Vous n'etes pas sur le site du festival" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+		
+		[alert show];
+		[alert release];
+	}
+
 }
 
 -(void) setTenteLocation:(VCTente *)tenteParam
@@ -238,8 +228,6 @@
 	float positionX = [self determinerPositionX:tente.latitude] - (pointTente.frame.size.width/2);
 	float positionY = [self determinerPositionY:tente.longitude] - (pointTente.frame.size.height/2);
 	
-	NSLog(@"X : %f", positionX);
-	NSLog(@"Y : %f", positionY);
 	
 	pointTente.frame = CGRectMake(positionX, positionY, pointTente.frame.size.width, pointTente.frame.size.height);
 }

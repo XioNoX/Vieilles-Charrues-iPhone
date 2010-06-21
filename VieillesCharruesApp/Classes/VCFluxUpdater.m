@@ -26,6 +26,7 @@
 	parsingSuccess = [parser parse];
 	
 	
+	
 	url = [NSURL URLWithString:FBSOURCE];
 	[parser initWithContentsOfURL:url andType:@"Facebook"];
 	
@@ -37,27 +38,24 @@
 	parsingSuccess = parsingSuccess && [parser parse];
 	
 	
-	
-	//if(dataBase == nil) dataBase = [VCDataBaseController sharedInstance];
-	
 	if(parsingSuccess)
 	{
-		//[self popUpLoadingWithMessage:@"Actualités mises à jour"];
 		[[VCDataBaseController sharedInstance] mettreAJourNews:parser.listeNews];
+		
+		[delegate majEnded:0];
 	}
 	else 
 	{
 		UIAlertView *errorMessage = [[UIAlertView alloc] initWithTitle:@"Erreur" message:@"Une erreur s'est produite lors de la récupération des actualités. Veuillez véfifier vos paramètres de connexion et reessayer" delegate:nil cancelButtonTitle:@"Fermer" otherButtonTitles:nil];
 		[errorMessage show];
 		[errorMessage release];
+		[delegate majEnded:1];
 	}
 	
 	
 	[parser release];
 	
 	
-	
-	[delegate majEnded:[NSNumber numberWithInt:1]];
 }
 
 -(void) miseAjourProg {
@@ -89,6 +87,8 @@
 		VCDataBaseController *dataBase = [VCDataBaseController sharedInstance];
 		[dataBase mettreAJourConcert:parserProg.listeConcert];
 		[dataBase mettreAJourArtistes:parserArt.listeArtistes];
+		
+		[delegate majEnded:0];
 	}
 	else 
 	{
@@ -96,12 +96,12 @@
 		
 		[message show];
 		[message release];
+		
+		[delegate majEnded:1];
 	}
 	[parserProg release];
 	
 	
-	
-	[delegate majEnded:[NSNumber numberWithInt:1]];
 	
 }
 

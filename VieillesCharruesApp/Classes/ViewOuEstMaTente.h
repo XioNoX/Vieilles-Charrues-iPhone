@@ -26,20 +26,26 @@
 
 @interface ViewOuEstMaTente : UITableViewController 
 {
-	VCDataBaseController *base;
-	NSArray *listeTentes;
-	IBOutlet UIBarButtonItem *boutonPlus;
-	IBOutlet UITextField *textFieldNomTente;
-	IBOutlet UIView *cacheBouton;
-	IBOutlet UIActivityIndicatorView *indicateur;
+	VCDataBaseController				*base;
+	NSArray								*listeTentes;
+	IBOutlet UIBarButtonItem			*boutonPlus;
+	IBOutlet UITextField				*textFieldNomTente;
+	IBOutlet UIView						*cacheBouton;
+	IBOutlet UIActivityIndicatorView	*indicateur;
 	
-	VCTente *nouvelleTente;
-	VCCLLocationController *locationController;
+	VCTente								*nouvelleTente;
+	VCCLLocationController				*locationController;
 	
+	CGPoint								pointExternHautGauche;
+	CGPoint								pointInternHautGauche;
+	CGPoint								pointExternBasDroit;
+	CGPoint								pointInternBasDroit;
 	
-	NSString *nomTente;
-	CGFloat longi;
-	CGFloat lati;
+	BOOL								zoneLocationTente;
+	
+	NSString							*nomTente;
+	CGFloat								longi;
+	CGFloat								lati;
 	
 }
 -(IBAction) ajouterTente;

@@ -13,7 +13,7 @@
 @protocol VCFluxUpdaterDelegate <NSObject>
 
 @optional
-- (void)majEnded:(NSNumber*)test;
+- (void)majEnded:(int)test;
 
 @end
 

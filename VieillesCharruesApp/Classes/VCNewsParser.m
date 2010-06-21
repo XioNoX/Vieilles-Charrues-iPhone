@@ -28,6 +28,7 @@ didStartElement:(NSString *)elementName
  qualifiedName:(NSString *)qName
 	attributes:(NSDictionary *)attributeDict
 {
+	NSLog(@"test");
 	if ([elementName isEqualToString:@"entry"]) 
 	{
 		isFB = YES;
@@ -107,6 +108,11 @@ foundCharacters:(NSString *)string
 		[buildingElement replaceOccurrencesOfString:@"\t" withString:@"" options:NSLiteralSearch range:NSMakeRange(0, [buildingElement length])];
 		[buildingElement replaceOccurrencesOfString:@"  " withString:@"" options:NSLiteralSearch range:NSMakeRange(0, [buildingElement length])];
 	}
+}
+
+-(void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError {
+	;
+	NSLog(@"%@,  %i",[parseError localizedDescription], [parser lineNumber]);
 }
 
 @end

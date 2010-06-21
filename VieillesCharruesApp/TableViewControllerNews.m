@@ -116,11 +116,13 @@
 
 #pragma mark MAJ delegate
 
--(void)majEnded:(NSNumber *)test{
-	[self popUpLoadingWithMessage:@"infos mises à jour"];
-	
-	[self reloadTable];	
-	
+-(void)majEnded:(int)succes{
+	if (succes == 0) {
+		
+		[self popUpLoadingWithMessage:@"infos mises à jour"];
+		
+		[self reloadTable];	
+	}
 }
 
 // Override to allow orientations other than the default portrait orientation.

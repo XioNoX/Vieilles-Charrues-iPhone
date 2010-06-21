@@ -41,6 +41,6 @@
 @property (retain, nonatomic) UIView *popUpView;
 
 - (IBAction)reloadTable;
-- (IBAction) changerTri;
+- (IBAction)changerTri;
 - (IBAction)mettreAJour:(id)sender;
 @end

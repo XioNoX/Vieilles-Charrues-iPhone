@@ -34,6 +34,18 @@
     [super viewDidLoad];
 	base = [VCDataBaseController sharedInstance];
 	
+	pointInternHautGauche.x = 48.26758;
+	pointInternHautGauche.y = -3.56220;
+	
+	pointInternBasDroit.x = 48.27306;
+	pointInternBasDroit.y = -3.55301;
+	
+	pointExternHautGauche.x = 48.25630;
+	pointExternHautGauche.y = -3.5925;
+	
+	pointExternBasDroit.x = 48.29372;
+	pointExternBasDroit.y = -3.5350;
+	
 	locationController = [[VCCLLocationController alloc] init];
 	locationController.appelant = self;
 	lati = 0.0;
@@ -101,9 +113,10 @@
 
 -(void)updateLocation
 {
-	CGFloat longit = -3.5557938; //locationController.locationManager.location.coordinate.longitude;
-	CGFloat latit = 48.2714828; //locationController.locationManager.location.coordinate.latitude;
-	NSLog(@"longi : %f , lati : %f", longit, latit);
+	CGFloat longit = -3.5609436; //locationController.locationManager.location.coordinate.longitude;
+	CGFloat latit = 48.2785092;// locationController.locationManager.location.coordinate.latitude;
+	
+	
 	if(longit != 0.0 || latit != 0.0)
 	{			
 		longi = longit;
@@ -178,6 +191,11 @@
     return cell;
 }
 
+-(BOOL) determinerZone:(VCTente *) tente {
+	
+	return tente.longitude >= pointInternHautGauche.y && tente.latitude >= pointInternHautGauche.x && tente.latitude <= pointInternBasDroit.x && tente.longitude <= pointInternBasDroit.y;
+	
+}
 
 
 #pragma mark -
@@ -186,11 +204,15 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
-	 ViewLocation *detailViewController = [[ViewLocation alloc] initMap:YES];
+	
+	VCTente *tente = [listeTentes objectAtIndex:indexPath.row];
+	
+	BOOL isIntern = [self determinerZone:tente];
+	ViewLocation *detailViewController = [[ViewLocation alloc] initMap:!isIntern];
 
 	
 	[self.navigationController pushViewController:detailViewController animated:YES];
-	[detailViewController setTenteLocation:[listeTentes objectAtIndex:indexPath.row]];
+	[detailViewController setTenteLocation:tente];
 	 [detailViewController release];
 	 
 }

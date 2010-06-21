@@ -70,7 +70,7 @@
 	
 	[[appDelegate window] addSubview:popUpView];
 	
-	[self performSelectorInBackground:@selector(timerBeforeDeletingLaodingView) withObject:nil];
+	[self performSelectorOnMainThread:@selector(timerBeforeDeletingLaodingView) withObject:nil waitUntilDone:NO];
 	
 	[pool drain];
 	
@@ -84,11 +84,10 @@
 	
 	[updater setDelegate:self];
 	
+	[updater miseAjourProg];
 	[activityIndicator stopAnimating];
 	[activityIndicator removeFromSuperview];
 	boutonMiseAjour.enabled = YES;
-	
-	[updater miseAjourProg];
 	
 	[pool drain];
 	
@@ -106,8 +105,6 @@
 	[self.view.window addSubview:activityIndicator];
 	[activityIndicator startAnimating];
 	
-	
-	[self reloadTable];
 }
 
 
@@ -142,12 +139,13 @@
 	// Release any cached data, images, etc that aren't in use.
 }
 
--(void) majEnded:(NSNumber *)test {
-	
-	[self popUpLoadingWithMessage:@"programmation à jour"];
-	
-	[self reloadTable];
-	
+-(void) majEnded:(int)succes {
+	if (succes == 0) {
+		
+		[self popUpLoadingWithMessage:@"programmation à jour"];
+		
+		[self reloadTable];
+	}
 }
 
 #pragma mark Table view methods
@@ -229,10 +227,7 @@
 - (IBAction) changerTri
 {
 	TableViewControllerArtistes *anotherViewController = [[TableViewControllerArtistes alloc] init];
-	/*anotherViewController.listeGroupe = listeGroupe;
-	anotherViewController.tableauDesScenes = tableauDesScenes;
-	anotherViewController.listeConcertParScene = listeConcertParScene;
-	anotherViewController.dataBase = dataBase;*/
+	
 	[self.navigationController pushViewController:anotherViewController animated:YES];
 	
 	[anotherViewController release];
