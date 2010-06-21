@@ -33,8 +33,15 @@
 	//[alert release];
 }
 
-- (IBAction)chargerPlan:(id)sender {
-	ViewLocation *planDuSite = [[ViewLocation alloc] initWithNibName:@"ViewLocation" bundle:nil];
+- (IBAction)chargerPlanInterieur:(id)sender {
+	ViewLocation *planDuSite = [[ViewLocation alloc] initWithNibName:@"ViewLocation" bundle:nil isExtern:NO];
+	[self.navigationController pushViewController:planDuSite animated:YES];
+	[planDuSite release];
+    
+}
+
+- (IBAction)chargerPlanExterieur:(id)sender {
+	ViewLocation *planDuSite = [[ViewLocation alloc] initWithNibName:@"ViewLocation" bundle:nil isExtern:YES];
 	[self.navigationController pushViewController:planDuSite animated:YES];
 	[planDuSite release];
     

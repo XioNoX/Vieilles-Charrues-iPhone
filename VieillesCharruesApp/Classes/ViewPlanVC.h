@@ -27,6 +27,7 @@
     IBOutlet UIButton *buttonPlanDuSite;
 	IBOutlet UISegmentedControl *carteSegmentedControl;
 }
-- (IBAction)chargerPlan:(id)sender;
+- (IBAction)chargerPlanInterieur:(id)sender;
+- (IBAction)chargerPlanExterieur:(id)sender;
 - (IBAction)ouEstMaTente:(id)sender;
 @end

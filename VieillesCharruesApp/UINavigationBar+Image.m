@@ -13,9 +13,6 @@
 
 -(void) drawRect:(CGRect) rect {
 	
-	//[self setTintColor:[UIColor colorWithRed:255/255 green:28/255 blue:0 alpha:1]];
-	//[super drawRect:rect];
-	
 	UIImage *img	= [UIImage imageNamed: @"BandeauVieillesCharrues.png"];
 	
 	[img drawInRect:CGRectMake(0.0, 0.0, self.frame.size.width, self.frame.size.height) blendMode:kCGBlendModeOverlay alpha:1];

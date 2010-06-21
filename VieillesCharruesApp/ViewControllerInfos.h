@@ -25,7 +25,6 @@
 @interface ViewControllerInfos : UIViewController {
     IBOutlet UIWebView *webView;
 	IBOutlet UIView *viewAbout;
-	IBOutlet UIWebView *textAbout;
 }
 - (IBAction)revealAbout:(id)sender;
 - (IBAction) hideAbout:(id)sender;

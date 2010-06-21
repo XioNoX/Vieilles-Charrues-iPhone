@@ -28,11 +28,13 @@
 	VCCLLocationController *locationController;
 	IBOutlet UIImageView *pointLocalisation;
 	IBOutlet UIView *pointTente;
+	IBOutlet UIScrollView	*carteScrollView;
 	IBOutlet UILabel *nomTente;
-	IBOutlet UIImageView *carte;
+	UIImageView *carte;
 	IBOutlet UIView *plan;
 	IBOutlet UIScrollView *contenantPlan;
 	
+	UISegmentedControl *carteSegmentedControl;
 	
 	NSTimer *timer;
 	CGFloat initialDistance;
@@ -47,6 +49,8 @@
 }
 
 @property (retain, nonatomic) VCCLLocationController *locationController;
+
+-(id)initWithNibName:(NSString*)nibName bundle:(NSBundle *)nibBundleOrNil isExtern:(BOOL)isExtern;
 
 -(void) updateLocation;
 

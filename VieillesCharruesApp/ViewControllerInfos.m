@@ -100,7 +100,34 @@
 }
 
 - (IBAction)revealAbout:(id)sender {
-	[textAbout loadHTMLString:@"<body style=\"background-color:black; font-family:verdana\"><p style=\"text-align:center; color:white;\" >Projet Open Source réalisé par :<br/>Thomas Belin<br/>éleve ingénieur à Polytech'Nantes</br><b>ThomasBelin4@gmail.com</b><br/>Sources disponibles à l'adresse :<br/>code.google.com/p/vieillescharrues</p></body>" baseURL:nil];
+	UILabel *projetLabel = [[UILabel alloc] initWithFrame:CGRectMake(10.0, 100.0, 300.0, 60.0)];
+	[projetLabel setBackgroundColor:[UIColor clearColor]];
+	[projetLabel setTextColor:[UIColor whiteColor]];
+	[projetLabel setNumberOfLines:0];
+	[projetLabel setTextAlignment:UITextAlignmentCenter];
+	[projetLabel setText:@"Projet Open Source réalisé par :\nThomas Belin\néleve ingénieur à Polytech'Nantes"];
+	[viewAbout addSubview:projetLabel];
+	[projetLabel release];
+	
+	UILabel *nomLabel = [[UILabel alloc] initWithFrame:CGRectMake(10.0, 160.0, 300.0, 20.0)];
+	[nomLabel setBackgroundColor:[UIColor clearColor]];
+	[nomLabel setTextColor:[UIColor whiteColor]];
+	[nomLabel setFont:[UIFont boldSystemFontOfSize:17.0]];
+	[nomLabel setNumberOfLines:0];
+	[nomLabel setTextAlignment:UITextAlignmentCenter];
+	[nomLabel setText:@"ThomasBelin4@gmail.com"];
+	[viewAbout addSubview:nomLabel];
+	[nomLabel release];
+	
+	UILabel *suiteLabel = [[UILabel alloc] initWithFrame:CGRectMake(10.0, 180.0, 300.0, 40.0)];
+	[suiteLabel setBackgroundColor:[UIColor clearColor]];
+	[suiteLabel setTextColor:[UIColor whiteColor]];
+	[suiteLabel setNumberOfLines:0];
+	[suiteLabel setTextAlignment:UITextAlignmentCenter];
+	[suiteLabel setText:@"Sources disponibles à l'adresse :\ncode.google.com/p/vieillescharrues"];
+	[viewAbout addSubview:suiteLabel];
+	[suiteLabel release];
+	//[textAbout loadHTMLString:@"<body style=\"background-color:black; font-family:verdana\"><p style=\"text-align:center; color:white;\" >Projet Open Source réalisé par :<br/>Thomas Belin<br/>éleve ingénieur à Polytech'Nantes</br><b>ThomasBelin4@gmail.com</b><br/>Sources disponibles à l'adresse :<br/>code.google.com/p/vieillescharrues</p></body>" baseURL:nil];
 	[self.view.window addSubview:viewAbout];
     
 }

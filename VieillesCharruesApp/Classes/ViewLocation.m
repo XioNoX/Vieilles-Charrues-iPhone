@@ -87,26 +87,42 @@
 	
 }
 
--(id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+-(id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil isExtern:(BOOL)isExtern{
 	
 	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
 	
-	[self setEdgesForExternMap:NO];
-	[self.view setFrame:CGRectMake(0.0, 0.0, 320.0, 411.0)];
+	[self setEdgesForExternMap:isExtern];
+
 	
-	NSArray *choixSegmentedControll = [NSArray arrayWithObjects:@"Interieure", @"Exterieure", nil];
+	carte = [[UIImageView alloc] init];
+	UIImage *imageCarte = nil;
+	[carteScrollView setZoomScale:0];
+	if(isExtern) {
+		imageCarte = [UIImage imageNamed:@"carte_exterieure.jpg"];
+		[carte setFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/4, imageCarte.size.height/4)];
+		[self setEdgesForExternMap:YES];
+		
+	}
+	else {
+		imageCarte = [UIImage imageNamed:@"carte_interieure.jpg"];
+		[carte setFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/2, imageCarte.size.height/2)];
+		[self setEdgesForExternMap:NO];
+	}
+	[carte setImage:imageCarte];
+	[carteScrollView addSubview:carte];
+	[carteScrollView setContentSize:carte.frame.size];
+	[imageCarte release];
 	
-	UISegmentedControl *carteSegmentedControl = [[UISegmentedControl alloc] initWithItems:choixSegmentedControll];
-	[carteSegmentedControl setAlpha:0.8];
+	/*NSArray *choixSegmentedControll = [NSArray arrayWithObjects:@"Interieure", @"Exterieure", nil];
+	
+	carteSegmentedControl = [[UISegmentedControl alloc] initWithItems:choixSegmentedControll];
 	[carteSegmentedControl setSegmentedControlStyle:UISegmentedControlStyleBar];
 	[carteSegmentedControl setSelectedSegmentIndex:0];
 	[carteSegmentedControl addTarget:self action:@selector(changerCarte:) forControlEvents:UIControlEventValueChanged];
 	[carteSegmentedControl setFrame:CGRectMake(0.0, .0, 200.0, 30.0)];
 	
 	self.navigationItem.titleView = carteSegmentedControl;
-	//[[self view] addSubview:carteSegmentedControl];
-	
-	[carteSegmentedControl release];
+	[carteSegmentedControl release];*/
 	
 	return self;
 	
@@ -115,17 +131,25 @@
 
 -(void) changerCarte:(id)sender {
 	
+	carte = [[UIImageView alloc] init];
+	UIImage *imageCarte = nil;
+	[carteScrollView setZoomScale:0];
 	if([(UISegmentedControl *)sender selectedSegmentIndex] == 1) {
-		[carte setImage:[UIImage imageNamed:@"carte_exterieure.png"]];
+		imageCarte = [UIImage imageNamed:@"carte_exterieure.jpg"];
+		[carte setFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/4, imageCarte.size.height/4)];
 		[self setEdgesForExternMap:YES];
-		[self recalculateLocation];
+		
 	}
 	else {
-		[carte setImage:[UIImage imageNamed:@"carte_interieure.jpg"]];
+		imageCarte = [UIImage imageNamed:@"carte_interieure.jpg"];
+		[carte setFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/2, imageCarte.size.height/2)];
 		[self setEdgesForExternMap:NO];
-		[self recalculateLocation];
 	}
-
+	[carte setImage:imageCarte];
+	[carteScrollView addSubview:imageCarte];
+	[carteScrollView setContentSize:carte.frame.size];
+	[imageCarte release];
+	[self recalculateLocation];
 	
 }
 
@@ -136,15 +160,14 @@
 	
 	locationController = [[VCCLLocationController alloc] init];
 	locationController.appelant = self;
-    [locationController.locationManager startUpdatingLocation];
-	[self.navigationController.navigationBar setAlpha:0.1];
+    //[locationController.locationManager startUpdatingLocation];
 	
 }
 
 -(void) viewWillDisappear:(BOOL)animated {
 	[super viewWillDisappear:animated];
 	[locationController.locationManager stopUpdatingLocation];
-	[self.navigationController.navigationBar setAlpha:1];
+	//[self.navigationController.navigationBar setAlpha:1];
 }
 
 -(void) viewWillAppear:(BOOL)animated {
@@ -152,13 +175,19 @@
 	[locationController.locationManager startUpdatingLocation];
 }
 
+-(void) viewDidAppear:(BOOL)animated {
+	//[self changerCarte:carteSegmentedControl];
+	//[carteScrollView setFrame:CGRectMake(0.0, 0.0, 320.0, 411.0)];
+	//[self.navigationController.navigationBar setAlpha:0.5];
+}
 
 -(float) determinerPositionX:(float) longitude
 {
 	float LONGUEUR = (pointHautGauche.x	- pointBasDroit.x);
 	
 	float distance = (pointHautGauche.x - longitude);
-	return (distance/LONGUEUR) * 320;
+	NSLog(@"width : %f", carte.frame.size.width);
+	return (distance/LONGUEUR) * carte.frame.size.width;
 }
 
 -(float) determinerPositionY:(float) latitude
@@ -166,16 +195,16 @@
 	float HAUTEUR = (pointHautGauche.y	- pointBasDroit.y);
 	
 	float distance = (pointHautGauche.y - latitude);
-	return (distance/HAUTEUR) * 411;
+	NSLog(@"height : %f", carte.frame.size.height);
+	return (distance/HAUTEUR) * carte.frame.size.height;
 }
 
 -(void) updateLocation
 {
-	locationAcutelle.y = -3.5558796; //self.locationController.locAtuelle.coordinate.longitude; //48.2713400; 
-	locationAcutelle.x = 48.2664552; //self.locationController.locAtuelle.coordinate.latitude; //;
+	locationAcutelle.y = -3.5557938; //self.locationController.locAtuelle.coordinate.longitude; //48.2713400; 
+	locationAcutelle.x = 48.2714828; //self.locationController.locAtuelle.coordinate.latitude; //;
 	float positionX = [self determinerPositionX:locationAcutelle.x] - (pointLocalisation.frame.size.height/2);
 	float positionY = [self determinerPositionY:locationAcutelle.y] - (pointLocalisation.frame.size.width/2);
-	
 	
 	pointLocalisation.frame = CGRectMake(positionX, positionY, pointLocalisation.frame.size.width, pointLocalisation.frame.size.height);
 	

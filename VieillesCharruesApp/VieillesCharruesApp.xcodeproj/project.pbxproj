@@ -129,6 +129,7 @@
 		E26E57E011612A8D00A67968 /* TableViewControllerArtistes.m in Sources */ = {isa = PBXBuildFile; fileRef = E26E57DE11612A8D00A67968 /* TableViewControllerArtistes.m */; };
 		E26F2E941196F3D200D047C6 /* LoadingView.png in Resources */ = {isa = PBXBuildFile; fileRef = E26F2E931196F3D200D047C6 /* LoadingView.png */; };
 		E272DAE511650A95004D2B40 /* VCCLLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E272DAE411650A95004D2B40 /* VCCLLocationController.m */; };
+		E27B020711CE9ACD003B7AE2 /* carte_exterieure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E27B020611CE9ACD003B7AE2 /* carte_exterieure.jpg */; };
 		E27BFEDB11CE70B7003B7AE2 /* CellArtiste.m in Sources */ = {isa = PBXBuildFile; fileRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */; };
 		E27C631211A5CE4E000DF7A5 /* UINavigationBar+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = E27C631111A5CE4E000DF7A5 /* UINavigationBar+Image.m */; };
 		E27C63DC11A5DFC2000DF7A5 /* dapreauTente.png in Resources */ = {isa = PBXBuildFile; fileRef = E27C63DB11A5DFC2000DF7A5 /* dapreauTente.png */; };
@@ -180,7 +181,6 @@
 		E2CEC505115689BA00ABEE81 /* VCDataBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CEC504115689BA00ABEE81 /* VCDataBaseController.m */; };
 		E2CEC509115689DF00ABEE81 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CEC508115689DF00ABEE81 /* libsqlite3.0.dylib */; };
 		E2CEC55E115695E800ABEE81 /* VCConcertParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CEC55D115695E800ABEE81 /* VCConcertParser.m */; };
-		E2E0ED3111CE0FB100026E05 /* carte_exterieure.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E0ED3011CE0FB100026E05 /* carte_exterieure.png */; };
 		E2E341631163AE670073B122 /* ViewLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E341611163AE670073B122 /* ViewLocation.m */; };
 		E2E341641163AE670073B122 /* ViewLocation.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2E341621163AE670073B122 /* ViewLocation.xib */; };
 		E2E3419F1163B0F00073B122 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E3419E1163B0F00073B122 /* CoreLocation.framework */; };
@@ -325,6 +325,7 @@
 		E26F2E931196F3D200D047C6 /* LoadingView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoadingView.png; sourceTree = "<group>"; };
 		E272DAE311650A95004D2B40 /* VCCLLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCCLLocationController.h; sourceTree = "<group>"; };
 		E272DAE411650A95004D2B40 /* VCCLLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCCLLocationController.m; sourceTree = "<group>"; };
+		E27B020611CE9ACD003B7AE2 /* carte_exterieure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carte_exterieure.jpg; sourceTree = "<group>"; };
 		E27BFED911CE70B7003B7AE2 /* CellArtiste.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellArtiste.h; sourceTree = "<group>"; };
 		E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellArtiste.m; sourceTree = "<group>"; };
 		E27C631011A5CE4E000DF7A5 /* UINavigationBar+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Image.h"; sourceTree = "<group>"; };
@@ -401,7 +402,6 @@
 		E2CEC508115689DF00ABEE81 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		E2CEC55C115695E800ABEE81 /* VCConcertParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCConcertParser.h; sourceTree = "<group>"; };
 		E2CEC55D115695E800ABEE81 /* VCConcertParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCConcertParser.m; sourceTree = "<group>"; };
-		E2E0ED3011CE0FB100026E05 /* carte_exterieure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carte_exterieure.png; sourceTree = "<group>"; };
 		E2E341601163AE670073B122 /* ViewLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewLocation.h; sourceTree = "<group>"; };
 		E2E341611163AE670073B122 /* ViewLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewLocation.m; sourceTree = "<group>"; };
 		E2E341621163AE670073B122 /* ViewLocation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewLocation.xib; sourceTree = "<group>"; };
@@ -671,7 +671,7 @@
 		E26BB2AB115BCB3D002D33D3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				E2E0ED3011CE0FB100026E05 /* carte_exterieure.png */,
+				E27B020611CE9ACD003B7AE2 /* carte_exterieure.jpg */,
 				E2B8407B11CCD12B0009ED58 /* carte_interieure.jpg */,
 				B7E7C58911C794060072BD3B /* ImagesArtistes */,
 				B7F304AF11C1102D00793F4C /* icone_vieilles_charrues.png */,
@@ -989,7 +989,7 @@
 				B7E7C62811C7942A0072BD3B /* Artiste1092.jpg in Resources */,
 				B7E7C63011C79D570072BD3B /* VCdataBase.db in Resources */,
 				E2B8407C11CCD12B0009ED58 /* carte_interieure.jpg in Resources */,
-				E2E0ED3111CE0FB100026E05 /* carte_exterieure.png in Resources */,
+				E27B020711CE9ACD003B7AE2 /* carte_exterieure.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

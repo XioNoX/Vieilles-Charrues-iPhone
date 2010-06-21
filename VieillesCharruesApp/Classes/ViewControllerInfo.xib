@@ -2,7 +2,7 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="7.10">
 	<data>
 		<int key="IBDocument.SystemTarget">768</int>
-		<string key="IBDocument.SystemVersion">10D578</string>
+		<string key="IBDocument.SystemVersion">10D573</string>
 		<string key="IBDocument.InterfaceBuilderVersion">762</string>
 		<string key="IBDocument.AppKitVersion">1038.29</string>
 		<string key="IBDocument.HIToolboxVersion">460.00</string>
@@ -74,17 +74,6 @@
 							<string key="NSResourceName">AboutTom.png</string>
 						</object>
 					</object>
-					<object class="IBUIWebView" id="276556308">
-						<reference key="NSNextResponder" ref="877716866"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{11, 74}, {298, 183}}</string>
-						<reference key="NSSuperview" ref="877716866"/>
-						<object class="NSColor" key="IBUIBackgroundColor" id="580362546">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MSAxIDEAA</bytes>
-						</object>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-					</object>
 				</object>
 				<string key="NSFrameSize">{320, 480}</string>
 				<reference key="NSSuperview"/>
@@ -101,7 +90,10 @@
 				<nil key="NSNextResponder"/>
 				<int key="NSvFlags">292</int>
 				<string key="NSFrameSize">{240, 128}</string>
-				<reference key="IBUIBackgroundColor" ref="580362546"/>
+				<object class="NSColor" key="IBUIBackgroundColor">
+					<int key="NSColorSpace">1</int>
+					<bytes key="NSRGB">MSAxIDEAA</bytes>
+				</object>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				<int key="IBUIDataDetectorTypes">1</int>
 				<bool key="IBUIDetectsPhoneNumbers">YES</bool>
@@ -143,14 +135,6 @@
 					</object>
 					<int key="connectionID">20</int>
 				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">textAbout</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="276556308"/>
-					</object>
-					<int key="connectionID">23</int>
-				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -177,7 +161,6 @@
 						<reference key="object" ref="877716866"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="276556308"/>
 							<reference ref="965849744"/>
 						</object>
 						<reference key="parent" ref="0"/>
@@ -192,11 +175,6 @@
 						<reference key="object" ref="965849744"/>
 						<reference key="parent" ref="877716866"/>
 					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">21</int>
-						<reference key="object" ref="276556308"/>
-						<reference key="parent" ref="877716866"/>
-					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -206,7 +184,6 @@
 					<string>-1.CustomClassName</string>
 					<string>-2.CustomClassName</string>
 					<string>18.IBPluginDependency</string>
-					<string>21.IBPluginDependency</string>
 					<string>5.IBEditorWindowLastContentRect</string>
 					<string>5.IBPluginDependency</string>
 					<string>9.IBEditorWindowLastContentRect</string>
@@ -217,10 +194,9 @@
 					<string>ViewControllerInfos</string>
 					<string>UIResponder</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>{{0, 867}, {240, 128}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>{{362, 276}, {320, 480}}</string>
+					<string>{{270, 331}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
 			</object>
