@@ -51,15 +51,19 @@
 
 @property (retain, nonatomic) VCCLLocationController *locationController;
 
--(id)initWithNibName:(NSString*)nibName bundle:(NSBundle *)nibBundleOrNil isExtern:(BOOL)isExtern;
+//-(id)initWithNibName:(NSString*)nibName bundle:(NSBundle *)nibBundleOrNil isExtern:(BOOL)isExtern;
+
+-(id) initMap:(BOOL)isExtern ;
 
 -(void) updateLocation;
 
 -(void) setTenteLocation:(VCTente*)tente;
 
--(void) changerCarte:(id) sender;
+//-(void) changerCarte:(id) sender;
 
 -(float) determinerPositionX:(float) longitude;
 
 -(float) determinerPositionY:(float) latitude;
+
+
 @end

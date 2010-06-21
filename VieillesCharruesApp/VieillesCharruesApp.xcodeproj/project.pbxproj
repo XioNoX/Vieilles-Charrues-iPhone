@@ -124,7 +124,7 @@
 		E24EE8A3119587D000E0ABF9 /* CellDetailsDescription.xib in Resources */ = {isa = PBXBuildFile; fileRef = E24EE8A2119587D000E0ABF9 /* CellDetailsDescription.xib */; };
 		E24EE901119590DB00E0ABF9 /* CellDetailsConcerts.xib in Resources */ = {isa = PBXBuildFile; fileRef = E24EE900119590DB00E0ABF9 /* CellDetailsConcerts.xib */; };
 		E26935171190B38100C7FEAC /* VCHTMLRemover.m in Sources */ = {isa = PBXBuildFile; fileRef = E26935161190B38100C7FEAC /* VCHTMLRemover.m */; };
-		E26BB2A4115BCA7E002D33D3 /* imageTab.png in Resources */ = {isa = PBXBuildFile; fileRef = E26BB2A3115BCA7E002D33D3 /* imageTab.png */; };
+		E26BB2A4115BCA7E002D33D3 /* point_localisation.png in Resources */ = {isa = PBXBuildFile; fileRef = E26BB2A3115BCA7E002D33D3 /* point_localisation.png */; };
 		E26BB2A6115BCA8F002D33D3 /* NewsTab.png in Resources */ = {isa = PBXBuildFile; fileRef = E26BB2A5115BCA8F002D33D3 /* NewsTab.png */; };
 		E26E57E011612A8D00A67968 /* TableViewControllerArtistes.m in Sources */ = {isa = PBXBuildFile; fileRef = E26E57DE11612A8D00A67968 /* TableViewControllerArtistes.m */; };
 		E26F2E941196F3D200D047C6 /* LoadingView.png in Resources */ = {isa = PBXBuildFile; fileRef = E26F2E931196F3D200D047C6 /* LoadingView.png */; };
@@ -182,7 +182,6 @@
 		E2CEC509115689DF00ABEE81 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CEC508115689DF00ABEE81 /* libsqlite3.0.dylib */; };
 		E2CEC55E115695E800ABEE81 /* VCConcertParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CEC55D115695E800ABEE81 /* VCConcertParser.m */; };
 		E2E341631163AE670073B122 /* ViewLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E341611163AE670073B122 /* ViewLocation.m */; };
-		E2E341641163AE670073B122 /* ViewLocation.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2E341621163AE670073B122 /* ViewLocation.xib */; };
 		E2E3419F1163B0F00073B122 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E3419E1163B0F00073B122 /* CoreLocation.framework */; };
 		E2F120C8118732440026B468 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F120C6118732440026B468 /* LoadingView.xib */; };
 		E2F8470211CBDF6200613529 /* VCFluxUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F8470111CBDF6200613529 /* VCFluxUpdater.m */; };
@@ -318,7 +317,7 @@
 		E24EE900119590DB00E0ABF9 /* CellDetailsConcerts.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellDetailsConcerts.xib; sourceTree = "<group>"; };
 		E26935151190B38100C7FEAC /* VCHTMLRemover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCHTMLRemover.h; sourceTree = "<group>"; };
 		E26935161190B38100C7FEAC /* VCHTMLRemover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCHTMLRemover.m; sourceTree = "<group>"; };
-		E26BB2A3115BCA7E002D33D3 /* imageTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageTab.png; sourceTree = "<group>"; };
+		E26BB2A3115BCA7E002D33D3 /* point_localisation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point_localisation.png; sourceTree = "<group>"; };
 		E26BB2A5115BCA8F002D33D3 /* NewsTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewsTab.png; sourceTree = "<group>"; };
 		E26E57DD11612A8D00A67968 /* TableViewControllerArtistes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerArtistes.h; sourceTree = "<group>"; };
 		E26E57DE11612A8D00A67968 /* TableViewControllerArtistes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerArtistes.m; sourceTree = "<group>"; };
@@ -404,7 +403,6 @@
 		E2CEC55D115695E800ABEE81 /* VCConcertParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCConcertParser.m; sourceTree = "<group>"; };
 		E2E341601163AE670073B122 /* ViewLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewLocation.h; sourceTree = "<group>"; };
 		E2E341611163AE670073B122 /* ViewLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewLocation.m; sourceTree = "<group>"; };
-		E2E341621163AE670073B122 /* ViewLocation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewLocation.xib; sourceTree = "<group>"; };
 		E2E3419E1163B0F00073B122 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		E2F120C6118732440026B468 /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
 		E2F8470011CBDF6200613529 /* VCFluxUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCFluxUpdater.h; sourceTree = "<group>"; };
@@ -692,7 +690,7 @@
 				E28E8AAC115B96D7002239D5 /* Facebook.png */,
 				E28E8AAD115B96D7002239D5 /* Twitter.png */,
 				E26BB2A5115BCA8F002D33D3 /* NewsTab.png */,
-				E26BB2A3115BCA7E002D33D3 /* imageTab.png */,
+				E26BB2A3115BCA7E002D33D3 /* point_localisation.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -749,7 +747,6 @@
 			children = (
 				E272DAE311650A95004D2B40 /* VCCLLocationController.h */,
 				E272DAE411650A95004D2B40 /* VCCLLocationController.m */,
-				E2E341621163AE670073B122 /* ViewLocation.xib */,
 				E2E341601163AE670073B122 /* ViewLocation.h */,
 				E2E341611163AE670073B122 /* ViewLocation.m */,
 				E2CDB2B311A1AFB0006F63D6 /* ViewPlanVC.h */,
@@ -857,9 +854,8 @@
 				E281CA6311594F59004044F8 /* NewsDetailsView.xib in Resources */,
 				E28E8AAE115B96D7002239D5 /* Facebook.png in Resources */,
 				E28E8AAF115B96D7002239D5 /* Twitter.png in Resources */,
-				E26BB2A4115BCA7E002D33D3 /* imageTab.png in Resources */,
+				E26BB2A4115BCA7E002D33D3 /* point_localisation.png in Resources */,
 				E26BB2A6115BCA8F002D33D3 /* NewsTab.png in Resources */,
-				E2E341641163AE670073B122 /* ViewLocation.xib in Resources */,
 				E21611D9118323FB00341CA2 /* CellConcert.xib in Resources */,
 				E29A5F00118708E700417F07 /* BandeauVieillesCharrues.png in Resources */,
 				E2F120C8118732440026B468 /* LoadingView.xib in Resources */,

@@ -92,29 +92,53 @@
 	self = [super init];
 	
 	[self setEdgesForExternMap:isExtern];
-
+	
+	locationController = [[VCCLLocationController alloc] init];
+	
+	[locationController setAppelant:self];
 	
 	carteScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 367.0)];
+	[carteScrollView setDelegate:self];
+	[carteScrollView setMultipleTouchEnabled:YES];
 	
-	carte = [[UIImageView alloc] init];
+	plan = [[UIView alloc] init];
+	
+	
 	UIImage *imageCarte = nil;
 	[carteScrollView setZoomScale:0];
 	
 	if(isExtern) {
 		imageCarte = [UIImage imageNamed:@"carte_exterieure.jpg"];
-		[carte setFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/4, imageCarte.size.height/4)];
+		carte = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/4, imageCarte.size.height/4)];
 		[self setEdgesForExternMap:YES];
 		
 	}
 	else {
 		imageCarte = [UIImage imageNamed:@"carte_interieure.jpg"];
-		[carte setFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/2, imageCarte.size.height/2)];
+		carte = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/2.5, imageCarte.size.height/2.5)];
 		[self setEdgesForExternMap:NO];
 	}
 	[carte setImage:imageCarte];
-	[carteScrollView addSubview:carte];
-	[carteScrollView setContentSize:carte.frame.size];
 	[imageCarte release];
+	
+	pointLocalisation = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"point_localisation.png"]];
+	
+	[plan setFrame:carte.frame];
+	[plan addSubview:carte];
+	[plan addSubview:pointLocalisation];
+	[carteScrollView setMaximumZoomScale:3];
+	[carteScrollView setMinimumZoomScale:1];
+	
+	[carteScrollView addSubview:plan];
+	[carteScrollView setContentSize:carte.frame.size];
+	
+	//[carteScrollView setZoomScale:1/4];
+	[carte release];
+	
+	[self setView:carteScrollView];
+	[carteScrollView release];
+	
+	
 	
 	/*NSArray *choixSegmentedControll = [NSArray arrayWithObjects:@"Interieure", @"Exterieure", nil];
 	
@@ -159,10 +183,7 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];    
-	contenantPlan.delegate = self;
 	
-	locationController = [[VCCLLocationController alloc] init];
-	locationController.appelant = self;
     //[locationController.locationManager startUpdatingLocation];
 	
 }
@@ -234,6 +255,8 @@
 {
 	pointLocalisation.transform = CGAffineTransformMakeScale(1/sqrt(scale), 1/sqrt(scale));
 	pointTente.transform = CGAffineTransformMakeScale(1/sqrt(scale), 1/sqrt(scale));
+	
+	[carteScrollView setContentSize:plan.frame.size];
 }
 
 
