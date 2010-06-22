@@ -230,8 +230,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -273,7 +271,10 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>25</integer>
+									<integer>7</integer>
+									<integer>3</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -307,6 +308,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -324,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E2F04F3011D125F900682CB6</string>
+										<string>E2F04F3E11D129BC00682CB6</string>
 										<key>history</key>
 										<array>
 											<string>E2C111F81189C783007C69D9</string>
@@ -424,7 +427,6 @@
 											<string>E2CAA53F11D00ED00025D7E6</string>
 											<string>E2CAA54011D00ED00025D7E6</string>
 											<string>E2CAA54111D00ED00025D7E6</string>
-											<string>E2CAA55011D010850025D7E6</string>
 											<string>E2CAA55111D010850025D7E6</string>
 											<string>E2CAA55211D010850025D7E6</string>
 											<string>E2CAA57011D012D40025D7E6</string>
@@ -441,11 +443,12 @@
 											<string>E2F04F1111D123A900682CB6</string>
 											<string>E2F04F1211D123A900682CB6</string>
 											<string>E2F04F2511D1252F00682CB6</string>
-											<string>E2F04F2611D1252F00682CB6</string>
 											<string>E2F04F2711D1252F00682CB6</string>
 											<string>E2F04F2811D1252F00682CB6</string>
 											<string>E2F04F2911D1252F00682CB6</string>
-											<string>E2F04F2F11D125F900682CB6</string>
+											<string>E2F04F3311D127E000682CB6</string>
+											<string>E2F04F3C11D129BC00682CB6</string>
+											<string>E2F04F3D11D129BC00682CB6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -643,14 +646,14 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>E2F04F2C11D1252F00682CB6</string>
-		<string>1C530D57069F1CE1000CFCEE</string>
+		<string>E2F04F3F11D129BC00682CB6</string>
 		<string>E2F04EE711D1221200682CB6</string>
 		<string>E2F04EE811D1221200682CB6</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>E2CEC4521156723F00ABEE81</string>
-		<string>1C78EAAD065D492600B07095</string>
+		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/VieillesCharruesApp.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>5 101 1468 927 0 0 1680 1028 </string>
@@ -889,12 +892,14 @@
 							<key>Dock</key>
 							<array>
 								<dict>
+									<key>BecomeActive</key>
+									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
 										<string>1CDD528C0622207200134675</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ViewOuEstMaTente.m</string>
+										<string>ViewLocation.m</string>
 										<key>StatusBarVisibility</key>
 										<true/>
 									</dict>
@@ -915,8 +920,6 @@
 							<string>321pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -962,7 +965,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C530D57069F1CE1000CFCEE</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

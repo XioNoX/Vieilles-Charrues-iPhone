@@ -191,6 +191,7 @@
     return cell;
 }
 
+
 -(BOOL) determinerZone:(VCTente *) tente {
 	
 	return tente.longitude >= pointInternHautGauche.y && tente.latitude >= pointInternHautGauche.x && tente.latitude <= pointInternBasDroit.x && tente.longitude <= pointInternBasDroit.y;

@@ -210,10 +210,10 @@
 		pointLocalisation.frame = CGRectMake(positionX, positionY, pointLocalisation.frame.size.width, pointLocalisation.frame.size.height);
 	}
 	else {
-		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Attention" message:@"Vous n'etes pas sur le site du festival" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+		//UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Attention" message:@"Vous n'etes pas sur le site du festival" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
 		
-		[alert show];
-		[alert release];
+		//[alert show];
+		//[alert release];
 	}
 
 }
@@ -224,11 +224,22 @@
 	nomTente.text = tente.nom;
 	[pointTente setHidden:NO];
 	
-	float positionX = [self determinerPositionX:tente.latitude] - (pointTente.frame.size.width/2);
-	float positionY = [self determinerPositionY:tente.longitude] - (pointTente.frame.size.height/2);
+	CGPoint positionTente = CGPointMake(tente.latitude, tente.longitude);
 	
+	if([self isInBounds:positionTente]) {
+		float positionX = [self determinerPositionX:tente.latitude] - (pointTente.frame.size.width/2);
+		float positionY = [self determinerPositionY:tente.longitude] - (pointTente.frame.size.height/2);
+		
+		pointTente.frame = CGRectMake(positionX, positionY, pointTente.frame.size.width, pointTente.frame.size.height);
+	}
+	else {
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Attention" message:@"Cette tente n'est pas sur le site du festival" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+		
+		[alert show];
+		[alert release];
+	}
+
 	
-	pointTente.frame = CGRectMake(positionX, positionY, pointTente.frame.size.width, pointTente.frame.size.height);
 }
 
 -(UIView*)viewForZoomingInScrollView:(UIScrollView*) view
