@@ -75,15 +75,15 @@
 
 -(void) addLoadingScreen {
 	
-	loadingView = [[UIView alloc] initWithFrame:CGRectMake(0.0, 64.0, 320.0, 367.0)];
+	loadingView = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 367.0)];
 	[loadingView setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:0.5]];
 	UIActivityIndicatorView *indic = [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(145.0, 170.0, 30.0, 30.0)];
 	[indic setActivityIndicatorViewStyle:UIActivityIndicatorViewStyleWhite];
 	[indic startAnimating];
 	[loadingView addSubview:indic];
 	[indic release];
-	VieillesCharruesAppAppDelegate *appDelegate = (VieillesCharruesAppAppDelegate *)[[UIApplication sharedApplication] delegate];
-	[appDelegate.window addSubview:loadingView];
+	
+	[plan addSubview:loadingView];
 	
 }
 
