@@ -372,6 +372,8 @@
 			E2F04F3C11D129BC00682CB6 /* PBXTextBookmark */ = E2F04F3C11D129BC00682CB6 /* PBXTextBookmark */;
 			E2F04F3D11D129BC00682CB6 /* PBXTextBookmark */ = E2F04F3D11D129BC00682CB6 /* PBXTextBookmark */;
 			E2F04F3E11D129BC00682CB6 /* PBXTextBookmark */ = E2F04F3E11D129BC00682CB6 /* PBXTextBookmark */;
+			E2F04F4411D12A2D00682CB6 /* PBXTextBookmark */ = E2F04F4411D12A2D00682CB6 /* PBXTextBookmark */;
+			E2F04F4511D12A2D00682CB6 /* PBXTextBookmark */ = E2F04F4511D12A2D00682CB6 /* PBXTextBookmark */;
 			E2FF9B3311909BF600FFE475 = E2FF9B3311909BF600FFE475 /* PBXTextBookmark */;
 		};
 		sourceControlManager = E2CEC4541156723F00ABEE81 /* Source Control */;
@@ -591,7 +593,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		location = libobjc.A.dylib;
-		modificationTime = 298919906.141733;
+		modificationTime = 298920381.70608;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 		symbolName = objc_exception_throw;
@@ -2568,10 +2570,10 @@
 		path = "/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/Classes/ViewLocation.m";
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1630, 291}\";\n            s = 0;\n        },\n                {\n            r = \"{1953, 701}\";\n            s = 0;\n        },\n                {\n            r = \"{2687, 2402}\";\n            s = 0;\n        },\n                {\n            r = \"{5135, 155}\";\n            s = 0;\n        },\n                {\n            r = \"{5332, 96}\";\n            s = 0;\n        },\n                {\n            r = \"{5480, 164}\";\n            s = 0;\n        },\n                {\n            r = \"{5694, 162}\";\n            s = 0;\n        },\n                {\n            r = \"{5893, 169}\";\n            s = 0;\n        },\n                {\n            r = \"{6089, 868}\";\n            s = 0;\n        },\n                {\n            r = \"{7829, 16}\";\n            s = 0;\n        },\n                {\n            r = \"{7954, 227}\";\n            s = 0;\n        },\n                {\n            r = \"{8218, 155}\";\n            s = 0;\n        },\n                {\n            r = \"{8399, 83}\";\n            s = 0;\n        },\n                {\n            r = \"{8503, 226}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 8738}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1098, 1612}}";
-			sepNavSelRange = "{2522, 0}";
-			sepNavVisRange = "{2068, 941}";
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1630, 291}\";\n            s = 0;\n        },\n                {\n            r = \"{1953, 701}\";\n            s = 0;\n        },\n                {\n            r = \"{2687, 2402}\";\n            s = 0;\n        },\n                {\n            r = \"{5135, 155}\";\n            s = 0;\n        },\n                {\n            r = \"{5332, 96}\";\n            s = 0;\n        },\n                {\n            r = \"{5480, 164}\";\n            s = 0;\n        },\n                {\n            r = \"{5694, 162}\";\n            s = 0;\n        },\n                {\n            r = \"{5893, 169}\";\n            s = 0;\n        },\n                {\n            r = \"{6089, 868}\";\n            s = 0;\n        },\n                {\n            r = \"{7831, 16}\";\n            s = 0;\n        },\n                {\n            r = \"{7956, 227}\";\n            s = 0;\n        },\n                {\n            r = \"{8220, 155}\";\n            s = 0;\n        },\n                {\n            r = \"{8401, 83}\";\n            s = 0;\n        },\n                {\n            r = \"{8505, 226}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 8740}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1098, 1625}}";
+			sepNavSelRange = "{2410, 0}";
+			sepNavVisRange = "{1960, 1023}";
 		};
 	};
 	E2F04F3611D127E000682CB6 /* PBXTextBookmark */ = {
@@ -2609,10 +2611,30 @@
 		fRef = E2F04F3511D127E000682CB6 /* ViewLocation.m */;
 		name = "ViewLocation.m: 233";
 		rLen = 0;
-		rLoc = 7521;
+		rLoc = 7523;
 		rType = 0;
 		vrLen = 1418;
 		vrLoc = 7067;
+	};
+	E2F04F4411D12A2D00682CB6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2F04F3511D127E000682CB6 /* ViewLocation.m */;
+		name = "ViewLocation.m: 233";
+		rLen = 0;
+		rLoc = 7523;
+		rType = 0;
+		vrLen = 1418;
+		vrLoc = 7067;
+	};
+	E2F04F4511D12A2D00682CB6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2F04F3511D127E000682CB6 /* ViewLocation.m */;
+		name = "ViewLocation.m: 232";
+		rLen = 0;
+		rLoc = 7409;
+		rType = 0;
+		vrLen = 1418;
+		vrLoc = 6959;
 	};
 	E2F8470011CBDF6200613529 /* VCFluxUpdater.h */ = {
 		uiCtxt = {

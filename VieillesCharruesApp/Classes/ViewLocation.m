@@ -221,8 +221,6 @@
 -(void) setTenteLocation:(VCTente *)tenteParam
 {
 	tente = [tenteParam retain];
-	nomTente.text = tente.nom;
-	[pointTente setHidden:NO];
 	
 	CGPoint positionTente = CGPointMake(tente.latitude, tente.longitude);
 	
@@ -230,6 +228,8 @@
 		float positionX = [self determinerPositionX:tente.latitude] - (pointTente.frame.size.width/2);
 		float positionY = [self determinerPositionY:tente.longitude] - (pointTente.frame.size.height/2);
 		
+		nomTente.text = tente.nom;
+		[pointTente setHidden:NO];
 		pointTente.frame = CGRectMake(positionX, positionY, pointTente.frame.size.width, pointTente.frame.size.height);
 	}
 	else {
