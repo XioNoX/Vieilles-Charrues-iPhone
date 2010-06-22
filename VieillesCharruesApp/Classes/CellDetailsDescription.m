@@ -55,6 +55,7 @@
 
 
 - (void)dealloc {
+	[description release];
     [super dealloc];
 }
 

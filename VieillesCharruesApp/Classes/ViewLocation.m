@@ -119,7 +119,6 @@
 		[self setEdgesForExternMap:NO];
 	}
 	[carte setImage:imageCarte];
-	[imageCarte release];
 	
 	pointLocalisation = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"point_localisation.png"]];
 	[pointLocalisation setHidden:YES];
@@ -200,8 +199,8 @@
 
 -(void) updateLocation
 {
-	locationAcutelle.y = -3.5624027; //self.locationController.locAtuelle.coordinate.longitude;  
-	locationAcutelle.x = 48.2702259; //self.locationController.locAtuelle.coordinate.latitude;
+	locationAcutelle.y = self.locationController.locAtuelle.coordinate.longitude;  // -3.5624027;
+	locationAcutelle.x = self.locationController.locAtuelle.coordinate.latitude; 	//48.2702259;
 	
 	if ([self isInBounds:locationAcutelle]) {
 		[pointLocalisation setHidden:NO];

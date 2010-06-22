@@ -26,11 +26,11 @@
 
 @interface TableViewDetailsConcert : UITableViewController
 {
-	VCArtiste *artiste;
-	NSArray *listeConcert;
-	NSDictionary *dictionnaireDesScenes;
-	NSDictionary *dictionnaireDesJours;
-	CGFloat hauteurDescription;
+	VCArtiste			*artiste;
+	NSArray				*listeConcert;
+	NSDictionary		*dictionnaireDesScenes;
+	NSDictionary		*dictionnaireDesJours;
+	CGFloat				hauteurDescription;
 }
 
 -(void) initWithArtiste:(VCArtiste*)artisteCourant Concerts:(NSArray*)concertCourant;

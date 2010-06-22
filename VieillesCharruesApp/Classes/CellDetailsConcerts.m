@@ -55,6 +55,10 @@
 
 
 - (void)dealloc {
+	[nomScene release];
+	[heure release];
+	[nomJour release];
+	
     [super dealloc];
 }
 

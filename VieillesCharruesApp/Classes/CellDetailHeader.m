@@ -46,4 +46,14 @@
 	[imageGroupe setImage:imageArtiste];
 }
 
+-(void) dealloc {
+	[genre release];
+	[imageGroupe release];
+	[nomGroupe release];
+	[origine release];
+	[site release];
+	
+	[super dealloc];
+}
+
 @end

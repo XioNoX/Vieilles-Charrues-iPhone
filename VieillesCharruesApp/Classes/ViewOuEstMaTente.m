@@ -113,8 +113,8 @@
 
 -(void)updateLocation
 {
-	CGFloat longit = -3.5609436; //locationController.locationManager.location.coordinate.longitude;
-	CGFloat latit = 48.2785092;// locationController.locationManager.location.coordinate.latitude;
+	CGFloat longit = locationController.locationManager.location.coordinate.longitude;
+	CGFloat latit = locationController.locationManager.location.coordinate.latitude;
 	
 	
 	if(longit != 0.0 || latit != 0.0)

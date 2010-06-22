@@ -24,11 +24,11 @@
 #import "VCArtiste.h"
 
 @interface CellDetailHeader : UITableViewCell {
-    IBOutlet UILabel *genre;
-    IBOutlet UIImageView *imageGroupe;
-    IBOutlet UILabel *nomGroupe;
-    IBOutlet UILabel *origine;
-	IBOutlet UITextView *site;
+    IBOutlet UILabel		*genre;
+    IBOutlet UIImageView	*imageGroupe;
+    IBOutlet UILabel		*nomGroupe;
+    IBOutlet UILabel		*origine;
+	IBOutlet UITextView		*site;
 }
 
 

@@ -209,12 +209,13 @@
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 	int idArtiste = [tableView cellForRowAtIndexPath:indexPath].tag;
 	
-	VCArtiste *artisteCourant = [dataBase getArtiste:idArtiste];
+	VCArtiste *artisteCourant = [[VCDataBaseController sharedInstance] getArtiste:idArtiste];
 	
-	TableViewDetailsConcert *anotherViewController = [[TableViewDetailsConcert alloc] init];
+	TableViewDetailsConcert *anotherViewController = [[TableViewDetailsConcert alloc] initWithNibName:@"TableViewDetailsConcert" bundle:nil];
 	
 	[self.navigationController pushViewController:anotherViewController animated:YES];
 	
@@ -235,7 +236,6 @@
 
 
 - (void)dealloc {
-	[dataBase release];
 	[listeGroupe release];
 	[listeConcertParScene release];
 	[tableauDesScenes release];

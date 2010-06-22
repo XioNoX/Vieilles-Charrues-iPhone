@@ -428,6 +428,7 @@ static VCDataBaseController *sharedInstance = nil;
 			VCArtiste *artiste = [[VCArtiste alloc] initWithSQLStatement:statement];
 			
 			[retour addObject:artiste];
+			[artiste release];
 		}
 	}
 	

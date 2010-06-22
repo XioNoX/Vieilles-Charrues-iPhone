@@ -17,7 +17,7 @@
 
 -(id) init {
 	if(self = [super init]) {
-		[self setView:[[UIView alloc] initWithFrame:CGRectMake(.0, .0, 320.0, 367.0)]];
+		[self setView:[[[UIView alloc] initWithFrame:CGRectMake(.0, .0, 320.0, 367.0)] autorelease]];
 		[self.view setBackgroundColor:[UIColor whiteColor]];
 		
 		artistesTableView = [[[UITableView alloc] initWithFrame:CGRectMake(.0, .0, 320.0, 367.0)] retain];
@@ -65,9 +65,7 @@
 	}
 	[arrayOfLetters addObject:lettreCourante];
 	[BandSorted setObject:tempArrayOfBand forKey:lettreCourante];
-	[lettreCourante release];
-	[lettrePrecedente release];
-	
+	[tempArrayOfBand release];
 }
 
 
@@ -113,14 +111,10 @@
     
     CellArtiste *cell = (CellArtiste*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-		//cell = [[[NSBundle mainBundle] loadNibNamed:@"CellConcert" owner:self options:nil] objectAtIndex:0];
 		cell = [[[CellArtiste alloc] initWithStyle:UITableViewCellAccessoryDisclosureIndicator reuseIdentifier:CellIdentifier] autorelease];
     }
 	
 	
-	
-	
-    //cell.groupe.text = [listeGroupe objectForKey:[NSString stringWithFormat:@"%i",[[arrayOfBandOrdered objectAtIndex:indexPath.row]intValue]]];
 	[cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
 	VCArtiste *artiste = [[BandSorted objectForKey:[arrayOfLetters objectAtIndex:indexPath.section]] objectAtIndex:indexPath.row];
 	
@@ -154,7 +148,6 @@
 
 - (void)dealloc {
 	[artistesTableView release];
-	[dataBase release];
 	[arrayOfBandOrdered release];
 	[BandSorted release];
 	[arrayOfLetters release];
