@@ -130,8 +130,10 @@
 	
 	self = [super init];
 	
-	[self addLoadingScreen];
 	
+	plan = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 367.0)];
+	
+	[self addLoadingScreen];
 	isExtern = isExternParam;
 	
 	[self setEdgesForExternMap:isExtern];
@@ -143,8 +145,6 @@
 	carteScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 367.0)];
 	[carteScrollView setDelegate:self];
 	[carteScrollView setMultipleTouchEnabled:YES];
-	
-	plan = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 367.0)];
 	
 	[self performSelectorInBackground:@selector(loadImage) withObject:nil];
 	/*if(isExtern) {
@@ -180,8 +180,6 @@
 	[pointTente setHidden:YES];
 	[imageDrapeauTente release];
 	
-	/*[plan setFrame:carte.frame];
-	[plan addSubview:carte];*/
 	
 	[plan addSubview:pointTente];
 	[plan addSubview:pointLocalisation];

@@ -263,6 +263,7 @@
 			E25E37C511D159C100DF12B9 /* PBXTextBookmark */ = E25E37C511D159C100DF12B9 /* PBXTextBookmark */;
 			E25E37C811D15A3C00DF12B9 /* PBXTextBookmark */ = E25E37C811D15A3C00DF12B9 /* PBXTextBookmark */;
 			E25E37CE11D15A5700DF12B9 /* PBXTextBookmark */ = E25E37CE11D15A5700DF12B9 /* PBXTextBookmark */;
+			E25E37D111D15AC500DF12B9 /* PBXTextBookmark */ = E25E37D111D15AC500DF12B9 /* PBXTextBookmark */;
 			E26F2E7A1196F33000D047C6 = E26F2E7A1196F33000D047C6 /* PBXTextBookmark */;
 			E26F2E7B1196F33000D047C6 = E26F2E7B1196F33000D047C6 /* PBXTextBookmark */;
 			E2728052118C775E00D48726 = E2728052118C775E00D48726 /* PBXTextBookmark */;
@@ -589,7 +590,7 @@
 		fRef = E2F04F3511D127E000682CB6 /* ViewLocation.m */;
 		name = "ViewLocation.m: 130";
 		rLen = 0;
-		rLoc = 4008;
+		rLoc = 4013;
 		rType = 0;
 		vrLen = 1389;
 		vrLoc = 3100;
@@ -609,7 +610,7 @@
 		fRef = E2F04F3511D127E000682CB6 /* ViewLocation.m */;
 		name = "ViewLocation.m: 131";
 		rLen = 0;
-		rLoc = 4011;
+		rLoc = 4013;
 		rType = 0;
 		vrLen = 1435;
 		vrLoc = 3102;
@@ -729,7 +730,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 197";
 		rLen = 0;
-		rLoc = 6333;
+		rLoc = 6273;
 		rType = 0;
 		vrLen = 4246;
 		vrLoc = 4861;
@@ -739,7 +740,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 170";
 		rLen = 0;
-		rLoc = 5700;
+		rLoc = 5640;
 		rType = 0;
 		vrLen = 2358;
 		vrLoc = 3051;
@@ -749,7 +750,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 170";
 		rLen = 0;
-		rLoc = 5700;
+		rLoc = 5640;
 		rType = 0;
 		vrLen = 3398;
 		vrLoc = 3935;
@@ -769,7 +770,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 168";
 		rLen = 0;
-		rLoc = 5698;
+		rLoc = 5638;
 		rType = 0;
 		vrLen = 2493;
 		vrLoc = 2986;
@@ -779,7 +780,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 169";
 		rLen = 0;
-		rLoc = 5700;
+		rLoc = 5640;
 		rType = 0;
 		vrLen = 2372;
 		vrLoc = 3012;
@@ -799,7 +800,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 132";
 		rLen = 0;
-		rLoc = 3720;
+		rLoc = 3797;
 		rType = 0;
 		vrLen = 1557;
 		vrLoc = 1444;
@@ -1123,6 +1124,16 @@
 		rType = 0;
 		vrLen = 1603;
 		vrLoc = 1487;
+	};
+	E25E37D111D15AC500DF12B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
+		name = "ViewLocation.m: 136";
+		rLen = 0;
+		rLoc = 3659;
+		rType = 0;
+		vrLen = 1118;
+		vrLoc = 2969;
 	};
 	E26935151190B38100C7FEAC /* VCHTMLRemover.h */ = {
 		uiCtxt = {
@@ -2421,10 +2432,10 @@
 	};
 	E2E341611163AE670073B122 /* ViewLocation.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1678, 296}\";\n            s = 0;\n        },\n                {\n            r = \"{2003, 476}\";\n            s = 0;\n        },\n                {\n            r = \"{3109, 379}\";\n            s = 0;\n        },\n                {\n            r = \"{3528, 2467}\";\n            s = 0;\n        },\n                {\n            r = \"{6041, 155}\";\n            s = 0;\n        },\n                {\n            r = \"{6238, 96}\";\n            s = 0;\n        },\n                {\n            r = \"{6386, 164}\";\n            s = 0;\n        },\n                {\n            r = \"{6600, 162}\";\n            s = 0;\n        },\n                {\n            r = \"{6799, 169}\";\n            s = 0;\n        },\n                {\n            r = \"{6995, 868}\";\n            s = 0;\n        },\n                {\n            r = \"{7914, 761}\";\n            s = 0;\n        },\n                {\n            r = \"{8737, 16}\";\n            s = 0;\n        },\n                {\n            r = \"{8862, 227}\";\n            s = 0;\n        },\n                {\n            r = \"{9126, 155}\";\n            s = 0;\n        },\n                {\n            r = \"{9307, 83}\";\n            s = 0;\n        },\n                {\n            r = \"{9411, 226}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 9646}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {963, 1352}}";
-			sepNavSelRange = "{1798, 0}";
-			sepNavVisRange = "{1487, 833}";
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1678, 296}\";\n            s = 0;\n        },\n                {\n            r = \"{3109, 379}\";\n            s = 0;\n        },\n                {\n            r = \"{5981, 155}\";\n            s = 0;\n        },\n                {\n            r = \"{6178, 96}\";\n            s = 0;\n        },\n                {\n            r = \"{6326, 164}\";\n            s = 0;\n        },\n                {\n            r = \"{6540, 162}\";\n            s = 0;\n        },\n                {\n            r = \"{6739, 169}\";\n            s = 0;\n        },\n                {\n            r = \"{6935, 868}\";\n            s = 0;\n        },\n                {\n            r = \"{7854, 761}\";\n            s = 0;\n        },\n                {\n            r = \"{8677, 16}\";\n            s = 0;\n        },\n                {\n            r = \"{8802, 227}\";\n            s = 0;\n        },\n                {\n            r = \"{9066, 155}\";\n            s = 0;\n        },\n                {\n            r = \"{9247, 83}\";\n            s = 0;\n        },\n                {\n            r = \"{9351, 226}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 9586}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {963, 2613}}";
+			sepNavSelRange = "{2986, 0}";
+			sepNavVisRange = "{2674, 740}";
 			sepNavWindowFrame = "{{15, 87}, {968, 936}}";
 		};
 	};
