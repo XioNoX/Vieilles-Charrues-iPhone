@@ -20,6 +20,7 @@
  */
 
 #import "ViewLocation.h"
+#import "VieillesCharruesAppAppDelegate.h"
 
 //#define LONGITUDE_MIN 48.267912
 //#define LATITUDE_MIN -3.552689
@@ -52,9 +53,9 @@
 
 @synthesize locationController;
 
--(void) setEdgesForExternMap:(BOOL) isExtern {
+-(void) setEdgesForExternMap:(BOOL) isExternParam {
 	
-	if (!isExtern) {
+	if (!isExternParam) {
 		pointHautGauche.x = 48.26758;
 		pointHautGauche.y = -3.56220;
 		
@@ -72,24 +73,67 @@
 	
 }
 
--(void) recalculateLocation {
+-(void) addLoadingScreen {
 	
-	float positionX = [self determinerPositionX:locationAcutelle.x] - (pointLocalisation.frame.size.height/2);
-	float positionY = [self determinerPositionY:locationAcutelle.y] - (pointLocalisation.frame.size.width/2);
-	
-	if (![pointTente isHidden]) {
-		float posTenteX = [self determinerPositionX:tente.longitude] - (pointTente.frame.size.width/2);
-		float positionY = [self determinerPositionY:tente.latitude]- (pointTente.frame.size.height/2);
-		pointTente.frame = CGRectMake(posTenteX, positionY, pointTente.frame.size.width, pointTente.frame.size.height);
-	}
-	
-	pointLocalisation.frame = CGRectMake(positionX, positionY, pointLocalisation.frame.size.width, pointLocalisation.frame.size.height);
+	loadingView = [[UIView alloc] initWithFrame:CGRectMake(0.0, 64.0, 320.0, 367.0)];
+	[loadingView setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:0.5]];
+	UIActivityIndicatorView *indic = [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(145.0, 170.0, 30.0, 30.0)];
+	[indic setActivityIndicatorViewStyle:UIActivityIndicatorViewStyleWhite];
+	[indic startAnimating];
+	[loadingView addSubview:indic];
+	[indic release];
+	VieillesCharruesAppAppDelegate *appDelegate = (VieillesCharruesAppAppDelegate *)[[UIApplication sharedApplication] delegate];
+	[appDelegate.window addSubview:loadingView];
 	
 }
 
--(id) initMap:(BOOL)isExtern {
+-(void) imageDidFinishLoading: (UIImage *)imageCarte {
+	
+	[carte setImage:imageCarte];
+	NSLog(@"test");
+	if(isExtern) {
+		carte = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/4, imageCarte.size.height/4)];
+		[self setEdgesForExternMap:YES];
+		
+	}
+	else {
+		carte = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/2.5, imageCarte.size.height/2.5)];
+		[self setEdgesForExternMap:NO];
+	}
+	[carte setImage:imageCarte];
+	[plan addSubview:carte];
+	[carteScrollView setContentSize:carte.frame.size];
+	[plan setFrame:carte.frame];
+	[loadingView removeFromSuperview];
+}
+
+-(void) loadImage {
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+	
+	UIImage *image = nil;
+	
+	if (isExtern) {
+		image = [[UIImage imageNamed:@"carte_exterieure.jpg"] retain];
+	}
+	else {
+		
+		image = [[UIImage imageNamed:@"carte_interieure.jpg"] retain];
+	}
+	
+	[self performSelectorOnMainThread:@selector(imageDidFinishLoading:) withObject:image waitUntilDone:NO];
+	
+	[pool release];
+}
+
+
+
+-(id) initMap:(BOOL)isExternParam {
 	
 	self = [super init];
+	
+	[self addLoadingScreen];
+	
+	isExtern = isExternParam;
 	
 	[self setEdgesForExternMap:isExtern];
 	
@@ -101,13 +145,10 @@
 	[carteScrollView setDelegate:self];
 	[carteScrollView setMultipleTouchEnabled:YES];
 	
-	plan = [[UIView alloc] init];
+	plan = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 367.0)];
 	
-	
-	UIImage *imageCarte = nil;
-	[carteScrollView setZoomScale:0];
-	
-	if(isExtern) {
+	[self performSelectorInBackground:@selector(loadImage) withObject:nil];
+	/*if(isExtern) {
 		imageCarte = [UIImage imageNamed:@"carte_exterieure.jpg"];
 		carte = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/4, imageCarte.size.height/4)];
 		[self setEdgesForExternMap:YES];
@@ -118,7 +159,7 @@
 		carte = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/2.5, imageCarte.size.height/2.5)];
 		[self setEdgesForExternMap:NO];
 	}
-	[carte setImage:imageCarte];
+	[carte setImage:imageCarte];*/
 	
 	pointLocalisation = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"point_localisation.png"]];
 	[pointLocalisation setHidden:YES];
@@ -140,15 +181,15 @@
 	[pointTente setHidden:YES];
 	[imageDrapeauTente release];
 	
-	[plan setFrame:carte.frame];
-	[plan addSubview:carte];
+	/*[plan setFrame:carte.frame];
+	[plan addSubview:carte];*/
+	
 	[plan addSubview:pointTente];
 	[plan addSubview:pointLocalisation];
 	[carteScrollView setMaximumZoomScale:3];
 	[carteScrollView setMinimumZoomScale:1];
 	
 	[carteScrollView addSubview:plan];
-	[carteScrollView setContentSize:carte.frame.size];
 	
 	[carte release];
 	

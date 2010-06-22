@@ -24,8 +24,8 @@
 
 @implementation ViewControllerInfos
 
--(void) viewDidLoad
-{
+-(void) viewWillAppear:(BOOL)animated {
+	[super viewWillAppear:animated];
 	[webView loadHTMLString:@"<html style=\"font-family:verdana\">\
 	 <h5>Animaux</h5>\
 	 <p>Les animaux de compagnies ne sont pas admis sur le site, ni dans les campings.</p>\
@@ -97,6 +97,7 @@
 	 <h5>Secours</h5>\
 	 \
 	 <p>En cas d’accident, un service d’urgence est prévu avec La Croix Rouge dans l’enceinte du site. En dehors, il faudra prévenir les pompiers (18), vous rendre à l’hôpital de Carhaix situé rue du Docteur Menguy tél : 02 98 99 20 20, ou bien contacter le SMUR (15).</p></html>" baseURL:nil];
+	
 }
 
 - (IBAction)revealAbout:(id)sender {

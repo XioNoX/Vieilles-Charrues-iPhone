@@ -33,9 +33,12 @@
 	UIImageView					*pointLocalisation;
 	UIImageView					*carte;
 	
+	UIView						*loadingView;
+	
 	UIView						*pointTente;
 	UILabel						*nomTente;
 	
+	BOOL						isExtern;
 	
 	NSTimer						*timer;
 	CGFloat						initialDistance;
