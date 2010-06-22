@@ -21,11 +21,11 @@
 @interface VCFluxUpdater : NSObject {
 
 	
-	
 	id<VCFluxUpdaterDelegate> delegate;
 }
 
 @property (nonatomic, assign) id<VCFluxUpdaterDelegate> delegate;
+
 
 -(void)miseAjourNews;
 -(void)miseAjourProg;

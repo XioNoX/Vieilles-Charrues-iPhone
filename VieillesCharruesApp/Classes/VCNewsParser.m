@@ -28,6 +28,7 @@ didStartElement:(NSString *)elementName
  qualifiedName:(NSString *)qName
 	attributes:(NSDictionary *)attributeDict
 {
+	
 	if ([elementName isEqualToString:@"entry"]) 
 	{
 		isFB = YES;
@@ -110,8 +111,8 @@ foundCharacters:(NSString *)string
 }
 
 -(void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError {
-	;
-	NSLog(@"%@,  %i",[parseError localizedDescription], [parser lineNumber]);
+	
+	NSLog(@"%@,  %i, %@",[parseError localizedDescription], [parser lineNumber], parseError);
 }
 
 @end

@@ -74,6 +74,12 @@
 
 -(void) mettreAJourNews:(NSArray *)listeNews;
 
+-(void) mettreAJourNewsFB:(NSArray *)listeNewsFB;
+  
+-(void) mettreAJourNewsTwit:(NSArray *)listeNewsTwit;
+	
+-(void) mettreAJourNewsVC:(NSArray *)listeNewsVC;
+
 -(void) mettreAJourArtistes:(NSArray *)listeArtistes;
 
 -(void) mettreAJourConcert:(NSArray*)listeConcert;

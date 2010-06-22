@@ -94,8 +94,9 @@
 	[self performSelectorInBackground:@selector(recupererNews) withObject:nil];
 	boutonMiseAjour.enabled = NO;
 	
-	activityIndicator.frame = CGRectMake(07, 27, 30, 30);
-	[self.view.window addSubview:activityIndicator];
+	activityIndicator.frame = CGRectMake(10.0, 10.0, 25, 25);
+	
+	[self.navigationController.navigationBar addSubview:activityIndicator];
 	[activityIndicator startAnimating];
 	
 }
@@ -117,12 +118,41 @@
 #pragma mark MAJ delegate
 
 -(void)majEnded:(int)succes{
-	if (succes == 0) {
-		
-		[self popUpLoadingWithMessage:@"infos mises à jour"];
-		
-		[self reloadTable];	
+	
+	UIAlertView *errorMessage = nil;
+	
+	switch(succes) {
+		case 0:
+			[self popUpLoadingWithMessage:@"infos mises à jour"];
+			[self reloadTable];	
+			break;
+			
+		case -1:
+			errorMessage = [[UIAlertView alloc] initWithTitle:@"Erreur" message:@"Une erreur s'est produite lors de la récupération des actualités. Veuillez véfifier vos paramètres de connexion et reessayer" delegate:nil cancelButtonTitle:@"Fermer" otherButtonTitles:nil];
+			[errorMessage show];
+			[errorMessage release];
+			break;
+			
+		case 1:
+			errorMessage = [[UIAlertView alloc] initWithTitle:@"Erreur" message:@"Une erreur s'est produite lors de la récupération des actualités de facebook." delegate:nil cancelButtonTitle:@"Fermer" otherButtonTitles:nil];
+			[errorMessage show];
+			[errorMessage release];
+			break;
+			
+		case 2:
+			errorMessage = [[UIAlertView alloc] initWithTitle:@"Erreur" message:@"Une erreur s'est produite lors de la récupération des actualités de Twitter." delegate:nil cancelButtonTitle:@"Fermer" otherButtonTitles:nil];
+			[errorMessage show];
+			[errorMessage release];
+			break;
+			
+		case 3:
+			errorMessage = [[UIAlertView alloc] initWithTitle:@"Erreur" message:@"Une erreur s'est produite lors de la récupération des actualités des Vieilles Charrues." delegate:nil cancelButtonTitle:@"Fermer" otherButtonTitles:nil];
+			[errorMessage show];
+			[errorMessage release];
+			break;
 	}
+	
+	[self reloadTable];
 }
 
 // Override to allow orientations other than the default portrait orientation.

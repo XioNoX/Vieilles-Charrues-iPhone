@@ -17,41 +17,70 @@
 
 -(void)miseAjourNews {
 	
-	BOOL parsingSuccess = NO;
+	BOOL parsingSuccessTwit = NO;
+		BOOL parsingSuccessFB = NO;
+		BOOL parsingSuccessVC = NO;
 	
 	NSURL *url = [NSURL URLWithString: TWITSOURCE];
 	
 	VCNewsParser* parser = [[VCNewsParser alloc] initWithContentsOfURL:url andType:@"Twitter"];
 	[parser setDelegate:parser];
-	parsingSuccess = [parser parse];
-	
-	
+	parsingSuccessTwit = [parser parse];
 	
 	url = [NSURL URLWithString:FBSOURCE];
 	[parser initWithContentsOfURL:url andType:@"Facebook"];
 	
-	parsingSuccess = parsingSuccess && [parser parse];
+	parsingSuccessFB = [parser parse];
 	
 	url = [NSURL URLWithString: VCSOURCE];
 	[parser initWithContentsOfURL:url andType:@"VieillesCharrues"];
 	
-	parsingSuccess = parsingSuccess && [parser parse];
+	parsingSuccessVC = [parser parse];
 	
+	BOOL parsingSuccess = parsingSuccessFB && parsingSuccessVC && parsingSuccessTwit;
 	
-	if(parsingSuccess)
-	{
-		[[VCDataBaseController sharedInstance] mettreAJourNews:parser.listeNews];
+	BOOL totalFail = !parsingSuccessFB && !parsingSuccessVC && !parsingSuccessTwit;
+	
+	if(totalFail) {
+		[delegate majEnded:-1];
+	}
+	else {
+		if(parsingSuccess)
+		{
+			[[VCDataBaseController sharedInstance] mettreAJourNews:parser.listeNews];
+			
+			[delegate majEnded:0];
+		}
+		else 
+		{
+			if (parsingSuccessFB)
+				
+				[[VCDataBaseController sharedInstance] mettreAJourNewsFB:parser.listeNews];
+			else {
+				[delegate majEnded:1];
+			}
+			
+			if (parsingSuccessTwit) {
+				[[VCDataBaseController sharedInstance] mettreAJourNewsTwit:parser.listeNews];
+			}
+			else {
+				[delegate majEnded:2];
+			}
+			
+			if (parsingSuccessVC) {
+				[[VCDataBaseController sharedInstance] mettreAJourNewsVC:parser.listeNews];
+			}
+			else {
+				[delegate majEnded:3];
+			}
+			
+			
+			
+		}
 		
-		[delegate majEnded:0];
 	}
-	else 
-	{
-		UIAlertView *errorMessage = [[UIAlertView alloc] initWithTitle:@"Erreur" message:@"Une erreur s'est produite lors de la récupération des actualités. Veuillez véfifier vos paramètres de connexion et reessayer" delegate:nil cancelButtonTitle:@"Fermer" otherButtonTitles:nil];
-		[errorMessage show];
-		[errorMessage release];
-		[delegate majEnded:1];
-	}
-	
+
+		
 	
 	[parser release];
 	

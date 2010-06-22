@@ -27,7 +27,6 @@
 #import "constantes.h"
 #import "VCUtils.h"
 #import "TableViewDetailsConcert.h"
-#import "VCFluxUpdater.h"
 #import "VieillesCharruesAppAppDelegate.h"
 
 
@@ -100,9 +99,9 @@
 	boutonMiseAjour.enabled = NO;
 	
 	
-	activityIndicator.frame = CGRectMake(07, 27, 30, 30);
+	activityIndicator.frame = CGRectMake(10.0, 10.0, 25, 25);
 	
-	[self.view.window addSubview:activityIndicator];
+	[self.navigationController.navigationBar addSubview:activityIndicator];
 	[activityIndicator startAnimating];
 	
 }

@@ -464,6 +464,33 @@ static VCDataBaseController *sharedInstance = nil;
 	}
 }
 
+-(void) mettreAJourNewsFB:(NSArray *)listeNewsFB {
+	const char * req = [[NSString stringWithFormat:@"delete from %@ where source = 'Facebook'", TABLE_NEWS] UTF8String];
+	[self executeRequete:req];
+	for(VCNews* nouvelle in listeNewsFB)
+	{
+		[self ajouterNews:nouvelle];
+	}
+}
+
+-(void) mettreAJourNewsTwit:(NSArray *)listeNewsTwit {
+	const char * req = [[NSString stringWithFormat:@"delete from %@ where source = 'Twitter'", TABLE_NEWS] UTF8String];
+	[self executeRequete:req];
+	for(VCNews* nouvelle in listeNewsTwit)
+	{
+		[self ajouterNews:nouvelle];
+	}
+}
+
+-(void) mettreAJourNewsVC:(NSArray *)listeNewsVC {
+	const char * req = [[NSString stringWithFormat:@"delete from %@  where source = 'VieillesCharrues'", TABLE_NEWS] UTF8String];
+	[self executeRequete:req];
+	for(VCNews* nouvelle in listeNewsVC)
+	{
+		[self ajouterNews:nouvelle];
+	}
+}
+
 -(void) mettreAJourArtistes:(NSArray*) listeArtistes
 {
 	
