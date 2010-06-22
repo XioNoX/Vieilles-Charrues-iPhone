@@ -90,7 +90,6 @@
 -(void) imageDidFinishLoading: (UIImage *)imageCarte {
 	
 	[carte setImage:imageCarte];
-	NSLog(@"test");
 	if(isExtern) {
 		carte = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/4, imageCarte.size.height/4)];
 		[self setEdgesForExternMap:YES];

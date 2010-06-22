@@ -324,7 +324,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E25E37C811D15A3C00DF12B9</string>
+										<string>E25E37CE11D15A5700DF12B9</string>
 										<key>history</key>
 										<array>
 											<string>E2C111F81189C783007C69D9</string>
@@ -643,13 +643,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>E25E37C911D15A3C00DF12B9</string>
 		<string>E25E370111D14B3E00DF12B9</string>
 		<string>E25E370211D14B3E00DF12B9</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>E2CEC4521156723F00ABEE81</string>
-		<string>/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/VieillesCharruesApp.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/VieillesCharruesApp.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>44 101 1468 927 0 0 1680 1028 </string>

@@ -262,6 +262,7 @@
 			E25E37C411D159C100DF12B9 /* PBXTextBookmark */ = E25E37C411D159C100DF12B9 /* PBXTextBookmark */;
 			E25E37C511D159C100DF12B9 /* PBXTextBookmark */ = E25E37C511D159C100DF12B9 /* PBXTextBookmark */;
 			E25E37C811D15A3C00DF12B9 /* PBXTextBookmark */ = E25E37C811D15A3C00DF12B9 /* PBXTextBookmark */;
+			E25E37CE11D15A5700DF12B9 /* PBXTextBookmark */ = E25E37CE11D15A5700DF12B9 /* PBXTextBookmark */;
 			E26F2E7A1196F33000D047C6 = E26F2E7A1196F33000D047C6 /* PBXTextBookmark */;
 			E26F2E7B1196F33000D047C6 = E26F2E7B1196F33000D047C6 /* PBXTextBookmark */;
 			E2728052118C775E00D48726 = E2728052118C775E00D48726 /* PBXTextBookmark */;
@@ -578,7 +579,7 @@
 		fRef = E2F04F3511D127E000682CB6 /* ViewLocation.m */;
 		name = "ViewLocation.m: 91";
 		rLen = 0;
-		rLoc = 3103;
+		rLoc = 3086;
 		rType = 0;
 		vrLen = 1456;
 		vrLoc = 3316;
@@ -588,7 +589,7 @@
 		fRef = E2F04F3511D127E000682CB6 /* ViewLocation.m */;
 		name = "ViewLocation.m: 130";
 		rLen = 0;
-		rLoc = 4025;
+		rLoc = 4008;
 		rType = 0;
 		vrLen = 1389;
 		vrLoc = 3100;
@@ -598,7 +599,7 @@
 		fRef = E2F04F3511D127E000682CB6 /* ViewLocation.m */;
 		name = "ViewLocation.m: 147";
 		rLen = 0;
-		rLoc = 4712;
+		rLoc = 4695;
 		rType = 0;
 		vrLen = 1431;
 		vrLoc = 3358;
@@ -608,7 +609,7 @@
 		fRef = E2F04F3511D127E000682CB6 /* ViewLocation.m */;
 		name = "ViewLocation.m: 131";
 		rLen = 0;
-		rLoc = 4028;
+		rLoc = 4011;
 		rType = 0;
 		vrLen = 1435;
 		vrLoc = 3102;
@@ -618,7 +619,7 @@
 		fRef = E2F04F3511D127E000682CB6 /* ViewLocation.m */;
 		name = "ViewLocation.m: 131";
 		rLen = 0;
-		rLoc = 3393;
+		rLoc = 3376;
 		rType = 0;
 		vrLen = 1815;
 		vrLoc = 1134;
@@ -628,7 +629,7 @@
 		fRef = E2F04F3511D127E000682CB6 /* ViewLocation.m */;
 		name = "ViewLocation.m: 110";
 		rLen = 0;
-		rLoc = 3505;
+		rLoc = 3488;
 		rType = 0;
 		vrLen = 2236;
 		vrLoc = 958;
@@ -638,7 +639,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 110";
 		rLen = 0;
-		rLoc = 3192;
+		rLoc = 3175;
 		rType = 0;
 		vrLen = 1570;
 		vrLoc = 1366;
@@ -648,7 +649,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 97";
 		rLen = 0;
-		rLoc = 3192;
+		rLoc = 3175;
 		rType = 0;
 		vrLen = 1753;
 		vrLoc = 1305;
@@ -658,7 +659,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 133";
 		rLen = 0;
-		rLoc = 4103;
+		rLoc = 4086;
 		rType = 0;
 		vrLen = 1785;
 		vrLoc = 2194;
@@ -668,7 +669,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 126";
 		rLen = 0;
-		rLoc = 3533;
+		rLoc = 3516;
 		rType = 0;
 		vrLen = 1713;
 		vrLoc = 1550;
@@ -678,7 +679,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 114";
 		rLen = 0;
-		rLoc = 3533;
+		rLoc = 3516;
 		rType = 0;
 		vrLen = 1883;
 		vrLoc = 1521;
@@ -688,7 +689,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 114";
 		rLen = 0;
-		rLoc = 3533;
+		rLoc = 3516;
 		rType = 0;
 		vrLen = 1929;
 		vrLoc = 1550;
@@ -698,7 +699,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 114";
 		rLen = 0;
-		rLoc = 3220;
+		rLoc = 3203;
 		rType = 0;
 		vrLen = 1892;
 		vrLoc = 1899;
@@ -708,7 +709,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 98";
 		rLen = 0;
-		rLoc = 3214;
+		rLoc = 3197;
 		rType = 0;
 		vrLen = 1769;
 		vrLoc = 2156;
@@ -718,7 +719,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 78";
 		rLen = 0;
-		rLoc = 2585;
+		rLoc = 2568;
 		rType = 0;
 		vrLen = 1815;
 		vrLoc = 1481;
@@ -728,7 +729,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 197";
 		rLen = 0;
-		rLoc = 6350;
+		rLoc = 6333;
 		rType = 0;
 		vrLen = 4246;
 		vrLoc = 4861;
@@ -738,7 +739,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 170";
 		rLen = 0;
-		rLoc = 5717;
+		rLoc = 5700;
 		rType = 0;
 		vrLen = 2358;
 		vrLoc = 3051;
@@ -748,7 +749,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 170";
 		rLen = 0;
-		rLoc = 5717;
+		rLoc = 5700;
 		rType = 0;
 		vrLen = 3398;
 		vrLoc = 3935;
@@ -758,7 +759,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 133";
 		rLen = 0;
-		rLoc = 4032;
+		rLoc = 4015;
 		rType = 0;
 		vrLen = 2488;
 		vrLoc = 2894;
@@ -768,7 +769,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 168";
 		rLen = 0;
-		rLoc = 5715;
+		rLoc = 5698;
 		rType = 0;
 		vrLen = 2493;
 		vrLoc = 2986;
@@ -778,7 +779,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 169";
 		rLen = 0;
-		rLoc = 5717;
+		rLoc = 5700;
 		rType = 0;
 		vrLen = 2372;
 		vrLoc = 3012;
@@ -788,7 +789,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 132";
 		rLen = 0;
-		rLoc = 4032;
+		rLoc = 4015;
 		rType = 0;
 		vrLen = 2312;
 		vrLoc = 3073;
@@ -798,7 +799,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 132";
 		rLen = 0;
-		rLoc = 3737;
+		rLoc = 3720;
 		rType = 0;
 		vrLen = 1557;
 		vrLoc = 1444;
@@ -808,7 +809,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 88";
 		rLen = 0;
-		rLoc = 2959;
+		rLoc = 2942;
 		rType = 0;
 		vrLen = 1938;
 		vrLoc = 1444;
@@ -818,7 +819,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 107";
 		rLen = 0;
-		rLoc = 3466;
+		rLoc = 3449;
 		rType = 0;
 		vrLen = 1862;
 		vrLoc = 1519;
@@ -828,7 +829,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 107";
 		rLen = 0;
-		rLoc = 3461;
+		rLoc = 3444;
 		rType = 0;
 		vrLen = 1869;
 		vrLoc = 1444;
@@ -838,7 +839,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 88";
 		rLen = 0;
-		rLoc = 2959;
+		rLoc = 2942;
 		rType = 0;
 		vrLen = 1795;
 		vrLoc = 1366;
@@ -868,7 +869,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 122";
 		rLen = 0;
-		rLoc = 3380;
+		rLoc = 3363;
 		rType = 0;
 		vrLen = 1185;
 		vrLoc = 1221;
@@ -898,7 +899,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 122";
 		rLen = 0;
-		rLoc = 3380;
+		rLoc = 3363;
 		rType = 0;
 		vrLen = 643;
 		vrLoc = 2885;
@@ -918,7 +919,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 123";
 		rLen = 0;
-		rLoc = 3380;
+		rLoc = 3363;
 		rType = 0;
 		vrLen = 766;
 		vrLoc = 2728;
@@ -928,7 +929,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 122";
 		rLen = 0;
-		rLoc = 3380;
+		rLoc = 3363;
 		rType = 0;
 		vrLen = 619;
 		vrLoc = 2885;
@@ -1098,7 +1099,7 @@
 		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
 		name = "ViewLocation.m: 122";
 		rLen = 0;
-		rLoc = 3380;
+		rLoc = 3363;
 		rType = 0;
 		vrLen = 4517;
 		vrLoc = 1976;
@@ -1112,6 +1113,16 @@
 		rType = 0;
 		vrLen = 1986;
 		vrLoc = 1524;
+	};
+	E25E37CE11D15A5700DF12B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
+		name = "ViewLocation.m: 92";
+		rLen = 0;
+		rLoc = 2568;
+		rType = 0;
+		vrLen = 1603;
+		vrLoc = 1487;
 	};
 	E26935151190B38100C7FEAC /* VCHTMLRemover.h */ = {
 		uiCtxt = {
@@ -1182,7 +1193,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		location = libobjc.A.dylib;
-		modificationTime = 298932643.000042;
+		modificationTime = 298932797.399542;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 		symbolName = objc_exception_throw;
@@ -2410,10 +2421,10 @@
 	};
 	E2E341611163AE670073B122 /* ViewLocation.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1678, 296}\";\n            s = 0;\n        },\n                {\n            r = \"{2536, 568}\";\n            s = 0;\n        },\n                {\n            r = \"{3126, 379}\";\n            s = 0;\n        },\n                {\n            r = \"{3545, 2467}\";\n            s = 0;\n        },\n                {\n            r = \"{6058, 155}\";\n            s = 0;\n        },\n                {\n            r = \"{6255, 96}\";\n            s = 0;\n        },\n                {\n            r = \"{6403, 164}\";\n            s = 0;\n        },\n                {\n            r = \"{6617, 162}\";\n            s = 0;\n        },\n                {\n            r = \"{6816, 169}\";\n            s = 0;\n        },\n                {\n            r = \"{7012, 868}\";\n            s = 0;\n        },\n                {\n            r = \"{7931, 761}\";\n            s = 0;\n        },\n                {\n            r = \"{8754, 16}\";\n            s = 0;\n        },\n                {\n            r = \"{8879, 227}\";\n            s = 0;\n        },\n                {\n            r = \"{9143, 155}\";\n            s = 0;\n        },\n                {\n            r = \"{9324, 83}\";\n            s = 0;\n        },\n                {\n            r = \"{9428, 226}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 9663}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {963, 1287}}";
-			sepNavSelRange = "{2156, 0}";
-			sepNavVisRange = "{1524, 746}";
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1678, 296}\";\n            s = 0;\n        },\n                {\n            r = \"{2003, 476}\";\n            s = 0;\n        },\n                {\n            r = \"{3109, 379}\";\n            s = 0;\n        },\n                {\n            r = \"{3528, 2467}\";\n            s = 0;\n        },\n                {\n            r = \"{6041, 155}\";\n            s = 0;\n        },\n                {\n            r = \"{6238, 96}\";\n            s = 0;\n        },\n                {\n            r = \"{6386, 164}\";\n            s = 0;\n        },\n                {\n            r = \"{6600, 162}\";\n            s = 0;\n        },\n                {\n            r = \"{6799, 169}\";\n            s = 0;\n        },\n                {\n            r = \"{6995, 868}\";\n            s = 0;\n        },\n                {\n            r = \"{7914, 761}\";\n            s = 0;\n        },\n                {\n            r = \"{8737, 16}\";\n            s = 0;\n        },\n                {\n            r = \"{8862, 227}\";\n            s = 0;\n        },\n                {\n            r = \"{9126, 155}\";\n            s = 0;\n        },\n                {\n            r = \"{9307, 83}\";\n            s = 0;\n        },\n                {\n            r = \"{9411, 226}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 9646}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {963, 1352}}";
+			sepNavSelRange = "{1798, 0}";
+			sepNavVisRange = "{1487, 833}";
 			sepNavWindowFrame = "{{15, 87}, {968, 936}}";
 		};
 	};
