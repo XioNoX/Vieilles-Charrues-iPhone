@@ -18,8 +18,8 @@
 -(void)miseAjourNews {
 	
 	BOOL parsingSuccessTwit = NO;
-		BOOL parsingSuccessFB = NO;
-		BOOL parsingSuccessVC = NO;
+	BOOL parsingSuccessFB = NO;
+	BOOL parsingSuccessVC = NO;
 	
 	NSURL *url = [NSURL URLWithString: TWITSOURCE];
 	
@@ -27,13 +27,21 @@
 	[parser setDelegate:parser];
 	parsingSuccessTwit = [parser parse];
 	
+	
 	url = [NSURL URLWithString:FBSOURCE];
+	
 	[parser initWithContentsOfURL:url andType:@"Facebook"];
 	
 	parsingSuccessFB = [parser parse];
 	
 	url = [NSURL URLWithString: VCSOURCE];
 	[parser initWithContentsOfURL:url andType:@"VieillesCharrues"];
+	
+	
+	NSError *test = nil;
+	NSString *strXml = [NSString stringWithContentsOfURL:[NSURL URLWithString: VCSOURCE] encoding:NSUTF8StringEncoding error:&test];
+	if(test) NSLog(@"%@", [test localizedDescription]);
+	NSLog(@"%@", strXml);
 	
 	parsingSuccessVC = [parser parse];
 	

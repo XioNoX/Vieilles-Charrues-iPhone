@@ -8,6 +8,7 @@
  */
 
 #define VCSOURCE @"http://www.vieillescharrues.asso.fr/news/news/actus?format=feed&type=atom"
+//#define VCSOURCE @"file://localhost/Users/tom/Desktop/testVieillesCharrues/test.xml"
 #define FBSOURCE @"http://www.facebook.com/feeds/page.php?format=atom10&id=289571039510"
 #define TWITSOURCE @"http://twitter.com/statuses/user_timeline/37687733.rss"
 
