@@ -24,14 +24,16 @@
 
 @implementation CellNews
 
-@synthesize datePub, titre;
+@synthesize formateurDeDate, datePub, titre;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
 		
 		[self setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
 		
-		
+		self.formateurDeDate = [[NSDateFormatter alloc] init];
+		[formateurDeDate setDateFormat:@"dd MMM yyyy HH:mm:ss"];
+//		[formateurDeDate setLocale:[[[NSLocale alloc] initWithLocaleIdentifier:@"en_US"] autorelease]];
 		
 		self.datePub = [[UILabel alloc] initWithFrame:CGRectMake(51, 5, 216, 17)];
 		[datePub setFont:[UIFont systemFontOfSize:11]];
@@ -69,13 +71,7 @@
 
 -(void) loadWithNews:(VCNews *) nouvelle andParity:(BOOL)isOdd{
 	
-	NSDateFormatter *formateurDeDate = [[NSDateFormatter alloc] init];
-	[formateurDeDate setDateFormat:@"dd MMM yyyy HH:mm:ss"];
-	[formateurDeDate setLocale:[[[NSLocale alloc] initWithLocaleIdentifier:@"en_US"] autorelease]];
 	NSString *jour = [formateurDeDate stringFromDate:nouvelle.date];
-	[formateurDeDate release];
-	
-	
 	
 	self.tag = [nouvelle.idNews intValue];
 	if([nouvelle.titre length] > 5)
@@ -96,6 +92,7 @@
 
 
 - (void)dealloc {
+	[formateurDeDate release];
 	[colorView release];
 	[datePub release]; 
 	[titre release];
