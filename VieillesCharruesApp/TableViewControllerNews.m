@@ -155,12 +155,6 @@
 	[self reloadTable];
 }
 
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return YES;
-}
-
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
@@ -191,50 +185,26 @@
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *CellIdentifier = @"Cell";
-    
+	
+	VCNews *nouvelle = [listeNews objectAtIndex:indexPath.row];
+    static NSString *CellIdentifier = nil;
+	
+	if([nouvelle.source isEqualToString:@"Twitter"])
+		CellIdentifier = @"CellTwitter";
+	else if([nouvelle.source isEqualToString:@"Facebook"])
+		CellIdentifier = @"CellFacebook";
+	else if([nouvelle.source isEqualToString:@"VieillesCharrues"])
+		CellIdentifier = @"CellVieillesCharrues";
+	
+	
     CellNews *cell = (CellNews*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        //cell = [[[CellNews alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-		cell = [[[NSBundle mainBundle] loadNibNamed:@"CellNews" owner:self options:nil] objectAtIndex:0];
+		cell = [[[CellNews alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
-	VCNews *nouvelle = [listeNews objectAtIndex:indexPath.row];
-	
-	NSDateFormatter *formateurDeDate = [[NSDateFormatter alloc] init];
-	[formateurDeDate setDateFormat:@"dd MMM yyyy HH:mm:ss"];
-	[formateurDeDate setLocale:[[[NSLocale alloc] initWithLocaleIdentifier:@"en_US"] autorelease]];
-	NSString *jour = [formateurDeDate stringFromDate:nouvelle.date];
-	[formateurDeDate release];
-	
-	UIImage *logo = nil;
-	if([nouvelle.source isEqualToString:@"Twitter"])
-		logo = [UIImage imageNamed:@"Twitter.png"];
-	else if([nouvelle.source isEqualToString:@"Facebook"])
-		logo = [UIImage imageNamed:@"Facebook.png"];
-	else if([nouvelle.source isEqualToString:@"VieillesCharrues"])
-		logo = [UIImage imageNamed:@"VieillesCharrues.png"];
-	
-	cell.tag = [nouvelle.idNews intValue];
-	if([nouvelle.titre length] > 5)
-		cell.titre.text = nouvelle.titre;
-	else {
-		cell.titre.text = nouvelle.description;
-	}
-
-	cell.datePub.text = jour;
-	[cell.logo setImage:logo];
-	
 	int res = indexPath.row%2;
 	
-	if(res == 0)
-	{
-		UIView *bg = [[UIView alloc] initWithFrame:cell.frame];
-		bg.backgroundColor = [UIColor colorWithRed:1 green:1 blue:0.90 alpha:1]; // or any color
-		cell.backgroundView = bg;
-		[bg release];
-		
-	}
+	[cell loadWithNews:nouvelle andParity:(res != 0)];
 	
     return cell;
 }

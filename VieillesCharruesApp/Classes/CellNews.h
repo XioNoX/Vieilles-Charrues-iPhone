@@ -20,14 +20,17 @@
  */
 
 #import <UIKit/UIKit.h>
+#import "VCNews.h"
 
 
 @interface CellNews : UITableViewCell {
-	IBOutlet UILabel *titre;
-	IBOutlet UILabel *datePub;
-	IBOutlet UIImageView *logo;
+	UILabel			*titre;
+	UILabel			*datePub;
+	UIView			*colorView;
 }
-@property (retain, nonatomic) IBOutlet UIImageView *logo;
-@property (retain, nonatomic) IBOutlet UILabel *titre;
-@property (retain, nonatomic) IBOutlet UILabel *datePub;
+@property (retain, nonatomic) UILabel *titre;
+@property (retain, nonatomic) UILabel *datePub;
+
+-(void) loadWithNews:(VCNews *) nouvelle andParity:(BOOL)isOdd;
+
 @end
