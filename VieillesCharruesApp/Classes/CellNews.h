@@ -24,10 +24,13 @@
 
 
 @interface CellNews : UITableViewCell {
+	NSDateFormatter *formateurDeDate;
 	UILabel			*titre;
 	UILabel			*datePub;
 	UIView			*colorView;
 }
+
+@property (nonatomic, retain) NSDateFormatter *formateurDeDate;
 @property (retain, nonatomic) UILabel *titre;
 @property (retain, nonatomic) UILabel *datePub;
 

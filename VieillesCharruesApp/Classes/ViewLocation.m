@@ -91,16 +91,17 @@
 	
 	[carte setImage:imageCarte];
 	if(isExtern) {
-		carte = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/4, imageCarte.size.height/4)];
+		carte = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/2, imageCarte.size.height/2)];
 		[self setEdgesForExternMap:YES];
 		
 	}
 	else {
-		carte = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/2.5, imageCarte.size.height/2.5)];
+		carte = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, imageCarte.size.width, imageCarte.size.height)];
 		[self setEdgesForExternMap:NO];
 	}
 	[carte setImage:imageCarte];
 	[plan addSubview:carte];
+	[carte release];
 	[carteScrollView setContentSize:carte.frame.size];
 	[plan setFrame:carte.frame];
 	[loadingView removeFromSuperview];
@@ -112,11 +113,11 @@
 	UIImage *image = nil;
 	
 	if (isExtern) {
-		image = [[UIImage imageNamed:@"carte_exterieure.jpg"] retain];
+		image = [UIImage imageNamed:@"carte_exterieure.jpg"] ;
 	}
 	else {
 		
-		image = [[UIImage imageNamed:@"carte_interieure.jpg"] retain];
+		image = [UIImage imageNamed:@"carte_interieure.jpg"];
 	}
 	
 	[self performSelectorOnMainThread:@selector(imageDidFinishLoading:) withObject:image waitUntilDone:NO];
@@ -147,18 +148,7 @@
 	[carteScrollView setMultipleTouchEnabled:YES];
 	
 	[self performSelectorInBackground:@selector(loadImage) withObject:nil];
-	/*if(isExtern) {
-		imageCarte = [UIImage imageNamed:@"carte_exterieure.jpg"];
-		carte = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/4, imageCarte.size.height/4)];
-		[self setEdgesForExternMap:YES];
-		
-	}
-	else {
-		imageCarte = [UIImage imageNamed:@"carte_interieure.jpg"];
-		carte = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, imageCarte.size.width/2.5, imageCarte.size.height/2.5)];
-		[self setEdgesForExternMap:NO];
-	}
-	[carte setImage:imageCarte];*/
+
 	
 	pointLocalisation = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"point_localisation.png"]];
 	[pointLocalisation setHidden:YES];
@@ -169,6 +159,7 @@
 	[imageDrapeauTente setFrame:CGRectMake(0.0, 0.0, imageDrapeauTente.frame.size.width , imageDrapeauTente.frame.size.height)];
 	[pointTente setFrame:CGRectMake(0.0, 0.0,imageDrapeauTente.frame.size.width*2, imageDrapeauTente.frame.size.height*2)];
 	[pointTente addSubview:imageDrapeauTente];
+	[imageDrapeauTente release];
 	
 	nomTente = [[UILabel alloc] initWithFrame:CGRectMake(20.0, 0.0, 100.0, 25.0)];
 	[nomTente setTextAlignment:UITextAlignmentCenter];
@@ -177,8 +168,8 @@
 	[nomTente setFont:[UIFont fontWithName:@"Verdana" size:12.0]];
 	[nomTente setText:@"test"];
 	[pointTente addSubview:nomTente];
+	[nomTente release];
 	[pointTente setHidden:YES];
-	[imageDrapeauTente release];
 	
 	
 	[plan addSubview:pointTente];
