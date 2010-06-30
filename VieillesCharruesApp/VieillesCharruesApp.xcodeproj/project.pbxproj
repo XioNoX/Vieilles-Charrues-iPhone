@@ -114,7 +114,6 @@
 		E2109EDD11BA660500F61F2E /* MCM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2109ED411BA660500F61F2E /* MCM.jpg */; };
 		E2109EDE11BA660500F61F2E /* OuestFrance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2109ED511BA660500F61F2E /* OuestFrance.jpg */; };
 		E212545D11935EDD00FD627F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E212545C11935EDD00FD627F /* Default.png */; };
-		E21611D9118323FB00341CA2 /* CellConcert.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21611D8118323FB00341CA2 /* CellConcert.xib */; };
 		E2398475116BB28F0076CD93 /* ViewControllerInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = E2398474116BB28F0076CD93 /* ViewControllerInfos.m */; };
 		E24EE88E1195868900E0ABF9 /* TableViewDetailsConcert.m in Sources */ = {isa = PBXBuildFile; fileRef = E24EE88C1195868900E0ABF9 /* TableViewDetailsConcert.m */; };
 		E24EE88F1195868900E0ABF9 /* TableViewDetailsConcert.xib in Resources */ = {isa = PBXBuildFile; fileRef = E24EE88D1195868900E0ABF9 /* TableViewDetailsConcert.xib */; };
@@ -302,7 +301,6 @@
 		E2109ED411BA660500F61F2E /* MCM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MCM.jpg; sourceTree = "<group>"; };
 		E2109ED511BA660500F61F2E /* OuestFrance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OuestFrance.jpg; sourceTree = "<group>"; };
 		E212545C11935EDD00FD627F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		E21611D8118323FB00341CA2 /* CellConcert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellConcert.xib; sourceTree = "<group>"; };
 		E2398473116BB28F0076CD93 /* ViewControllerInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerInfos.h; path = ../ViewControllerInfos.h; sourceTree = "<group>"; };
 		E2398474116BB28F0076CD93 /* ViewControllerInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerInfos.m; path = ../ViewControllerInfos.m; sourceTree = "<group>"; };
 		E24EE88B1195868900E0ABF9 /* TableViewDetailsConcert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDetailsConcert.h; sourceTree = "<group>"; };
@@ -715,7 +713,6 @@
 		E2B4F4E61180ADA9007C1814 /* TabProgrammation */ = {
 			isa = PBXGroup;
 			children = (
-				E21611D8118323FB00341CA2 /* CellConcert.xib */,
 				E2CEC45C115672B100ABEE81 /* TableViewControllerConcert.xib */,
 				E26E57DD11612A8D00A67968 /* TableViewControllerArtistes.h */,
 				E26E57DE11612A8D00A67968 /* TableViewControllerArtistes.m */,
@@ -858,7 +855,6 @@
 				E28E8AAF115B96D7002239D5 /* Twitter.png in Resources */,
 				E26BB2A4115BCA7E002D33D3 /* point_localisation.png in Resources */,
 				E26BB2A6115BCA8F002D33D3 /* NewsTab.png in Resources */,
-				E21611D9118323FB00341CA2 /* CellConcert.xib in Resources */,
 				E29A5F00118708E700417F07 /* BandeauVieillesCharrues.png in Resources */,
 				E2F120C8118732440026B468 /* LoadingView.xib in Resources */,
 				E2C113A71189ED77007C69D9 /* news.png in Resources */,
