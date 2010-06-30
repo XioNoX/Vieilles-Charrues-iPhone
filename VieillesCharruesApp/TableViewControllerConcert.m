@@ -39,7 +39,7 @@
 	[listeConcertParScene release];
 	[listeGroupe release];
 	listeConcertParScene = [[dataBase getConcertsDuJour:[NSNumber numberWithInt:(selector.selectedSegmentIndex +1)]] retain];
-	listeGroupe = [[dataBase getListeArtistes] retain];
+	listeGroupe = [[dataBase  getListeArtistes] retain];
 	[self.tableView reloadData];
 }
 

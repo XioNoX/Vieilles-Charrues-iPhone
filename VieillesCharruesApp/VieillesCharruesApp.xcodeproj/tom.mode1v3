@@ -306,12 +306,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CellNews.m</string>
+								<string>TableViewControllerConcert.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -319,11 +321,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CellNews.m</string>
+										<string>TableViewControllerConcert.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E2C0B95111DBB28900805718</string>
+										<string>E2C0B95F11DBB3BB00805718</string>
 										<key>history</key>
 										<array>
 											<string>E2C111F81189C783007C69D9</string>
@@ -442,9 +444,9 @@
 											<string>E2C0B92011DBB18000805718</string>
 											<string>E2C0B92111DBB18000805718</string>
 											<string>E2C0B92211DBB18000805718</string>
-											<string>E2C0B92311DBB18000805718</string>
 											<string>E2C0B92411DBB18000805718</string>
-											<string>E2C0B94B11DBB23900805718</string>
+											<string>E2C0B95A11DBB37400805718</string>
+											<string>E2C0B95E11DBB3BB00805718</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -466,8 +468,6 @@
 							<string>743pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -646,9 +646,9 @@
 	<array>
 		<string>E2C0B8F011DBAFAA00805718</string>
 		<string>E2C0B8F111DBAFAA00805718</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>E2CEC4521156723F00ABEE81</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/tom/Documents/Projets-info/VieillesCharrues/iPhone/VieillesCharruesApp/VieillesCharruesApp.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -1027,7 +1027,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

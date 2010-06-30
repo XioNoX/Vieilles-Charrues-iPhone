@@ -288,6 +288,10 @@
 			E2C0B94C11DBB23900805718 /* PBXTextBookmark */ = E2C0B94C11DBB23900805718 /* PBXTextBookmark */;
 			E2C0B94E11DBB28100805718 /* PBXTextBookmark */ = E2C0B94E11DBB28100805718 /* PBXTextBookmark */;
 			E2C0B95111DBB28900805718 /* PBXTextBookmark */ = E2C0B95111DBB28900805718 /* PBXTextBookmark */;
+			E2C0B95A11DBB37400805718 /* PBXTextBookmark */ = E2C0B95A11DBB37400805718 /* PBXTextBookmark */;
+			E2C0B95B11DBB37400805718 /* PBXTextBookmark */ = E2C0B95B11DBB37400805718 /* PBXTextBookmark */;
+			E2C0B95E11DBB3BB00805718 /* PBXTextBookmark */ = E2C0B95E11DBB3BB00805718 /* PBXTextBookmark */;
+			E2C0B95F11DBB3BB00805718 /* PBXTextBookmark */ = E2C0B95F11DBB3BB00805718 /* PBXTextBookmark */;
 			E2C111F81189C783007C69D9 = E2C111F81189C783007C69D9 /* PBXTextBookmark */;
 			E2C8094311BA7E9B00F2A230 = E2C8094311BA7E9B00F2A230 /* PBXBookmark */;
 			E2C8094E11BA7E9B00F2A230 = E2C8094E11BA7E9B00F2A230 /* PBXBookmark */;
@@ -544,7 +548,7 @@
 		fRef = E2CEC45B115672B100ABEE81 /* TableViewControllerConcert.m */;
 		name = "TableViewControllerConcert.m: 68";
 		rLen = 34;
-		rLoc = 1990;
+		rLoc = 1991;
 		rType = 0;
 		vrLen = 820;
 		vrLoc = 1121;
@@ -618,7 +622,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		location = libobjc.A.dylib;
-		modificationTime = 299610682.406253;
+		modificationTime = 299610796.019333;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 		symbolName = objc_exception_throw;
@@ -1312,7 +1316,7 @@
 		fRef = E2CEC45B115672B100ABEE81 /* TableViewControllerConcert.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 186;
+		rLoc = 185;
 		rType = 1;
 	};
 	E2C0B8E811DBAFAA00805718 /* PBXTextBookmark */ = {
@@ -1320,7 +1324,7 @@
 		fRef = E2CEC45B115672B100ABEE81 /* TableViewControllerConcert.m */;
 		name = "TableViewControllerConcert.m: 187";
 		rLen = 0;
-		rLoc = 5307;
+		rLoc = 5306;
 		rType = 0;
 		vrLen = 2177;
 		vrLoc = 3808;
@@ -1330,7 +1334,7 @@
 		fRef = E2CEC45B115672B100ABEE81 /* TableViewControllerConcert.m */;
 		name = "TableViewControllerConcert.m: 187";
 		rLen = 0;
-		rLoc = 5307;
+		rLoc = 5306;
 		rType = 0;
 		vrLen = 2047;
 		vrLoc = 3967;
@@ -1430,7 +1434,7 @@
 		fRef = E2CEC45B115672B100ABEE81 /* TableViewControllerConcert.m */;
 		name = "TableViewControllerConcert.m: 187";
 		rLen = 0;
-		rLoc = 5307;
+		rLoc = 5306;
 		rType = 0;
 		vrLen = 1598;
 		vrLoc = 4395;
@@ -1500,7 +1504,7 @@
 		fRef = E2CEC45B115672B100ABEE81 /* TableViewControllerConcert.m */;
 		name = "TableViewControllerConcert.m: 188";
 		rLen = 0;
-		rLoc = 5383;
+		rLoc = 5382;
 		rType = 0;
 		vrLen = 2191;
 		vrLoc = 4185;
@@ -1584,6 +1588,46 @@
 		rType = 0;
 		vrLen = 1400;
 		vrLoc = 1829;
+	};
+	E2C0B95A11DBB37400805718 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2CEC472115673D400ABEE81 /* CellNews.m */;
+		name = "CellNews.m: 28";
+		rLen = 0;
+		rLoc = 855;
+		rType = 0;
+		vrLen = 1400;
+		vrLoc = 1829;
+	};
+	E2C0B95B11DBB37400805718 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2CEC45B115672B100ABEE81 /* TableViewControllerConcert.m */;
+		name = "TableViewControllerConcert.m: 100";
+		rLen = 0;
+		rLoc = 2737;
+		rType = 0;
+		vrLen = 1143;
+		vrLoc = 2534;
+	};
+	E2C0B95E11DBB3BB00805718 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2CEC45B115672B100ABEE81 /* TableViewControllerConcert.m */;
+		name = "TableViewControllerConcert.m: 100";
+		rLen = 0;
+		rLoc = 2737;
+		rType = 0;
+		vrLen = 1143;
+		vrLoc = 2534;
+	};
+	E2C0B95F11DBB3BB00805718 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2CEC45B115672B100ABEE81 /* TableViewControllerConcert.m */;
+		name = "TableViewControllerConcert.m: 42";
+		rLen = 0;
+		rLoc = 1355;
+		rType = 0;
+		vrLen = 1568;
+		vrLoc = 682;
 	};
 	E2C111111189AE2F007C69D9 /* VCArtiste.h */ = {
 		uiCtxt = {
@@ -1997,9 +2041,9 @@
 	};
 	E2CEC45B115672B100ABEE81 /* TableViewControllerConcert.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1312, 3016}}";
-			sepNavSelRange = "{5383, 0}";
-			sepNavVisRange = "{4185, 2191}";
+			sepNavIntBoundsRect = "{{0, 0}, {1312, 2990}}";
+			sepNavSelRange = "{1355, 0}";
+			sepNavVisRange = "{682, 1568}";
 			sepNavWindowFrame = "{{61, 45}, {968, 936}}";
 		};
 	};
