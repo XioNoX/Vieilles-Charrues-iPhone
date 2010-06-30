@@ -98,7 +98,6 @@
 	[self performSelectorInBackground:@selector(recupererProg) withObject:nil];
 	boutonMiseAjour.enabled = NO;
 	
-	
 	activityIndicator.frame = CGRectMake(10.0, 10.0, 25, 25);
 	
 	[self.navigationController.navigationBar addSubview:activityIndicator];
