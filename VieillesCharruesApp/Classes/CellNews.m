@@ -24,6 +24,7 @@
 
 @implementation CellNews
 
+
 @synthesize formateurDeDate, datePub, titre;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
@@ -33,7 +34,6 @@
 		
 		self.formateurDeDate = [[NSDateFormatter alloc] init];
 		[formateurDeDate setDateFormat:@"dd MMM yyyy HH:mm:ss"];
-//		[formateurDeDate setLocale:[[[NSLocale alloc] initWithLocaleIdentifier:@"en_US"] autorelease]];
 		
 		self.datePub = [[UILabel alloc] initWithFrame:CGRectMake(51, 5, 216, 17)];
 		[datePub setFont:[UIFont systemFontOfSize:11]];
@@ -65,6 +65,7 @@
 		
 		colorView = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 70)];
 		[self setBackgroundView:colorView];
+		[colorView release];
     }
     return self;
 }

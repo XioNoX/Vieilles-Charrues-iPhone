@@ -175,35 +175,17 @@
     
     CellConcert *cell = (CellConcert*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        //cell = [[[CellConcert alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-		cell = [[[NSBundle mainBundle] loadNibNamed:@"CellConcert" owner:self options:nil] objectAtIndex:0];
+        cell = [[[CellConcert alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+		//cell = [[[NSBundle mainBundle] loadNibNamed:@"CellConcert" owner:self options:nil] objectAtIndex:0];
     }
 	
 	NSArray *arrayOfConcert = [NSArray arrayWithArray:[listeConcertParScene objectAtIndex:indexPath.section]];
     VCConcert *nouveauConcert = [arrayOfConcert objectAtIndex:indexPath.row];
-	NSString *idArtiste = [NSString stringWithFormat:@"%i", [nouveauConcert.idArtiste intValue]];
-	cell.tag = [nouveauConcert.idArtiste intValue];
-	cell.groupe.text = [listeGroupe objectForKey:idArtiste];
-	
-	cell.heure.text = [VCUtils determinerHeureDebut:nouveauConcert.heureDebut heureFin:nouveauConcert.heureFin];
-	
-	cell.identifiant = [nouveauConcert.idConcert intValue];
-	
-	if(nouveauConcert.isFavori)
-	{
-		[cell.boutonFavori setSelected:YES];
-	}
-	
+	NSString *idArtiste = [listeGroupe objectForKey:[NSString stringWithFormat:@"%i", [nouveauConcert.idArtiste intValue]]];
 	int res = indexPath.row%2;
 	
-	if(res == 0)
-	{
-		UIView *bg = [[UIView alloc] initWithFrame:cell.frame];
-		bg.backgroundColor = [UIColor colorWithRed:1 green:1 blue:0.90 alpha:1]; // or any color
-		cell.backgroundView = bg;
-		[bg release];
-		
-	}
+	[cell loadWithConcert:nouveauConcert artiste:idArtiste parity:(res == 0)];
+
     return cell;
 }
 

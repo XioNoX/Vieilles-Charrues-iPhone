@@ -20,20 +20,26 @@
  */
 
 #import <UIKit/UIKit.h>
+#import "VCConcert.h"
 
 
 @interface CellConcert : UITableViewCell {
-	IBOutlet UILabel *groupe;
-	IBOutlet UILabel *heure;
-	IBOutlet UIButton *boutonFavori;
-	int identifiant;
+	UILabel		*groupe;
+	UILabel		*heure;
+	UIButton	*boutonFavori;
+	UIView		*colorView;
+	int			identifiant;
 }
 
-@property (retain, nonatomic) IBOutlet UILabel *groupe;
-@property (retain, nonatomic) IBOutlet UILabel *heure;
-@property (retain, nonatomic) IBOutlet IBOutlet UIButton *boutonFavori;
+@property (retain, nonatomic) UILabel		*groupe;
+@property (retain, nonatomic) UILabel		*heure;
+@property (retain, nonatomic) UIButton		*boutonFavori;
+@property (retain, nonatomic) UIView		*colorView;
+
 @property int identifiant;
 
--(IBAction) boutonFavoriSelectionne;
+-(void) loadWithConcert :(VCConcert *) nouveauConcert artiste:(NSString *) artiste parity:(BOOL) isOdd;
+
+-(void) boutonFavoriSelectionne:(id)sender;
 
 @end

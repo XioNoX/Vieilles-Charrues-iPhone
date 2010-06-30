@@ -24,9 +24,9 @@
 
 
 @interface CellNews : UITableViewCell {
-	NSDateFormatter *formateurDeDate;
 	UILabel			*titre;
 	UILabel			*datePub;
+	NSDateFormatter	*formateurDeDate;
 	UIView			*colorView;
 }
 

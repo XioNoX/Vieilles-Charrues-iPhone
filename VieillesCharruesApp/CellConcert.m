@@ -14,25 +14,38 @@
 
 @implementation CellConcert
 
-@synthesize heure, groupe, identifiant;
+@synthesize heure, groupe,boutonFavori, identifiant, colorView;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
 		
-		UIButton	*boutonfavori = [[UIButton alloc] initWithFrame:CGRectMake(0.0, 0.0, 40.0, 50.0)];
-		[boutonfavori setImage:[UIImage imageNamed:@"FavoriUnselected.png"]	forState:UIControlStateNormal];
-		[boutonfavori setImage:[UIImage imageNamed:@"FavoriSelected.png"]	forState:UIControlStateSelected];
-		[boutonfavori addTarget:self action:@selector(boutonFavoriSelectionne:) forControlEvents:UIControlEventTouchDown];
-		[[self contentView] addSubview:boutonfavori];
+		[self setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
 		
-		self.groupe = [[UILabel alloc] initWithFrame:CGRectMake(40.0, 0.0, 320.0, 20.0)];
+		self.boutonFavori = [[UIButton alloc] initWithFrame:CGRectMake(0.0, 0.0, 40.0, 50.0)];
+		[boutonFavori setImage:[UIImage imageNamed:@"FavoriUnselected.png"]	forState:UIControlStateNormal];
+		[boutonFavori setImage:[UIImage imageNamed:@"FavoriSelected.png"]	forState:UIControlStateSelected];
+		[boutonFavori addTarget:self action:@selector(boutonFavoriSelectionne:) forControlEvents:UIControlEventTouchDown];
+		[[self contentView] addSubview:boutonFavori];
+		
+		self.groupe = [[UILabel alloc] initWithFrame:CGRectMake(35.0, 0.0, 200.0, 50.0)];
+		[groupe setBackgroundColor:[UIColor clearColor]];
+		[groupe setMinimumFontSize:11.0];
+		[groupe setAdjustsFontSizeToFitWidth:YES];
 		[[self contentView] addSubview:groupe];
 		[groupe release];
 
 		
-		self.heure = [[UILabel alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 20.0)];
+		self.heure = [[UILabel alloc] initWithFrame:CGRectMake(212.0, 0.0, 82.0, 50.0)];
+		[heure setBackgroundColor:[UIColor clearColor]];
+		[heure setTextAlignment:UITextAlignmentRight];
+		[heure setFont:[UIFont systemFontOfSize:11.0]];
+		[heure setTextColor:[UIColor colorWithRed:48.0/255 green:131/255.0 blue:243.0/255 alpha:1]];
 		[[self contentView] addSubview:heure];
 		[heure release];
+		
+		self.colorView = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 50.0)];
+		[self setBackgroundView:colorView];
+		[colorView release];
     }
     return self;
 }
@@ -44,22 +57,23 @@
 	self.tag = [nouveauConcert.idArtiste intValue];
 	self.groupe.text = artiste;
 	
-	//self.heure.text = [VCUtils determinerHeureDebut:nouveauConcert.heureDebut heureFin:nouveauConcert.heureFin];
+	self.heure.text = [VCUtils determinerHeureDebut:nouveauConcert.heureDebut heureFin:nouveauConcert.heureFin];
 	
 	self.identifiant = [nouveauConcert.idConcert intValue];
 	
 	if(nouveauConcert.isFavori)
 	{
-		
+		[boutonFavori setSelected:YES];
 	}
+	else {
+		[boutonFavori setSelected:NO];
+	}
+
 	
-	if(isOdd)
-	{
-		UIView *bg = [[UIView alloc] initWithFrame:self.frame];
-		bg.backgroundColor = [UIColor colorWithRed:1 green:1 blue:0.90 alpha:1]; // or any color
-		self.backgroundView = bg;
-		[bg release];
-		
+	if (isOdd)
+		[colorView setBackgroundColor:[UIColor colorWithRed:1 green:1 blue:0.90 alpha:1]];
+	else {
+		[colorView setBackgroundColor:[UIColor colorWithRed:1 green:1 blue:1 alpha:1]];
 	}
 	
 	
@@ -89,6 +103,9 @@
 
 
 - (void)dealloc {
+	[heure release];
+	[groupe release];
+	[boutonFavori release];
     [super dealloc];
 }
 
