@@ -99,10 +99,37 @@
     return [[BandSorted objectForKey:[arrayOfLetters objectAtIndex:section]] count];
 }
 
--(NSString*) tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-	return [arrayOfLetters objectAtIndex:section];
+
+
+-(UIView*) tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+	
+	NSString *title = [arrayOfLetters objectAtIndex:section];
+	
+	UIView *sectionView = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 25.0)];
+	UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"section_background.png"]];
+	[sectionView addSubview:imageView];
+	[imageView release];
+	
+	UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(20.0, 0.0, 200.0, 25.0)];
+	[titleLabel setBackgroundColor:[UIColor clearColor]];
+	[titleLabel setTextColor:[UIColor whiteColor]];
+	[titleLabel setText:title];
+	[titleLabel setShadowColor:[UIColor blackColor]];
+	[titleLabel setShadowOffset:CGSizeMake(0.5, 0.5)];
+	[titleLabel setFont:[UIFont boldSystemFontOfSize:18.0]];
+	[sectionView addSubview:titleLabel];
+	[titleLabel release];
+	
+	
+	return sectionView;
+	
 }
 
+-(CGFloat) tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+	
+	return 25.0;
+	
+}
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -126,6 +153,28 @@
     return cell;
 }
 
+
+-(NSArray *) sectionIndexTitlesForTableView:(UITableView *)tableView {
+	NSMutableArray	*tableauLettres = [NSMutableArray arrayWithObject:UITableViewIndexSearch];
+	
+	for (NSString *lettre in arrayOfLetters) {
+		[tableauLettres addObject:lettre];
+	}
+	
+	return tableauLettres;
+}
+
+-(NSInteger) tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index {
+	
+	if (index == 0) {
+		return 0;
+	}
+	else {
+		return index - 1;
+	}
+
+	
+}
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     

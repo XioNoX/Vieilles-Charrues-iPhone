@@ -163,6 +163,7 @@
 		E2C8926311957972008EC430 /* FavoriUnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C8926111957972008EC430 /* FavoriUnselected.png */; };
 		E2C89265119579C1008EC430 /* FavoriSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C89264119579C1008EC430 /* FavoriSelected.png */; };
 		E2CAA4F411D008390025D7E6 /* plan_fond.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CAA4F311D008390025D7E6 /* plan_fond.png */; };
+		E2CBDBA911DD182A00D0668D /* section_background.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CBDBA811DD182A00D0668D /* section_background.png */; };
 		E2CDB2B611A1AFB0006F63D6 /* ViewPlanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CDB2B411A1AFB0006F63D6 /* ViewPlanVC.m */; };
 		E2CDB2B711A1AFB0006F63D6 /* ViewPlanVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CDB2B511A1AFB0006F63D6 /* ViewPlanVC.xib */; };
 		E2CDB2C911A1B42E006F63D6 /* VCTente.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CDB2C811A1B42E006F63D6 /* VCTente.m */; };
@@ -371,6 +372,7 @@
 		E2C8926111957972008EC430 /* FavoriUnselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FavoriUnselected.png; sourceTree = "<group>"; };
 		E2C89264119579C1008EC430 /* FavoriSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FavoriSelected.png; sourceTree = "<group>"; };
 		E2CAA4F311D008390025D7E6 /* plan_fond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plan_fond.png; sourceTree = "<group>"; };
+		E2CBDBA811DD182A00D0668D /* section_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = section_background.png; sourceTree = "<group>"; };
 		E2CDB2B311A1AFB0006F63D6 /* ViewPlanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPlanVC.h; sourceTree = "<group>"; };
 		E2CDB2B411A1AFB0006F63D6 /* ViewPlanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPlanVC.m; sourceTree = "<group>"; };
 		E2CDB2B511A1AFB0006F63D6 /* ViewPlanVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewPlanVC.xib; sourceTree = "<group>"; };
@@ -669,6 +671,7 @@
 		E26BB2AB115BCB3D002D33D3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E2CBDBE311DD1CCE00D0668D /* Section */,
 				B7EBB6C311D0C85A00E31097 /* bulle_tente.png */,
 				E2CAA4F311D008390025D7E6 /* plan_fond.png */,
 				E27B020611CE9ACD003B7AE2 /* carte_exterieure.jpg */,
@@ -776,6 +779,14 @@
 				E2B84AA611BA3B2C0040A9B9 /* CellPartenaires.xib */,
 			);
 			name = TabInfosPratiques;
+			sourceTree = "<group>";
+		};
+		E2CBDBE311DD1CCE00D0668D /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				E2CBDBA811DD182A00D0668D /* section_background.png */,
+			);
+			name = Section;
 			sourceTree = "<group>";
 		};
 		E2CEC464115672CD00ABEE81 /* ViewControllers */ = {
@@ -986,6 +997,7 @@
 				E2CAA4F411D008390025D7E6 /* plan_fond.png in Resources */,
 				B7EBB6C411D0C85A00E31097 /* bulle_tente.png in Resources */,
 				B7E888CD11D162D60032A05D /* VCdataBase.db in Resources */,
+				E2CBDBA911DD182A00D0668D /* section_background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,6 +18,7 @@
 	NSMutableArray				*arrayOfLetters;
 	NSArray						*arrayOfBandOrdered;
 	NSMutableDictionary			*BandSorted;
+	
 }
 
 -(void)createDictionary;

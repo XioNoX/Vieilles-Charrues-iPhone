@@ -166,6 +166,37 @@
     return [[listeConcertParScene objectAtIndex:section] count];
 }
 
+-(UIView*) tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+	
+	NSArray *test = [listeConcertParScene objectAtIndex:section];
+	VCConcert *concert = [test objectAtIndex:0];
+	NSString *title = [tableauDesScenes objectForKey: [NSString stringWithFormat:@"%i", [concert.idScene intValue]]];
+	
+	UIView *sectionView = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 25.0)];
+	UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"section_background.png"]];
+	[sectionView addSubview:imageView];
+	[imageView release];
+	
+	UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(20.0, 0.0, 200.0, 25.0)];
+	[titleLabel setBackgroundColor:[UIColor clearColor]];
+	[titleLabel setTextColor:[UIColor whiteColor]];
+	[titleLabel setText:title];
+	[titleLabel setShadowColor:[UIColor blackColor]];
+	[titleLabel setShadowOffset:CGSizeMake(0.5, 0.5)];
+	[titleLabel setFont:[UIFont boldSystemFontOfSize:18.0]];
+	[sectionView addSubview:titleLabel];
+	[titleLabel release];
+	
+	
+	return sectionView;
+	
+}
+
+-(CGFloat) tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+	
+	return 25.0;
+	
+}
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
