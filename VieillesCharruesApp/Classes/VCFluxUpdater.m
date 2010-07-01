@@ -38,10 +38,6 @@
 	[parser initWithContentsOfURL:url andType:@"VieillesCharrues"];
 	
 	
-	NSError *test = nil;
-	NSString *strXml = [NSString stringWithContentsOfURL:[NSURL URLWithString: VCSOURCE] encoding:NSUTF8StringEncoding error:&test];
-	if(test) NSLog(@"%@", [test localizedDescription]);
-	NSLog(@"%@", strXml);
 	
 	parsingSuccessVC = [parser parse];
 	
@@ -87,6 +83,7 @@
 		}
 		
 	}
+	
 
 		
 	

@@ -138,8 +138,7 @@
 }
 
 
-- (IBAction) loadPartenaires
-{
+- (IBAction) loadPartenaires {
 	TableVIewControllerPartenaires *anotherViewController = [[TableVIewControllerPartenaires alloc] initWithNibName:@"TableVIewControllerPartenaires" bundle:nil];
 	[self.navigationController pushViewController:anotherViewController animated:YES];
 	
