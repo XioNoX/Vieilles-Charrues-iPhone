@@ -138,16 +138,16 @@
     }
     
 	[cell initWithNom:[[tabPartenaires objectAtIndex:indexPath.section] objectAtIndex:indexPath.row]];
-    //int res = indexPath.row%2;
+    int res = indexPath.row%2;
 	
-	/*if(res == 0)
+	if(res == 0)
 	{
 		UIView *bg = [[UIView alloc] initWithFrame:cell.frame];
 		bg.backgroundColor = [UIColor colorWithRed:1 green:1 blue:0.90 alpha:1]; 
 		cell.backgroundView = bg;
 		[bg release];
 		
-	}*/
+	}
     return cell;
 }
 

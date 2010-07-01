@@ -28,6 +28,7 @@
 		[[self contentView] addSubview:boutonFavori];
 		
 		self.groupe = [[UILabel alloc] initWithFrame:CGRectMake(35.0, 0.0, 180.0, 50.0)];
+		[groupe setNumberOfLines:2];
 		[groupe setBackgroundColor:[UIColor clearColor]];
 		[groupe setMinimumFontSize:11.0];
 		[groupe setAdjustsFontSizeToFitWidth:YES];
@@ -50,7 +51,7 @@
     return self;
 }
 
--(void) loadWithConcert :(VCConcert *) nouveauConcert artiste:(NSString *) artiste parity:(BOOL) isOdd{
+-(void) loadWithConcert :(VCConcert *) nouveauConcert artiste:(NSString *) artiste parity:(BOOL) isOdd {
 	
 	identifiant = [nouveauConcert.idArtiste intValue];
 	

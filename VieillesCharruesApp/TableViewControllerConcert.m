@@ -205,8 +205,7 @@
 	[anotherViewController release];
 }
 
-- (IBAction) changerTri
-{
+- (IBAction) changerTri {
 	TableViewControllerArtistes *anotherViewController = [[TableViewControllerArtistes alloc] init];
 	
 	[self.navigationController pushViewController:anotherViewController animated:YES];
