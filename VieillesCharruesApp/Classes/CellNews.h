@@ -33,6 +33,7 @@
 @property (nonatomic, retain) NSDateFormatter *formateurDeDate;
 @property (retain, nonatomic) UILabel *titre;
 @property (retain, nonatomic) UILabel *datePub;
+@property (retain, nonatomic) UIView			*colorView;
 
 -(void) loadWithNews:(VCNews *) nouvelle andParity:(BOOL)isOdd;
 

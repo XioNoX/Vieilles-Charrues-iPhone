@@ -25,7 +25,7 @@
 @implementation CellNews
 
 
-@synthesize formateurDeDate, datePub, titre;
+@synthesize formateurDeDate, colorView, datePub, titre;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
@@ -63,7 +63,7 @@
 		
 		[logo setImage:imageSource];
 		
-		colorView = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 70)];
+		self.colorView = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 70)];
 		[self setBackgroundView:colorView];
 		[colorView release];
     }
