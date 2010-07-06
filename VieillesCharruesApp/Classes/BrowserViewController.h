@@ -36,6 +36,5 @@
 - (void)nextAction;
 - (void)refreshAction;
 - (void)doneAction;
-- (void)setNeedDisplayWithOrientation:(UIInterfaceOrientation)interfaceOrientation;
 
 @end

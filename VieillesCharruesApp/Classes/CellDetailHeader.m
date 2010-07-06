@@ -21,8 +21,11 @@
 
 #import "CellDetailHeader.h"
 #import "VCUtils.h"
+#import "BrowserViewController.h"
 
 @implementation CellDetailHeader
+
+@synthesize controller;
 
 -(void)initWithArtiste:(VCArtiste*)artiste
 {
@@ -35,15 +38,39 @@
 
 	imageData = [NSData dataWithContentsOfFile:[VCUtils getImageArtiste:nomImageArtiste]];  
 	
-	[site setFont:[UIFont fontWithName:@"Verdana" size:12]];
 	UIImage *imageArtiste = [UIImage imageWithData:imageData];
 	
 	nomGroupe.text =artiste.nom;
 	genre.text = artiste.genre;
 	origine.text = artiste.origine;
-	site.text = artiste.lien;
+	
+	NSMutableString *htmlStr = [[NSMutableString alloc] init];
+	[htmlStr appendString:@"<html><head><style> body {margin:0px; font-family:verdana; font-size:12px;} </style></head><body>"];
+	[htmlStr appendString:artiste.lien];
+	[htmlStr appendString:@"</body></html>"];
+	
+	[site loadHTMLString: htmlStr baseURL:nil];
+	[site setDelegate:self];
 	
 	[imageGroupe setImage:imageArtiste];
+}
+
+-(BOOL) webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
+	
+	if ([[[request URL] absoluteString] isEqualToString:@"about:blank"]) {
+		return YES;
+	}
+	else {
+		BrowserViewController *browser = [[BrowserViewController alloc] initWithString:[[request URL]absoluteString]];
+		
+		
+		[[self controller] presentModalViewController:browser animated:YES];
+		[browser release];
+		return NO;
+	}
+	
+
+	
 }
 
 -(void) dealloc {

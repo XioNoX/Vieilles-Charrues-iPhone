@@ -31,7 +31,7 @@
 		[[self view] setBackgroundColor:[UIColor whiteColor]];
 		
 		UIToolbar *toolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 44.0)];
-		[toolbar setTintColor:[UIColor blackColor]];
+		[toolbar setTintColor:[UIColor orangeColor]];// 265 149 65
 		[[self view] addSubview:toolbar];
 		[toolbar release];
 		
@@ -93,36 +93,6 @@
 	return self;
 }
 
-#pragma mark -
-#pragma mark Orientation
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    return YES;
-}
-
-- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
-	
-	[UIView beginAnimations:nil context:nil];
-	[UIView setAnimationDuration:duration];
-	[self setNeedDisplayWithOrientation:toInterfaceOrientation];
-	[UIView commitAnimations];
-}
-
-- (void)setNeedDisplayWithOrientation:(UIInterfaceOrientation)interfaceOrientation {
-	
-	switch (interfaceOrientation) {
-		case UIDeviceOrientationPortrait:
-		case UIDeviceOrientationPortraitUpsideDown:
-			[browserWebView setFrame:CGRectMake(0.0, 44.0, 768.0, 960.0)];
-			break;
-		case UIDeviceOrientationLandscapeLeft:
-		case UIDeviceOrientationLandscapeRight:
-			[browserWebView setFrame:CGRectMake(0.0, 44.0, 768.0, 704.0)];
-		default:
-			break;
-	}
-	
-}
 
 #pragma mark -
 #pragma mark UIButton Targets

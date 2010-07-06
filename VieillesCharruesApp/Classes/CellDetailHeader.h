@@ -23,14 +23,17 @@
 #import <Foundation/Foundation.h>
 #import "VCArtiste.h"
 
-@interface CellDetailHeader : UITableViewCell {
+@interface CellDetailHeader : UITableViewCell <UIWebViewDelegate>{
     IBOutlet UILabel		*genre;
     IBOutlet UIImageView	*imageGroupe;
     IBOutlet UILabel		*nomGroupe;
     IBOutlet UILabel		*origine;
-	IBOutlet UITextView		*site;
+	IBOutlet UIWebView		*site;
+	
+	UIViewController		*controller;
 }
 
+@property (retain, nonatomic) UIViewController *controller;
 
 -(void)initWithArtiste:(VCArtiste*)artiste;
 

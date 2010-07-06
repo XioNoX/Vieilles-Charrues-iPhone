@@ -185,6 +185,7 @@
 		E2CEC505115689BA00ABEE81 /* VCDataBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CEC504115689BA00ABEE81 /* VCDataBaseController.m */; };
 		E2CEC509115689DF00ABEE81 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CEC508115689DF00ABEE81 /* libsqlite3.0.dylib */; };
 		E2CEC55E115695E800ABEE81 /* VCConcertParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CEC55D115695E800ABEE81 /* VCConcertParser.m */; };
+		E2D53EDC11E3ACAB0047F8B5 /* news_fond.png in Resources */ = {isa = PBXBuildFile; fileRef = E2D53EDB11E3ACAB0047F8B5 /* news_fond.png */; };
 		E2E341631163AE670073B122 /* ViewLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E341611163AE670073B122 /* ViewLocation.m */; };
 		E2E3419F1163B0F00073B122 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E3419E1163B0F00073B122 /* CoreLocation.framework */; };
 		E2F120C8118732440026B468 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F120C6118732440026B468 /* LoadingView.xib */; };
@@ -410,6 +411,7 @@
 		E2CEC508115689DF00ABEE81 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		E2CEC55C115695E800ABEE81 /* VCConcertParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCConcertParser.h; sourceTree = "<group>"; };
 		E2CEC55D115695E800ABEE81 /* VCConcertParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCConcertParser.m; sourceTree = "<group>"; };
+		E2D53EDB11E3ACAB0047F8B5 /* news_fond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news_fond.png; sourceTree = "<group>"; };
 		E2E341601163AE670073B122 /* ViewLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewLocation.h; sourceTree = "<group>"; };
 		E2E341611163AE670073B122 /* ViewLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewLocation.m; sourceTree = "<group>"; };
 		E2E3419E1163B0F00073B122 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -682,6 +684,7 @@
 				B7FDF80011E3A3C700D68DA0 /* previous.png */,
 				E2CBDBE311DD1CCE00D0668D /* Section */,
 				B7EBB6C311D0C85A00E31097 /* bulle_tente.png */,
+				E2D53EDB11E3ACAB0047F8B5 /* news_fond.png */,
 				E2CAA4F311D008390025D7E6 /* plan_fond.png */,
 				E27B020611CE9ACD003B7AE2 /* carte_exterieure.jpg */,
 				E2B8407B11CCD12B0009ED58 /* carte_interieure.jpg */,
@@ -1011,6 +1014,7 @@
 				E2CBDBA911DD182A00D0668D /* section_background.png in Resources */,
 				B7FDF7FC11E3A3B400D68DA0 /* next.png in Resources */,
 				B7FDF80111E3A3C700D68DA0 /* previous.png in Resources */,
+				E2D53EDC11E3ACAB0047F8B5 /* news_fond.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

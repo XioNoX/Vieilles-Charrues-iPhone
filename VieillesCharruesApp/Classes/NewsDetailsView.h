@@ -22,7 +22,7 @@
 #import <UIKit/UIKit.h>
 #import "VCNews.h"
 
-@interface NewsDetailsView : UIViewController 
+@interface NewsDetailsView : UIViewController <UIWebViewDelegate>
 {
 	IBOutlet UILabel *datePub;
 	IBOutlet UIWebView *description;
