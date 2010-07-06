@@ -87,6 +87,7 @@
 		B7E7C62711C7942A0072BD3B /* Artiste1091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7E7C5DE11C7942A0072BD3B /* Artiste1091.jpg */; };
 		B7E7C62811C7942A0072BD3B /* Artiste1092.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7E7C5DF11C7942A0072BD3B /* Artiste1092.jpg */; };
 		B7E888CD11D162D60032A05D /* VCdataBase.db in Resources */ = {isa = PBXBuildFile; fileRef = B7E888CC11D162D60032A05D /* VCdataBase.db */; };
+		B7EA676811E39F7700E29185 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EA676711E39F7700E29185 /* BrowserViewController.m */; };
 		B7EBB6C411D0C85A00E31097 /* bulle_tente.png in Resources */ = {isa = PBXBuildFile; fileRef = B7EBB6C311D0C85A00E31097 /* bulle_tente.png */; };
 		B7F304B011C1102D00793F4C /* icone_vieilles_charrues.png in Resources */ = {isa = PBXBuildFile; fileRef = B7F304AF11C1102D00793F4C /* icone_vieilles_charrues.png */; };
 		E2109EA411BA643500F61F2E /* BrasseriesKronenbourg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2109E9511BA643500F61F2E /* BrasseriesKronenbourg.jpg */; };
@@ -275,6 +276,8 @@
 		B7E7C5DE11C7942A0072BD3B /* Artiste1091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Artiste1091.jpg; sourceTree = "<group>"; };
 		B7E7C5DF11C7942A0072BD3B /* Artiste1092.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Artiste1092.jpg; sourceTree = "<group>"; };
 		B7E888CC11D162D60032A05D /* VCdataBase.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = VCdataBase.db; sourceTree = "<group>"; };
+		B7EA676611E39F7700E29185 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		B7EA676711E39F7700E29185 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
 		B7EBB6C311D0C85A00E31097 /* bulle_tente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bulle_tente.png; sourceTree = "<group>"; };
 		B7F304AF11C1102D00793F4C /* icone_vieilles_charrues.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icone_vieilles_charrues.png; sourceTree = "<group>"; };
 		E2109E9511BA643500F61F2E /* BrasseriesKronenbourg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BrasseriesKronenbourg.jpg; sourceTree = "<group>"; };
@@ -732,6 +735,8 @@
 		E2B4F4E71180ADD1007C1814 /* TabNews */ = {
 			isa = PBXGroup;
 			children = (
+				B7EA676611E39F7700E29185 /* BrowserViewController.h */,
+				B7EA676711E39F7700E29185 /* BrowserViewController.m */,
 				E2F120C6118732440026B468 /* LoadingView.xib */,
 				E2CEC461115672C400ABEE81 /* TableViewControllerNews.xib */,
 				E281CA6111594F59004044F8 /* NewsDetailsView.xib */,
@@ -1044,6 +1049,7 @@
 				E2B84AA711BA3B2C0040A9B9 /* CellPartenaires.m in Sources */,
 				E2F8470211CBDF6200613529 /* VCFluxUpdater.m in Sources */,
 				E27BFEDB11CE70B7003B7AE2 /* CellArtiste.m in Sources */,
+				B7EA676811E39F7700E29185 /* BrowserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
