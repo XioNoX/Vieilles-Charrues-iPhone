@@ -25,11 +25,11 @@
 @interface NewsDetailsView : UIViewController 
 {
 	IBOutlet UILabel *datePub;
-	IBOutlet UITextView *description;
+	IBOutlet UIWebView *description;
 }
 
 @property (retain, nonatomic) IBOutlet UILabel *datePub;
-@property (retain, nonatomic) IBOutlet UITextView *description;
+@property (retain, nonatomic) IBOutlet UIWebView *description;
 
 -(void)initWithNouvelle:(VCNews*)nouvelle;
 

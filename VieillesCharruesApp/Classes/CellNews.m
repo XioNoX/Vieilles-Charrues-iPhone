@@ -20,6 +20,7 @@
  */
 
 #import "CellNews.h"
+#import "VCHTMLRemover.h"
 
 
 @implementation CellNews
@@ -78,7 +79,10 @@
 	if([nouvelle.titre length] > 5)
 		titre.text = nouvelle.titre;
 	else {
-		titre.text = nouvelle.description;
+		NSMutableString *mutableDescription = [[NSMutableString alloc] initWithString:nouvelle.description];
+		[VCHTMLRemover removeHTMLFromString:mutableDescription];
+		titre.text = mutableDescription;
+		[mutableDescription release];
 	}
 	
 	datePub.text = jour;

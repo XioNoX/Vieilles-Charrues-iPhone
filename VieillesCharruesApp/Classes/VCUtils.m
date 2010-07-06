@@ -57,7 +57,6 @@ static NSMutableDictionary *dictionnaireDesScenes = nil;
 	//si l'image n'existe pas dans le bundle de l'application : telechargement et enregistrement de l'image en local
 	else 
 	{
-		NSLog(@"%@", filePath);
 		imageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:url]];
 		[imageData writeToFile:filePath atomically:YES];
 	}

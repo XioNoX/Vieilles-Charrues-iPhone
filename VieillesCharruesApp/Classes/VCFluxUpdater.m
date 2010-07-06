@@ -23,23 +23,22 @@
 	
 	NSURL *url = [NSURL URLWithString: TWITSOURCE];
 	
-	VCNewsParser* parser = [[VCNewsParser alloc] initWithContentsOfURL:url andType:@"Twitter"];
-	[parser setDelegate:parser];
-	parsingSuccessTwit = [parser parse];
+	VCNewsParser* parserTwit = [[VCNewsParser alloc] initWithContentsOfURL:url andType:@"Twitter"];
+	[parserTwit setDelegate:parserTwit];
+	parsingSuccessTwit = [parserTwit parse];
 	
 	
 	url = [NSURL URLWithString:FBSOURCE];
 	
-	[parser initWithContentsOfURL:url andType:@"Facebook"];
-	
-	parsingSuccessFB = [parser parse];
+	VCNewsParser *parserFB = [[VCNewsParser alloc] initWithContentsOfURL:url andType:@"Facebook"];
+	[parserFB setDelegate:parserFB];
+	parsingSuccessFB = [parserFB parse];
 	
 	url = [NSURL URLWithString: VCSOURCE];
-	[parser initWithContentsOfURL:url andType:@"VieillesCharrues"];
+	VCNewsParser *parserVC = [[VCNewsParser alloc] initWithContentsOfURL:url andType:@"VieillesCharrues"];
+	[parserVC setDelegate:parserVC];
+	parsingSuccessVC = [parserVC parse];
 	
-	
-	
-	parsingSuccessVC = [parser parse];
 	
 	BOOL parsingSuccess = parsingSuccessFB && parsingSuccessVC && parsingSuccessTwit;
 	
@@ -51,7 +50,11 @@
 	else {
 		if(parsingSuccess)
 		{
-			[[VCDataBaseController sharedInstance] mettreAJourNews:parser.listeNews];
+			NSMutableArray	*arrayOfNews = [[NSMutableArray alloc] init];
+			[arrayOfNews addObjectsFromArray:parserFB.listeNews];
+			[arrayOfNews addObjectsFromArray:parserVC.listeNews];
+			[arrayOfNews addObjectsFromArray:parserTwit.listeNews];
+			[[VCDataBaseController sharedInstance] mettreAJourNews:arrayOfNews];
 			
 			[delegate majEnded:0];
 		}
@@ -59,20 +62,20 @@
 		{
 			if (parsingSuccessFB)
 				
-				[[VCDataBaseController sharedInstance] mettreAJourNewsFB:parser.listeNews];
+				[[VCDataBaseController sharedInstance] mettreAJourNewsFB:parserFB.listeNews];
 			else {
 				[delegate majEnded:1];
 			}
 			
 			if (parsingSuccessTwit) {
-				[[VCDataBaseController sharedInstance] mettreAJourNewsTwit:parser.listeNews];
+				[[VCDataBaseController sharedInstance] mettreAJourNewsTwit:parserTwit.listeNews];
 			}
 			else {
 				[delegate majEnded:2];
 			}
 			
 			if (parsingSuccessVC) {
-				[[VCDataBaseController sharedInstance] mettreAJourNewsVC:parser.listeNews];
+				[[VCDataBaseController sharedInstance] mettreAJourNewsVC:parserVC.listeNews];
 			}
 			else {
 				[delegate majEnded:3];
@@ -84,10 +87,9 @@
 		
 	}
 	
-
-		
-	
-	[parser release];
+	[parserFB release];
+	[parserVC release];
+	[parserTwit release];
 	
 	
 }

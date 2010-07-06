@@ -54,7 +54,7 @@ didStartElement:(NSString *)elementName
 	}
 	else if([elementName isEqualToString:@"description"] || [elementName isEqualToString:@"content"])
 	{
-		[VCHTMLRemover removeHTMLFromString:buildingElement];
+		//[VCHTMLRemover removeHTMLFromString:buildingElement];
 		description = [buildingElement retain];
 		[buildingElement release];
 		buildingElement = nil;

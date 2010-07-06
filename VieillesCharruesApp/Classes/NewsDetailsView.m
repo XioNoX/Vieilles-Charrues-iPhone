@@ -39,7 +39,7 @@
 	
 	
 	self.datePub.text = jour;
-	self.description.text = nouvelle.description;
+	[self.description loadHTMLString:nouvelle.description baseURL:nil ];
 	
 	
 }

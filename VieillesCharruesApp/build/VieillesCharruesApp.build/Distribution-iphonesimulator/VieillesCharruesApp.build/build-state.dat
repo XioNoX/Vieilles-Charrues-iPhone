@@ -183,6 +183,56 @@ cLd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-
 cGenerateDSYMFile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app.dSYM /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp
 cTouch /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app
 
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk
+c000000004A42E5F300000000000000EE
+t1245898227
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A0BAA26000000000026EE80
+t1242278438
+s2551424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004A0CD38B00000000000423F0
+t1242354571
+s271344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004A0CD38600000000000001AF
+t1242354566
+s431
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A0BAB370000000000261F90
+t1242278711
+s2498448
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAB250000000000001355
+t1242278693
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBB000000000000075E
+t1242349243
+s1886
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A0CBF5F0000000001434100
+t1242349407
+s21184768
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/include/sqlite3.h
+c000000004A0BA76A000000000003D86F
+t1242277738
+s252015
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/lib/libsqlite3.0.dylib
+c000000004A0BA78C00000000000C36F0
+t1242277772
+s800496
+
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
 c000000004B69B45C00000000000000EE
 t1265218652
@@ -232,6 +282,1977 @@ N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1
 c000000004B2B49D500000000000C4CF0
 t1261128149
 s806128
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/AboutTom.png
+c000000004C2B83BB00000000000041F0
+t1277920187
+s16880
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1003.jpg
+c000000004C2B83BB0000000000001084
+t1277920187
+s4228
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1019.jpg
+c000000004C2B83BB00000000000075E8
+t1277920187
+s30184
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1020.jpg
+c000000004C2B83BB0000000000008A1A
+t1277920187
+s35354
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1021.jpg
+c000000004C2B83BB0000000000006F51
+t1277920187
+s28497
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1022.jpg
+c000000004C2B83BB0000000000002197
+t1277920187
+s8599
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1023.jpg
+c000000004C2B83BB0000000000002294
+t1277920187
+s8852
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1024.jpg
+c000000004C2B83BB00000000000102E9
+t1277920187
+s66281
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1025.jpg
+c000000004C2B83BB0000000000002077
+t1277920187
+s8311
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1026.jpg
+c000000004C2B83BB0000000000001CEE
+t1277920187
+s7406
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1027.jpg
+c000000004C2B83BB0000000000001BCA
+t1277920187
+s7114
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1028.jpg
+c000000004C2B83BB0000000000001F2A
+t1277920187
+s7978
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1029.jpg
+c000000004C2B83BB00000000000062DB
+t1277920187
+s25307
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1030.jpg
+c000000004C2B83BB0000000000001B83
+t1277920187
+s7043
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1031.jpg
+c000000004C2B83BB0000000000005891
+t1277920187
+s22673
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1032.jpg
+c000000004C2B83BB000000000000603B
+t1277920187
+s24635
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1035.jpg
+c000000004C2B83BB0000000000002C38
+t1277920187
+s11320
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1036.jpg
+c000000004C2B83BB0000000000004B64
+t1277920187
+s19300
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1037.jpg
+c000000004C2B83BB0000000000004591
+t1277920187
+s17809
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1038.jpg
+c000000004C2B83BB00000000000033BC
+t1277920187
+s13244
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1039.jpg
+c000000004C2B83BB000000000000542F
+t1277920187
+s21551
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1040.jpg
+c000000004C2B83BB0000000000003555
+t1277920187
+s13653
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1041.jpg
+c000000004C2B83BB00000000000076C5
+t1277920187
+s30405
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1042.jpg
+c000000004C2B83BB00000000000043D7
+t1277920187
+s17367
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1043.jpg
+c000000004C2B83BB0000000000005989
+t1277920187
+s22921
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1044.jpg
+c000000004C2B83BB000000000000364E
+t1277920187
+s13902
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1045.jpg
+c000000004C2B83BB000000000000380F
+t1277920187
+s14351
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1046.jpg
+c000000004C2B83BB00000000000030F5
+t1277920187
+s12533
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1047.jpg
+c000000004C2B83BB0000000000002092
+t1277920187
+s8338
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1048.jpg
+c000000004C2B83BB0000000000001A07
+t1277920187
+s6663
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1049.jpg
+c000000004C2B83BB00000000000022AB
+t1277920187
+s8875
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1050.jpg
+c000000004C2B83BB0000000000002E91
+t1277920187
+s11921
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1051.jpg
+c000000004C2B83BB000000000000190D
+t1277920187
+s6413
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1052.jpg
+c000000004C2B83BB00000000000018D1
+t1277920187
+s6353
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1053.jpg
+c000000004C2B83BB0000000000003276
+t1277920187
+s12918
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1054.jpg
+c000000004C2B83BB0000000000002177
+t1277920187
+s8567
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1055.jpg
+c000000004C2B83BB00000000000022D8
+t1277920187
+s8920
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1056.jpg
+c000000004C2B83BB0000000000005279
+t1277920187
+s21113
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1057.jpg
+c000000004C2B83BB00000000000031E1
+t1277920187
+s12769
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1058.jpg
+c000000004C2B83BB0000000000002408
+t1277920187
+s9224
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1059.jpg
+c000000004C2B83BB00000000000024FB
+t1277920187
+s9467
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1060.jpg
+c000000004C2B83BB00000000000020A0
+t1277920187
+s8352
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1061.jpg
+c000000004C2B83BB000000000000133C
+t1277920187
+s4924
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1062.jpg
+c000000004C2B83BB000000000000472B
+t1277920187
+s18219
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1063.jpg
+c000000004C2B83BB000000000000457C
+t1277920187
+s17788
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1064.jpg
+c000000004C2B83BB00000000000042AF
+t1277920187
+s17071
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1065.jpg
+c000000004C2B83BB0000000000003FD9
+t1277920187
+s16345
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1066.jpg
+c000000004C2B83BB0000000000001B71
+t1277920187
+s7025
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1067.jpg
+c000000004C2B83BB0000000000000FDA
+t1277920187
+s4058
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1068.jpg
+c000000004C2B83BB0000000000000C37
+t1277920187
+s3127
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1069.jpg
+c000000004C2B83BB0000000000001E38
+t1277920187
+s7736
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1070.jpg
+c000000004C2B83BB0000000000000EC7
+t1277920187
+s3783
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1071.jpg
+c000000004C2B83BB0000000000003799
+t1277920187
+s14233
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1072.jpg
+c000000004C2B83BB0000000000001DD7
+t1277920187
+s7639
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1073.jpg
+c000000004C2B83BB0000000000006D8A
+t1277920187
+s28042
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1074.jpg
+c000000004C2B83BB00000000000035E1
+t1277920187
+s13793
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1075.jpg
+c000000004C2B83BB0000000000005A9E
+t1277920187
+s23198
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1076.jpg
+c000000004C2B83BB0000000000001E04
+t1277920187
+s7684
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1077.jpg
+c000000004C2B83BB0000000000003598
+t1277920187
+s13720
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1078.jpg
+c000000004C2B83BB000000000000538C
+t1277920187
+s21388
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1079.jpg
+c000000004C2B83BB0000000000001BB8
+t1277920187
+s7096
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1080.jpg
+c000000004C2B83BB00000000000027D0
+t1277920187
+s10192
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1081.jpg
+c000000004C2B83BB0000000000002642
+t1277920187
+s9794
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1082.jpg
+c000000004C2B83BB0000000000005FCF
+t1277920187
+s24527
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1083.jpg
+c000000004C2B83BB00000000000040D8
+t1277920187
+s16600
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1084.jpg
+c000000004C2B83BB0000000000003A56
+t1277920187
+s14934
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1085.jpg
+c000000004C2B83BB00000000000035F0
+t1277920187
+s13808
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1086.jpg
+c000000004C2B83BB0000000000005C40
+t1277920187
+s23616
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1087.jpg
+c000000004C2B83BB000000000000102E
+t1277920187
+s4142
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1088.jpg
+c000000004C2B83BB0000000000001F13
+t1277920187
+s7955
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1089.jpg
+c000000004C2B83BB0000000000002002
+t1277920187
+s8194
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1090.jpg
+c000000004C2B83BB0000000000004CBD
+t1277920187
+s19645
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1091.jpg
+c000000004C2B83BB0000000000004BB1
+t1277920187
+s19377
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Artiste1092.jpg
+c000000004C2B83BB0000000000004BC4
+t1277920187
+s19396
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/BandeauVieillesCharrues.png
+c000000004C2B83BB000000000000349D
+t1277920187
+s13469
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/CellConcert.h
+c000000004C2B83BB0000000000000548
+t1277920187
+s1352
+i<UIKit/UIKit.h>
+i"VCConcert.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/CellFavori.h
+c000000004C2B83BB0000000000000535
+t1277920187
+s1333
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"VCConcert.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/CellTente.h
+c000000004C2B83BB000000000000042C
+t1277920187
+s1068
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"VCTente.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../CellConcert.m
+c000000004C2CD8F90000000000000CB1
+t1278007545
+s3249
+i"CellConcert.h"
+i"VCDataBaseController.h"
+i"VCUtils.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../CellFavori.h
+c000000004C2B83BB0000000000000535
+t1277920187
+s1333
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"VCConcert.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../CellFavori.m
+c000000004C2B83BB0000000000000532
+t1277920187
+s1330
+i"CellFavori.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../CellTente.h
+c000000004C2B83BB000000000000042C
+t1277920187
+s1068
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"VCTente.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../CellTente.m
+c000000004C2B83BB0000000000000434
+t1277920187
+s1076
+i"CellTente.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../MainTabBar.m
+c000000004C2B83BB000000000000040F
+t1277920187
+s1039
+i"MainTabBar.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../TableViewControllerConcert.m
+c000000004C2CE7340000000000001E22
+t1278011188
+s7714
+i"TableViewControllerConcert.h"
+i"TableViewControllerArtistes.h"
+i"CellConcert.h"
+i"VCConcertParser.h"
+i"VCArtisteParser.h"
+i"constantes.h"
+i"VCUtils.h"
+i"TableViewDetailsConcert.h"
+i"VieillesCharruesAppAppDelegate.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../TableViewControllerConcert.xib
+c000000004C2B83BB0000000000005580
+t1277920187
+s21888
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../TableViewControllerNews.m
+c000000004C2B83BB0000000000001A5C
+t1277920187
+s6748
+i"TableViewControllerNews.h"
+i"CellNews.h"
+i"VCNews.h"
+i"VCNewsParser.h"
+i"NewsDetailsView.h"
+i"constantes.h"
+i"VieillesCharruesAppAppDelegate.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../TableViewControllerNews.xib
+c000000004C2B83BB000000000000545B
+t1277920187
+s21595
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../ViewControllerInfos.m
+c000000004C2C78E70000000000001F79
+t1277982951
+s8057
+i"ViewControllerInfos.h"
+i"TableVIewControllerPartenaires.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellArtiste.h
+c000000004C2B83A40000000000000184
+t1277920164
+s388
+i<UIKit/UIKit.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellArtiste.m
+c000000004C2B83A400000000000004D0
+t1277920164
+s1232
+i"CellArtiste.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellDetailHeader.h
+c000000004C2B83A4000000000000045E
+t1277920164
+s1118
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"VCArtiste.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellDetailHeader.m
+c000000004C2B83A400000000000007A5
+t1277920164
+s1957
+i"CellDetailHeader.h"
+i"VCUtils.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellDetailsConcerts.h
+c000000004C2B83A400000000000003F1
+t1277920164
+s1009
+i<UIKit/UIKit.h>
+i"VCConcert.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellDetailsConcerts.m
+c000000004C2B83A4000000000000076A
+t1277920164
+s1898
+i"VCUtils.h"
+i"CellDetailsConcerts.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellDetailsConcerts.xib
+c000000004C2B83A40000000000004F44
+t1277920164
+s20292
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellDetailsDescription.h
+c000000004C2B83A400000000000003BE
+t1277920164
+s958
+i<UIKit/UIKit.h>
+i"VCArtiste.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellDetailsDescription.m
+c000000004C2B83A400000000000006FC
+t1277920164
+s1788
+i"CellDetailsDescription.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellDetailsDescription.xib
+c000000004C2B83A40000000000004228
+t1277920164
+s16936
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellDetailsHeader.xib
+c000000004C2B83A40000000000006077
+t1277920164
+s24695
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellFavori.xib
+c000000004C2B83A400000000000051C6
+t1277920164
+s20934
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellNews.h
+c000000004C2CE82600000000000004D4
+t1278011430
+s1236
+i<UIKit/UIKit.h>
+i"VCNews.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellNews.m
+c000000004C2CE8120000000000000CAD
+t1278011410
+s3245
+i"CellNews.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellPartenaires.h
+c000000004C2B83A400000000000003E1
+t1277920164
+s993
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellPartenaires.m
+c000000004C2B83A4000000000000057B
+t1277920164
+s1403
+i"CellPartenaires.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellPartenaires.xib
+c000000004C2B83A40000000000004968
+t1277920164
+s18792
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellTente.xib
+c000000004C2B83A40000000000007498
+t1277920164
+s29848
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/LoadingView.xib
+c000000004C2B83A400000000000044C3
+t1277920164
+s17603
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/NewsDetailsView.h
+c000000004C2B83A4000000000000044D
+t1277920164
+s1101
+i<UIKit/UIKit.h>
+i"VCNews.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/NewsDetailsView.m
+c000000004C2B83A400000000000006F2
+t1277920164
+s1778
+i"NewsDetailsView.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/NewsDetailsView.xib
+c000000004C2B83A40000000000005644
+t1277920164
+s22084
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/TableVIewControllerPartenaires.h
+c000000004C2B83A400000000000003A0
+t1277920164
+s928
+i<UIKit/UIKit.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/TableVIewControllerPartenaires.m
+c000000004C2CE8ED0000000000001602
+t1278011629
+s5634
+i"TableVIewControllerPartenaires.h"
+i"CellPartenaires.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/TableVIewControllerPartenaires.xib
+c000000004C2B83A40000000000001CA5
+t1277920164
+s7333
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/TableViewControllerArtistes.h
+c000000004C2CE733000000000000021C
+t1278011187
+s540
+i<UIKit/UIKit.h>
+i"VCDataBaseController.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/TableViewControllerArtistes.m
+c000000004C2CE73300000000000016A8
+t1278011187
+s5800
+i"TableViewControllerArtistes.h"
+i"TableViewDetailsConcert.h"
+i"CellArtiste.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/TableViewDetailsConcert.h
+c000000004C2B83A40000000000000484
+t1277920164
+s1156
+i<UIKit/UIKit.h>
+i"VCArtiste.h"
+i"VCConcert.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/TableViewDetailsConcert.m
+c000000004C2B83A400000000000013A4
+t1277920164
+s5028
+i"TableViewDetailsConcert.h"
+i"CellDetailHeader.h"
+i"CellDetailsConcerts.h"
+i"CellDetailsDescription.h"
+i"VCUtils.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/TableViewDetailsConcert.xib
+c000000004C2B83A40000000000001C90
+t1277920164
+s7312
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/TableViewFavoris.h
+c000000004C2B83A40000000000000432
+t1277920164
+s1074
+i<UIKit/UIKit.h>
+i"VCDataBaseController.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/TableViewFavoris.m
+c000000004C2B83A400000000000013A2
+t1277920164
+s5026
+i"TableViewFavoris.h"
+i"CellFavori.h"
+i"VCConcert.h"
+i"VCUtils.h"
+i"TableViewDetailsConcert.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/TableViewFavoris.xib
+c000000004C2B83A40000000000001C7B
+t1277920164
+s7291
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCArtiste.h
+c000000004C2B83A400000000000003CC
+t1277920164
+s972
+i<Foundation/Foundation.h>
+i<sqlite3.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCArtiste.m
+c000000004C2B83A400000000000006C6
+t1277920164
+s1734
+i"VCArtiste.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCArtisteParser.h
+c000000004C2B83A40000000000000208
+t1277920164
+s520
+i<Foundation/Foundation.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCArtisteParser.m
+c000000004C2B83A40000000000000D05
+t1277920164
+s3333
+i"VCArtisteParser.h"
+i"VCArtiste.h"
+i"VCHTMLRemover.h"
+i"VCUtils.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCCLLocationController.h
+c000000004C2B83A4000000000000057C
+t1277920164
+s1404
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCCLLocationController.m
+c000000004C2B83A4000000000000068C
+t1277920164
+s1676
+i"VCCLLocationController.h"
+i"ViewLocation.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCConcert.h
+c000000004C2B83A400000000000003E0
+t1277920164
+s992
+i<Foundation/Foundation.h>
+i<sqlite3.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCConcert.m
+c000000004C2B83A4000000000000062E
+t1277920164
+s1582
+i"VCConcert.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCConcertParser.h
+c000000004C2B83A40000000000000390
+t1277920164
+s912
+i<Foundation/Foundation.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCConcertParser.m
+c000000004C2B83A40000000000000A58
+t1277920164
+s2648
+i"VCConcertParser.h"
+i"VCConcert.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCDataBaseController.h
+c000000004C2B83A40000000000000719
+t1277920164
+s1817
+i<Foundation/Foundation.h>
+i<sqlite3.h>
+i"VCConcert.h"
+i"VCNews.h"
+i"VCArtiste.h"
+i"VCTente.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCDataBaseController.m
+c000000004C2B83A40000000000003BFB
+t1277920164
+s15355
+i"VCDataBaseController.h"
+i"constantes.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCFluxUpdater.h
+c000000004C2B83A40000000000000204
+t1277920164
+s516
+i<Foundation/Foundation.h>
+i"constantes.h"
+i"VCNewsParser.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCFluxUpdater.m
+c000000004C2C858E0000000000000C61
+t1277986190
+s3169
+i"VCFluxUpdater.h"
+i"VCDataBaseController.h"
+i"VCArtisteParser.h"
+i"VCConcertParser.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCHTMLRemover.h
+c000000004C2B83A4000000000000016C
+t1277920164
+s364
+i<Foundation/Foundation.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCHTMLRemover.m
+c000000004C2B83A4000000000000029B
+t1277920164
+s667
+i"VCHTMLRemover.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCNews.h
+c000000004C2B83A40000000000000356
+t1277920164
+s854
+i<Foundation/Foundation.h>
+i"sqlite3.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCNews.m
+c000000004C2B83A4000000000000071B
+t1277920164
+s1819
+i"VCNews.h"
+i"constantes.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCNewsParser.h
+c000000004C2B83A400000000000003D7
+t1277920164
+s983
+i<Foundation/Foundation.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCNewsParser.m
+c000000004C2B83A40000000000000E2F
+t1277920164
+s3631
+i"VCNewsParser.h"
+i"VCNews.h"
+i"VCHTMLRemover.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCTente.h
+c000000004C2B83A4000000000000025D
+t1277920164
+s605
+i<Foundation/Foundation.h>
+i<sqlite3.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCTente.m
+c000000004C2B83A40000000000000332
+t1277920164
+s818
+i"VCTente.h"
+i"VCDataBaseController.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCUtils.h
+c000000004C2B83A4000000000000020F
+t1277920164
+s527
+i<Foundation/Foundation.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCUtils.m
+c000000004C2B83A40000000000000DD2
+t1277920164
+s3538
+i"VCUtils.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VieillesCharruesAppAppDelegate.h
+c000000004C2B83A40000000000000455
+t1277920164
+s1109
+i<UIKit/UIKit.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VieillesCharruesAppAppDelegate.m
+c000000004C2B83A4000000000000057B
+t1277920164
+s1403
+i"VieillesCharruesAppAppDelegate.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/ViewControllerInfo.xib
+c000000004C2B83A40000000000005445
+t1277920164
+s21573
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/ViewLocation.h
+c000000004C2B83A40000000000000730
+t1277920164
+s1840
+i<UIKit/UIKit.h>
+i"VCTente.h"
+i"VCCLLocationController.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/ViewLocation.m
+c000000004C2B83A4000000000000238D
+t1277920164
+s9101
+i"ViewLocation.h"
+i"VieillesCharruesAppAppDelegate.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/ViewOuEstMaTente.h
+c000000004C2B83A40000000000000628
+t1277920164
+s1576
+i<UIKit/UIKit.h>
+i"VCDataBaseController.h"
+i"VCCLLocationController.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/ViewOuEstMaTente.m
+c000000004C2B83A400000000000019B9
+t1277920164
+s6585
+i"ViewOuEstMaTente.h"
+i"CellTente.h"
+i"ViewLocation.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/ViewOuEstMaTente.xib
+c000000004C2B83A40000000000006FE4
+t1277920164
+s28644
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/ViewPlanVC.h
+c000000004C2B83A40000000000000476
+t1277920164
+s1142
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/ViewPlanVC.m
+c000000004C2B83A40000000000000794
+t1277920164
+s1940
+i"ViewPlanVC.h"
+i"ViewLocation.h"
+i"ViewOuEstMaTente.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/ViewPlanVC.xib
+c000000004C2B83A40000000000006580
+t1277920164
+s25984
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/constantes.h
+c000000004C2C82EF0000000000000336
+t1277985519
+s822
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Default.png
+c000000004C2B83BB000000000003034A
+t1277920187
+s197450
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Facebook.png
+c000000004C2B83BB0000000000001385
+t1277920187
+s4997
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/FavoriSelected.png
+c000000004C2B83BB0000000000001036
+t1277920187
+s4150
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/FavoriUnselected.png
+c000000004C2B83BB00000000000010EA
+t1277920187
+s4330
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/LoadingView.png
+c000000004C2B83BB00000000000013FD
+t1277920187
+s5117
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/20Minutes.jpg
+c000000004C2B83BA0000000000001AFB
+t1277920186
+s6907
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/ArteLive.jpg
+c000000004C2B83BA0000000000000AD0
+t1277920186
+s2768
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/BrasseriesKronenbourg.jpg
+c000000004C2B83BA00000000000010A2
+t1277920186
+s4258
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/BreizhCola.jpg
+c000000004C2B83BA0000000000000EF4
+t1277920186
+s3828
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/Coreff.jpg
+c000000004C2B83BA000000000000164A
+t1277920186
+s5706
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/CreditAgricole.jpg
+c000000004C2B83BA00000000000015C3
+t1277920186
+s5571
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/Deezer.jpg
+c000000004C2B83BA0000000000001349
+t1277920186
+s4937
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/Durex.jpg
+c000000004C2B83BA0000000000000E3B
+t1277920186
+s3643
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/EspaceCulturelELeclerc.jpg
+c000000004C2B83BA0000000000001163
+t1277920186
+s4451
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/FranceBleu.png
+c000000004C2B83BA0000000000001B01
+t1277920186
+s6913
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/FranceInter.jpg
+c000000004C2B83BA0000000000000E99
+t1277920186
+s3737
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/FranceLocation.jpg
+c000000004C2B83BA0000000000000D4C
+t1277920186
+s3404
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/LAGGuitars.jpg
+c000000004C2B83BA0000000000000DAA
+t1277920186
+s3498
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/LeCochondeBretagne.jpg
+c000000004C2B83BA00000000000011FC
+t1277920186
+s4604
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/LeMouv.png
+c000000004C2B83BA0000000000001A18
+t1277920186
+s6680
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/LeTelegramme.jpg
+c000000004C2B83BA0000000000001282
+t1277920186
+s4738
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/MCM.jpg
+c000000004C2B83BA00000000000013A0
+t1277920186
+s5024
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/McCain.jpg
+c000000004C2B83BA0000000000000EA0
+t1277920186
+s3744
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/OranginaSchweppes.jpg
+c000000004C2B83BA0000000000001213
+t1277920186
+s4627
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/OuestFrance.jpg
+c000000004C2B83BA00000000000016FE
+t1277920186
+s5886
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/Pomona.jpg
+c000000004C2B83BA0000000000001179
+t1277920186
+s4473
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/QueguinerMateriaux.jpg
+c000000004C2B83BA0000000000000D38
+t1277920186
+s3384
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/SFR.jpg
+c000000004C2B83BA000000000000101A
+t1277920186
+s4122
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Logo Partenaires/Toyota.jpg
+c000000004C2B83BA000000000000120A
+t1277920186
+s4618
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/MainTabBar.h
+c000000004C2B83BB0000000000000374
+t1277920187
+s884
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/MainWindow.xib
+c000000004C2B83BB0000000000010C15
+t1277920187
+s68629
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/NewsTab.png
+c000000004C2B83BB00000000000011C0
+t1277920187
+s4544
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Polytech.png
+c000000004C2B83BB000000000004CF73
+t1277920187
+s315251
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/TableViewControllerConcert.h
+c000000004C2B83BB00000000000005AC
+t1277920187
+s1452
+i<UIKit/UIKit.h>
+i"VCDataBaseController.h"
+i"VCFluxUpdater.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/TableViewControllerNews.h
+c000000004C2B83BB00000000000004E7
+t1277920187
+s1255
+i<UIKit/UIKit.h>
+i"sqlite3.h"
+i"VCDataBaseController.h"
+i"VCFluxUpdater.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/Twitter.png
+c000000004C2B83BB000000000000084E
+t1277920187
+s2126
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/UINavigationBar+Image.h
+c000000004C2B83BB00000000000000F8
+t1277920187
+s248
+i<Foundation/Foundation.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/UINavigationBar+Image.m
+c000000004C2B83BB00000000000001E9
+t1277920187
+s489
+i"UINavigationBar+Image.h"
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/VCdataBase.db
+c000000004C2C825D0000000000027000
+t1277985373
+s159744
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/VieillesCharrues.png
+c000000004C2B83BB0000000000001ADB
+t1277920187
+s6875
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/VieillesCharruesApp_Prefix.pch
+c000000004C2B83BB00000000000000CF
+t1277920187
+s207
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/ViewControllerInfos.h
+c000000004C2B83BB000000000000041C
+t1277920187
+s1052
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/about.png
+c000000004C2B83BB00000000000010A9
+t1277920187
+s4265
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app
+t1277920168
+s4930
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app.dSYM
+t1277920165
+s136
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/20Minutes.jpg
+t1277920168
+s27643
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/AboutTom.png
+t1277920168
+s16880
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/ArteLive.jpg
+t1277920168
+s14837
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1003.jpg
+t1277920168
+s4228
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1019.jpg
+t1277920168
+s30184
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1020.jpg
+t1277920168
+s35354
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1021.jpg
+t1277920168
+s28497
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1022.jpg
+t1277920168
+s8599
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1023.jpg
+t1277920168
+s8852
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1024.jpg
+t1277920168
+s66281
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1025.jpg
+t1277920168
+s8311
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1026.jpg
+t1277920168
+s7406
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1027.jpg
+t1277920168
+s7114
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1028.jpg
+t1277920168
+s7978
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1029.jpg
+t1277920168
+s25307
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1030.jpg
+t1277920168
+s7043
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1031.jpg
+t1277920168
+s22673
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1032.jpg
+t1277920168
+s24635
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1035.jpg
+t1277920168
+s11320
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1036.jpg
+t1277920168
+s19300
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1037.jpg
+t1277920168
+s17809
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1038.jpg
+t1277920168
+s13244
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1039.jpg
+t1277920168
+s21551
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1040.jpg
+t1277920168
+s13653
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1041.jpg
+t1277920168
+s30405
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1042.jpg
+t1277920168
+s17367
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1043.jpg
+t1277920168
+s22921
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1044.jpg
+t1277920168
+s13902
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1045.jpg
+t1277920168
+s14351
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1046.jpg
+t1277920168
+s12533
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1047.jpg
+t1277920168
+s8338
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1048.jpg
+t1277920168
+s6663
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1049.jpg
+t1277920168
+s8875
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1050.jpg
+t1277920168
+s11921
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1051.jpg
+t1277920168
+s6413
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1052.jpg
+t1277920168
+s6353
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1053.jpg
+t1277920168
+s12918
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1054.jpg
+t1277920168
+s8567
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1055.jpg
+t1277920168
+s8920
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1056.jpg
+t1277920168
+s21113
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1057.jpg
+t1277920168
+s12769
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1058.jpg
+t1277920168
+s9224
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1059.jpg
+t1277920168
+s9467
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1060.jpg
+t1277920168
+s8352
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1061.jpg
+t1277920168
+s4924
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1062.jpg
+t1277920168
+s18219
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1063.jpg
+t1277920168
+s17788
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1064.jpg
+t1277920168
+s17071
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1065.jpg
+t1277920168
+s16345
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1066.jpg
+t1277920168
+s7025
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1067.jpg
+t1277920168
+s4058
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1068.jpg
+t1277920168
+s3127
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1069.jpg
+t1277920168
+s7736
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1070.jpg
+t1277920168
+s3783
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1071.jpg
+t1277920168
+s14233
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1072.jpg
+t1277920168
+s7639
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1073.jpg
+t1277920168
+s28042
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1074.jpg
+t1277920168
+s13793
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1075.jpg
+t1277920168
+s23198
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1076.jpg
+t1277920168
+s7684
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1077.jpg
+t1277920168
+s13720
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1078.jpg
+t1277920168
+s21388
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1079.jpg
+t1277920168
+s7096
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1080.jpg
+t1277920168
+s10192
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1081.jpg
+t1277920168
+s9794
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1082.jpg
+t1277920168
+s24527
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1083.jpg
+t1277920168
+s16600
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1084.jpg
+t1277920168
+s14934
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1085.jpg
+t1277920168
+s13808
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1086.jpg
+t1277920168
+s23616
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1087.jpg
+t1277920168
+s4142
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1088.jpg
+t1277920168
+s7955
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1089.jpg
+t1277920168
+s8194
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1090.jpg
+t1277920168
+s19645
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1091.jpg
+t1277920168
+s19377
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Artiste1092.jpg
+t1277920168
+s19396
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/BandeauVieillesCharrues.png
+t1277920168
+s13469
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/BrasseriesKronenbourg.jpg
+t1277920168
+s26617
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/BreizhCola.jpg
+t1277920168
+s2218
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/CellDetailsConcerts.nib
+t1277920168
+s3030
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/CellDetailsDescription.nib
+t1277920168
+s2259
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/CellDetailsHeader.nib
+t1277920168
+s3652
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/CellFavori.nib
+t1277920168
+s3195
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/CellPartenaires.nib
+t1277920168
+s2320
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/CellTente.nib
+t1277920168
+s4020
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Coreff.jpg
+t1277920168
+s17734
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/CreditAgricole.jpg
+t1277920168
+s30712
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Deezer.jpg
+t1277920168
+s19960
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Default.png
+t1277920168
+s197450
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Durex.jpg
+t1277920168
+s2156
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/EspaceCulturelELeclerc.jpg
+t1277920168
+s14289
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Facebook.png
+t1277920168
+s4997
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/FavoriSelected.png
+t1277920168
+s4150
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/FavoriUnselected.png
+t1277920168
+s4330
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/FranceBleu.png
+t1277920168
+s6686
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/FranceInter.jpg
+t1277920168
+s14225
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/FranceLocation.jpg
+t1277920168
+s29911
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Info.plist
+t1277920168
+s749
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/LAGGuitars.jpg
+t1277920168
+s25180
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/LeCochondeBretagne.jpg
+t1277920168
+s16839
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/LeMouv.png
+t1277920168
+s6922
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/LeTelegramme.jpg
+t1277920168
+s20728
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/LoadingView.nib
+t1277920168
+s1959
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/LoadingView.png
+t1277920168
+s5117
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/MCM.jpg
+t1277920168
+s22445
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/MainWindow.nib
+t1277920168
+s7613
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/McCain.jpg
+t1277920168
+s24976
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/NewsDetailsView.nib
+t1277920168
+s2712
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/NewsTab.png
+t1277920168
+s4544
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/OranginaSchweppes.jpg
+t1277920168
+s22318
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/OuestFrance.jpg
+t1277920168
+s28961
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/PkgInfo
+t1277920168
+s8
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Polytech.png
+t1277920168
+s315251
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Pomona.jpg
+t1277920168
+s4469
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/QueguinerMateriaux.jpg
+t1277920168
+s4135
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/SFR.jpg
+t1277920168
+s2635
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/TableVIewControllerPartenaires.nib
+t1277920168
+s1387
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/TableViewControllerConcert.nib
+t1277920168
+s1589
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/TableViewControllerNews.nib
+t1277920168
+s1662
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/TableViewDetailsConcert.nib
+t1277920168
+s1387
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/TableViewFavoris.nib
+t1277920168
+s1387
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Toyota.jpg
+t1277920168
+s23834
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Twitter.png
+t1277920168
+s2126
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/VCdataBase.db
+t1277920168
+s159744
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/VieillesCharrues.png
+t1277920168
+s6875
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp
+t1277920168
+s149100
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/ViewControllerInfo.nib
+t1277920168
+s2885
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/ViewOuEstMaTente.nib
+t1277920168
+s3440
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/ViewPlanVC.nib
+t1277920168
+s2390
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/about.png
+t1277920168
+s4265
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/bulle_tente.png
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/carte.png
+t1277920168
+s3456
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/carte_exterieure.jpg
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/carte_interieure.jpg
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/chezMoi.png
+t1277920168
+s443911
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/dapreauTente.png
+t1277920168
+s3885
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/icone_vieilles_charrues.png
+t1277920168
+s3444
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/news.png
+t1277920168
+s4903
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/plan_fond.png
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/point_localisation.png
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/prog.png
+t1277920168
+s3184
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/section_background.png
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/supprimer.png
+t1277920168
+s1314
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellArtiste.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellConcert.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellDetailHeader.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellDetailsConcerts.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellDetailsDescription.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellFavori.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellNews.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellPartenaires.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellTente.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/MainTabBar.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/NewsDetailsView.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableVIewControllerPartenaires.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerArtistes.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerConcert.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerNews.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewDetailsConcert.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewFavoris.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/UINavigationBar+Image.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCArtiste.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCArtisteParser.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCCLLocationController.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCConcert.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCConcertParser.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCDataBaseController.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCFluxUpdater.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCHTMLRemover.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCNews.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCNewsParser.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCTente.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCUtils.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VieillesCharruesApp.LinkFileList
+c000000004C2B83B200000000000018E7
+t1277920178
+s6375
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VieillesCharruesAppAppDelegate.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewControllerInfos.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewLocation.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewOuEstMaTente.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewPlanVC.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/bulle_tente.png
+c000000004C2B83BB000000000000DD11
+t1277920187
+s56593
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/carte.png
+c000000004C2B83BB0000000000000D80
+t1277920187
+s3456
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/carte_exterieure.jpg
+c000000004C2B83BB000000000002E718
+t1277920187
+s190232
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/carte_interieure.jpg
+c000000004C2B83BB000000000000F444
+t1277920187
+s62532
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/chezMoi.png
+c000000004C2B83BB000000000006C607
+t1277920187
+s443911
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/dapreauTente.png
+c000000004C2B83BB0000000000000F2D
+t1277920187
+s3885
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/icone_vieilles_charrues.png
+c000000004C2B83BB0000000000000D74
+t1277920187
+s3444
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/main.m
+c000000004C2B83BB0000000000000169
+t1277920187
+s361
+i<UIKit/UIKit.h>
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/news.png
+c000000004C2B83BB0000000000001327
+t1277920187
+s4903
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/plan_fond.png
+c000000004C2B83BB00000000000018C5
+t1277920187
+s6341
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/point_localisation.png
+c000000004C2B83BB0000000000000C8F
+t1277920187
+s3215
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/prog.png
+c000000004C2B83BB0000000000000C70
+t1277920187
+s3184
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/section_background.png
+c000000004C2CE7340000000000002317
+t1278011188
+s8983
+
+N/Users/thomasbelin/Documents/Projets/VieillesCharrues/supprimer.png
+c000000004C2B83BB0000000000000522
+t1277920187
+s1314
 
 N/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/AboutTom.png
 c000000004C1BA8D600000000000041F0
@@ -2358,10 +4379,14 @@ N/var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/Shared
 t1276770023
 s1729336
 
+N/var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-dnvfwixavyylglgezrxdjkfstkzc/VieillesCharruesApp_Prefix.pch.gch
+t2
+s0
+
 NVieillesCharruesApp-Info.plist
-c000000004C1BA8D600000000000003F2
-t1276881110
-s1010
+c000000004C2CEF2400000000000003F3
+t1278013220
+s1011
 
 CAnalyze /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../CellConcert.m
 s298462823.919970
@@ -2647,6 +4672,12 @@ CCheck dependencies
 r0
 lSLF07#2@18"Check dependencies298573933#298573933#0(0"0(0#1#0"7512975482832054272#0"0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellArtiste.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellArtiste.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellConcert.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../CellConcert.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellConcert.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../CellConcert.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573936.200299
 e298573936.321340
@@ -2659,6 +4690,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@89"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../CellConcert.m298573936#298573936#0(0"0(0#0#81"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../CellConcert.m4300911832#2402"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../CellConcert.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellConcert.o0#
+
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellDetailHeader.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellDetailHeader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellDetailHeader.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellDetailHeader.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573937.736837
@@ -2673,6 +4707,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@91"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellDetailHeader.m298573937#298573937#0(0"0(0#0#83"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellDetailHeader.m4300911832#2409"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellDetailHeader.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellDetailHeader.o0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellDetailsConcerts.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellDetailsConcerts.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellDetailsConcerts.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellDetailsConcerts.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573937.830173
 e298573937.942133
@@ -2685,6 +4722,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@94"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellDetailsConcerts.m298573937#298573937#0(0"0(0#0#86"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellDetailsConcerts.m4300911832#2415"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellDetailsConcerts.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellDetailsConcerts.o0#
+
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellDetailsDescription.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellDetailsDescription.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellDetailsDescription.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellDetailsDescription.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573937.850411
@@ -2699,6 +4739,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@97"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellDetailsDescription.m298573937#298573937#0(0"0(0#0#89"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellDetailsDescription.m4300911832#2421"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellDetailsDescription.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellDetailsDescription.o0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellFavori.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../CellFavori.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellFavori.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../CellFavori.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573937.505834
 e298573937.614449
@@ -2711,6 +4754,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@88"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../CellFavori.m298573937#298573937#0(0"0(0#0#80"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../CellFavori.m4300911832#2400"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../CellFavori.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellFavori.o0#
+
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellNews.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellNews.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellNews.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellNews.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573936.280624
@@ -2725,6 +4771,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@83"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellNews.m298573936#298573936#0(0"0(0#0#75"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellNews.m4300911832#2393"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellNews.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellNews.o0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellPartenaires.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellPartenaires.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellPartenaires.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellPartenaires.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573938.364847
 e298573938.441140
@@ -2737,6 +4786,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@90"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellPartenaires.m298573938#298573938#0(0"0(0#0#82"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellPartenaires.m4300911832#2407"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/CellPartenaires.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellPartenaires.o0#
+
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellTente.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../CellTente.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/CellTente.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../CellTente.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573938.078034
@@ -2764,6 +4816,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@78"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/MAJ.m298573938#298573938#0(0"0(0#0#70"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/MAJ.m4300911832#2383"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/MAJ.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/MAJ.o0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/MainTabBar.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../MainTabBar.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/MainTabBar.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../MainTabBar.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573936.321470
 e298573936.401328
@@ -2776,6 +4831,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@88"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../MainTabBar.m298573936#298573936#0(0"0(0#0#80"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../MainTabBar.m4300911832#2400"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../MainTabBar.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/MainTabBar.o0#
+
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/NewsDetailsView.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/NewsDetailsView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/NewsDetailsView.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/NewsDetailsView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573936.870995
@@ -2790,6 +4848,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@90"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/NewsDetailsView.m298573936#298573936#0(0"0(0#0#82"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/NewsDetailsView.m4300911832#2407"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/NewsDetailsView.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/NewsDetailsView.o0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableVIewControllerPartenaires.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/TableVIewControllerPartenaires.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableVIewControllerPartenaires.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/TableVIewControllerPartenaires.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573938.243199
 e298573938.406789
@@ -2802,6 +4863,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@105"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/TableVIewControllerPartenaires.m298573938#298573938#0(0"0(0#0#97"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/TableVIewControllerPartenaires.m4300911832#2437"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/TableVIewControllerPartenaires.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableVIewControllerPartenaires.o0#
+
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerArtistes.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/TableViewControllerArtistes.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerArtistes.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/TableViewControllerArtistes.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573936.905402
@@ -2816,6 +4880,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@102"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/TableViewControllerArtistes.m298573936#298573937#0(0"0(0#0#94"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/TableViewControllerArtistes.m4300911832#2431"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/TableViewControllerArtistes.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerArtistes.o0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerConcert.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../TableViewControllerConcert.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerConcert.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerConcert.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573935.831018
 e298573936.280501
@@ -2828,6 +4895,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@104"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerConcert.m298573935#298573936#0(0"0(0#0#96"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerConcert.m4300911832#2432"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerConcert.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerConcert.o0#
+
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerNews.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../TableViewControllerNews.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerNews.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerNews.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573935.878366
@@ -2842,6 +4912,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@101"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerNews.m298573935#298573936#0(0"0(0#0#93"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerNews.m4300911832#2426"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../TableViewControllerNews.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewControllerNews.o0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewDetailsConcert.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/TableViewDetailsConcert.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewDetailsConcert.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/TableViewDetailsConcert.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573937.677079
 e298573937.830051
@@ -2854,6 +4927,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@98"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/TableViewDetailsConcert.m298573937#298573937#0(0"0(0#0#90"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/TableViewDetailsConcert.m4300911832#2423"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/TableViewDetailsConcert.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewDetailsConcert.o0#
+
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewFavoris.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/TableViewFavoris.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewFavoris.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/TableViewFavoris.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573937.458257
@@ -2868,6 +4944,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@91"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/TableViewFavoris.m298573937#298573937#0(0"0(0#0#83"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/TableViewFavoris.m4300911832#2409"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/TableViewFavoris.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/TableViewFavoris.o0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/UINavigationBar+Image.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/UINavigationBar+Image.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/UINavigationBar+Image.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/UINavigationBar+Image.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573938.179740
 e298573938.243079
@@ -2880,6 +4959,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@88"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/UINavigationBar+Image.m298573938#298573938#0(0"0(0#0#80"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/UINavigationBar+Image.m4300911832#2411"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/UINavigationBar+Image.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/UINavigationBar+Image.o0#
+
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCArtiste.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCArtiste.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCArtiste.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCArtiste.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573937.280458
@@ -2894,6 +4976,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@84"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCArtiste.m298573937#298573937#0(0"0(0#0#76"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCArtiste.m4300911832#2395"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCArtiste.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCArtiste.o0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCArtisteParser.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCArtisteParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCArtisteParser.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCArtisteParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573937.287580
 e298573937.458132
@@ -2906,6 +4991,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@90"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCArtisteParser.m298573937#298573937#0(0"0(0#0#82"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCArtisteParser.m4300911832#2407"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCArtisteParser.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCArtisteParser.o0#
+
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCCLLocationController.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCCLLocationController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCCLLocationController.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCCLLocationController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573937.121936
@@ -2920,6 +5008,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@97"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCCLLocationController.m298573937#298573937#0(0"0(0#0#89"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCCLLocationController.m4300911832#2421"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCCLLocationController.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCCLLocationController.o0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCConcert.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCConcert.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCConcert.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCConcert.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573936.384537
 e298573936.504709
@@ -2932,6 +5023,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@84"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCConcert.m298573936#298573936#0(0"0(0#0#76"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCConcert.m4300911832#2395"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCConcert.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCConcert.o0#
+
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCConcertParser.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCConcertParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCConcertParser.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCConcertParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573936.504828
@@ -2946,6 +5040,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@90"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCConcertParser.m298573936#298573936#0(0"0(0#0#82"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCConcertParser.m4300911832#2407"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCConcertParser.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCConcertParser.o0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCDataBaseController.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCDataBaseController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCDataBaseController.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCDataBaseController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573936.401451
 e298573936.870878
@@ -2959,7 +5056,13 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@95"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCDataBaseController.m298573936#298573936#0(0"0(0#0#87"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCDataBaseController.m4300911832#2417"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCDataBaseController.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCDataBaseController.o0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCFluxUpdater.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCFluxUpdater.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCFluxUpdater.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCFluxUpdater.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCHTMLRemover.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCHTMLRemover.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCHTMLRemover.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCHTMLRemover.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -2975,6 +5078,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@88"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCHTMLRemover.m298573937#298573937#0(0"0(0#0#80"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCHTMLRemover.m4300911832#2403"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCHTMLRemover.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCHTMLRemover.o0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCNews.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCNews.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCNews.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCNews.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573936.651229
 e298573936.753422
@@ -2987,6 +5093,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@81"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCNews.m298573936#298573936#0(0"0(0#0#73"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCNews.m4300911832#2389"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCNews.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCNews.o0#
+
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCNewsParser.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCNewsParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCNewsParser.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCNewsParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573936.753541
@@ -3001,6 +5110,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@87"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCNewsParser.m298573936#298573936#0(0"0(0#0#79"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCNewsParser.m4300911832#2401"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCNewsParser.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCNewsParser.o0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCTente.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCTente.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCTente.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCTente.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573937.976230
 e298573938.069830
@@ -3013,6 +5125,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@82"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCTente.m298573937#298573938#0(0"0(0#0#74"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCTente.m4300911832#2391"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCTente.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCTente.o0#
+
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCUtils.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VCUtils.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCUtils.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCUtils.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573937.614573
@@ -3027,6 +5142,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@82"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCUtils.m298573937#298573937#0(0"0(0#0#74"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCUtils.m4300911832#2391"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VCUtils.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VCUtils.o0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VieillesCharruesAppAppDelegate.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/VieillesCharruesAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VieillesCharruesAppAppDelegate.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VieillesCharruesAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573935.758705
 e298573935.878243
@@ -3039,6 +5157,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@105"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VieillesCharruesAppAppDelegate.m298573935#298573935#0(0"0(0#0#97"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VieillesCharruesAppAppDelegate.m4300911832#2437"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/VieillesCharruesAppAppDelegate.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VieillesCharruesAppAppDelegate.o0#
+
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewControllerInfos.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../ViewControllerInfos.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewControllerInfos.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../ViewControllerInfos.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573937.189193
@@ -3053,6 +5174,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@97"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../ViewControllerInfos.m298573937#298573937#0(0"0(0#0#89"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../ViewControllerInfos.m4300911832#2418"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../ViewControllerInfos.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewControllerInfos.o0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewLocation.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/ViewLocation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewLocation.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/ViewLocation.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573936.994103
 e298573937.189064
@@ -3065,6 +5189,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@87"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/ViewLocation.m298573936#298573937#0(0"0(0#0#79"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/ViewLocation.m4300911832#2401"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/ViewLocation.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewLocation.o0#
+
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewOuEstMaTente.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/ViewOuEstMaTente.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewOuEstMaTente.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/ViewOuEstMaTente.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573938.069949
@@ -3079,6 +5206,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@91"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/ViewOuEstMaTente.m298573938#298573938#0(0"0(0#0#83"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/ViewOuEstMaTente.m4300911832#2409"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/ViewOuEstMaTente.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewOuEstMaTente.o0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewPlanVC.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/ViewPlanVC.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewPlanVC.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/ViewPlanVC.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573937.942252
 e298573938.077909
@@ -3092,6 +5222,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@85"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/ViewPlanVC.m298573937#298573938#0(0"0(0#0#77"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/ViewPlanVC.m4300911832#2397"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/ViewPlanVC.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/ViewPlanVC.o0#
 
+CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/main.o /Users/thomasbelin/Documents/Projets/VieillesCharrues/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/main.o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s298573935.757404
 e298573935.830899
@@ -3104,6 +5237,57 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@71"Compile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/main.m298573935#298573935#0(0"0(0#0#63"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/main.m4300911832#2377"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -include /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-bwcdkwtcbkfeexhcrrwpnwcikhrr/VieillesCharruesApp_Prefix.pch -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/main.m -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../TableViewControllerConcert.xib
+r0
+
+CCompileXIB /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/../TableViewControllerNews.xib
+r0
+
+CCompileXIB /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellDetailsConcerts.xib
+r0
+
+CCompileXIB /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellDetailsDescription.xib
+r0
+
+CCompileXIB /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellDetailsHeader.xib
+r0
+
+CCompileXIB /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellFavori.xib
+r0
+
+CCompileXIB /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellPartenaires.xib
+r0
+
+CCompileXIB /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/CellTente.xib
+r0
+
+CCompileXIB /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/LoadingView.xib
+r0
+
+CCompileXIB /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/NewsDetailsView.xib
+r0
+
+CCompileXIB /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/TableVIewControllerPartenaires.xib
+r0
+
+CCompileXIB /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/TableViewDetailsConcert.xib
+r0
+
+CCompileXIB /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/TableViewFavoris.xib
+r0
+
+CCompileXIB /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/ViewControllerInfo.xib
+r0
+
+CCompileXIB /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/ViewOuEstMaTente.xib
+r0
+
+CCompileXIB /Users/thomasbelin/Documents/Projets/VieillesCharrues/Classes/ViewPlanVC.xib
+r0
+
+CCompileXIB /Users/thomasbelin/Documents/Projets/VieillesCharrues/MainWindow.xib
+r0
 
 CCompileXIB /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/Classes/../CellNews.xib
 s298573934.176607
@@ -4284,6 +6468,9 @@ xbuild/Distribution-iphonesimulator/VieillesCharruesApp.app/about.png
 xabout.png
 lSLF07#2@14"Copy about.png298573934#298573934#0(0"0(0#0#66"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/about.png4300911832#547"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/about.png /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app0#
 
+CCpResource build/Distribution-iphonesimulator/VieillesCharruesApp.app/bulle_tente.png bulle_tente.png
+r0
+
 CCpResource build/Distribution-iphonesimulator/VieillesCharruesApp.app/carte.png carte.png
 s298573934.310479
 e298573934.330047
@@ -4292,6 +6479,9 @@ xCpResource
 xbuild/Distribution-iphonesimulator/VieillesCharruesApp.app/carte.png
 xcarte.png
 lSLF07#2@14"Copy carte.png298573934#298573934#0(0"0(0#0#66"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/carte.png4300911832#547"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/carte.png /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app0#
+
+CCpResource build/Distribution-iphonesimulator/VieillesCharruesApp.app/carte_exterieure.jpg carte_exterieure.jpg
+r0
 
 CCpResource build/Distribution-iphonesimulator/VieillesCharruesApp.app/carte_exterieure.png carte_exterieure.png
 r0
@@ -4344,6 +6534,12 @@ xbuild/Distribution-iphonesimulator/VieillesCharruesApp.app/news.png
 xnews.png
 lSLF07#2@13"Copy news.png298573934#298573934#0(0"0(0#0#65"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/news.png4300911832#546"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/news.png /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app0#
 
+CCpResource build/Distribution-iphonesimulator/VieillesCharruesApp.app/plan_fond.png plan_fond.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/VieillesCharruesApp.app/point_localisation.png point_localisation.png
+r0
+
 CCpResource build/Distribution-iphonesimulator/VieillesCharruesApp.app/prog.png prog.png
 s298573934.338653
 e298573934.395868
@@ -4352,6 +6548,9 @@ xCpResource
 xbuild/Distribution-iphonesimulator/VieillesCharruesApp.app/prog.png
 xprog.png
 lSLF07#2@13"Copy prog.png298573934#298573934#0(0"0(0#0#65"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/prog.png4300911832#546"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/prog.png /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app0#
+
+CCpResource build/Distribution-iphonesimulator/VieillesCharruesApp.app/section_background.png section_background.png
+r0
 
 CCpResource build/Distribution-iphonesimulator/VieillesCharruesApp.app/supprimer.png supprimer.png
 s298573934.332045
@@ -4362,6 +6561,9 @@ xbuild/Distribution-iphonesimulator/VieillesCharruesApp.app/supprimer.png
 xsupprimer.png
 lSLF07#2@18"Copy supprimer.png298573934#298573934#0(0"0(0#0#70"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/supprimer.png4300911832#551"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/supprimer.png /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app0#
 
+CGenerateDSYMFile /Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app.dSYM /Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp
+r0
+
 CGenerateDSYMFile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app.dSYM /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp
 s298573938.567335
 e298573938.623080
@@ -4370,6 +6572,9 @@ xGenerateDSYMFile
 x/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app.dSYM
 x/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp
 lSLF07#2@159"GenerateDSYMFile build/Distribution-iphonesimulator/VieillesCharruesApp.app.dSYM build/Distribution-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp298573938#298573938#0(0"0(0#0#135"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp4300911832#487"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app.dSYM0#
+
+CLd /Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp normal i386
+r0
 
 CLd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp normal i386
 s298573938.513236
@@ -4380,6 +6585,9 @@ x/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iph
 xnormal
 xi386
 lSLF07#2@140"Link /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp298573938#298573938#0(0"0(0#0#0"4300911832#1078"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -filelist /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/Objects-normal/i386/VieillesCharruesApp.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -framework CoreLocation -o /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app/VieillesCharruesApp0#
+
+CProcessInfoPlistFile /Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Info.plist VieillesCharruesApp-Info.plist
+r0
 
 CProcessInfoPlistFile /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app/Info.plist VieillesCharruesApp-Info.plist
 s298573933.551883
@@ -4415,6 +6623,12 @@ xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.analyzer
 lSLF07#2@41"Precompile VieillesCharruesApp_Prefix.pch298462823#298462823#0(0"0(0#0#87"/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/VieillesCharruesApp_Prefix.pch4300911832#2223"    cd /Users/thomasbelin/Documents/Projets/VieillesCharruesApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-generated-files.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-own-target-headers.hmap -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-all-target-headers.hmap -iquote /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/VieillesCharruesApp-project-headers.hmap -F/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/include -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources/i386 -I/Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/VieillesCharruesApp.build/Distribution-iphonesimulator/VieillesCharruesApp.build/DerivedSources -c /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/VieillesCharruesApp_Prefix.pch -o /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-clktwoztjckxdsbnzrqmfnzwilon/VieillesCharruesApp_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/mM/mMDMCEdsF3KBE0hkXm30mU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/VieillesCharruesApp_Prefix-dnvfwixavyylglgezrxdjkfstkzc/VieillesCharruesApp_Prefix.pch.gch VieillesCharruesApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/thomasbelin/Documents/Projets/VieillesCharrues/build/Distribution-iphonesimulator/VieillesCharruesApp.app
+r0
 
 CTouch /Users/thomasbelin/Documents/Projets/VieillesCharruesApp/build/Distribution-iphonesimulator/VieillesCharruesApp.app
 s298573938.623186
