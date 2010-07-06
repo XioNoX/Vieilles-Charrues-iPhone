@@ -90,6 +90,8 @@
 		B7EA676811E39F7700E29185 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EA676711E39F7700E29185 /* BrowserViewController.m */; };
 		B7EBB6C411D0C85A00E31097 /* bulle_tente.png in Resources */ = {isa = PBXBuildFile; fileRef = B7EBB6C311D0C85A00E31097 /* bulle_tente.png */; };
 		B7F304B011C1102D00793F4C /* icone_vieilles_charrues.png in Resources */ = {isa = PBXBuildFile; fileRef = B7F304AF11C1102D00793F4C /* icone_vieilles_charrues.png */; };
+		B7FDF7FC11E3A3B400D68DA0 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = B7FDF7FB11E3A3B400D68DA0 /* next.png */; };
+		B7FDF80111E3A3C700D68DA0 /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = B7FDF80011E3A3C700D68DA0 /* previous.png */; };
 		E2109EA411BA643500F61F2E /* BrasseriesKronenbourg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2109E9511BA643500F61F2E /* BrasseriesKronenbourg.jpg */; };
 		E2109EA511BA643500F61F2E /* BreizhCola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2109E9611BA643500F61F2E /* BreizhCola.jpg */; };
 		E2109EA611BA643500F61F2E /* LeCochondeBretagne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2109E9711BA643500F61F2E /* LeCochondeBretagne.jpg */; };
@@ -280,6 +282,8 @@
 		B7EA676711E39F7700E29185 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
 		B7EBB6C311D0C85A00E31097 /* bulle_tente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bulle_tente.png; sourceTree = "<group>"; };
 		B7F304AF11C1102D00793F4C /* icone_vieilles_charrues.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icone_vieilles_charrues.png; sourceTree = "<group>"; };
+		B7FDF7FB11E3A3B400D68DA0 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		B7FDF80011E3A3C700D68DA0 /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
 		E2109E9511BA643500F61F2E /* BrasseriesKronenbourg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BrasseriesKronenbourg.jpg; sourceTree = "<group>"; };
 		E2109E9611BA643500F61F2E /* BreizhCola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BreizhCola.jpg; sourceTree = "<group>"; };
 		E2109E9711BA643500F61F2E /* LeCochondeBretagne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LeCochondeBretagne.jpg; sourceTree = "<group>"; };
@@ -674,6 +678,8 @@
 		E26BB2AB115BCB3D002D33D3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B7FDF7FB11E3A3B400D68DA0 /* next.png */,
+				B7FDF80011E3A3C700D68DA0 /* previous.png */,
 				E2CBDBE311DD1CCE00D0668D /* Section */,
 				B7EBB6C311D0C85A00E31097 /* bulle_tente.png */,
 				E2CAA4F311D008390025D7E6 /* plan_fond.png */,
@@ -1003,6 +1009,8 @@
 				B7EBB6C411D0C85A00E31097 /* bulle_tente.png in Resources */,
 				B7E888CD11D162D60032A05D /* VCdataBase.db in Resources */,
 				E2CBDBA911DD182A00D0668D /* section_background.png in Resources */,
+				B7FDF7FC11E3A3B400D68DA0 /* next.png in Resources */,
+				B7FDF80111E3A3C700D68DA0 /* previous.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
