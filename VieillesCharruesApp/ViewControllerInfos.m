@@ -24,8 +24,10 @@
 
 @implementation ViewControllerInfos
 
--(void) viewWillAppear:(BOOL)animated {
-	[super viewWillAppear:animated];
+
+-(void) viewDidLoad {
+	
+		
 	[webView loadHTMLString:@"<html style=\"font-family:verdana\">\
 	 <h5>Animaux</h5>\
 	 <p>Les animaux de compagnies ne sont pas admis sur le site, ni dans les campings.</p>\
@@ -97,11 +99,12 @@
 	 <h5>Secours</h5>\
 	 \
 	 <p>En cas d’accident, un service d’urgence est prévu avec La Croix Rouge dans l’enceinte du site. En dehors, il faudra prévenir les pompiers (18), vous rendre à l’hôpital de Carhaix situé rue du Docteur Menguy tél : 02 98 99 20 20, ou bien contacter le SMUR (15).</p></html>" baseURL:nil];
+		
 	
 }
 
 - (IBAction)revealAbout:(id)sender {
-	UILabel *projetLabel = [[UILabel alloc] initWithFrame:CGRectMake(10.0, 100.0, 300.0, 60.0)];
+	UILabel *projetLabel = [[UILabel alloc] initWithFrame:CGRectMake(10.0, 50.0, 300.0, 60.0)];
 	[projetLabel setBackgroundColor:[UIColor clearColor]];
 	[projetLabel setTextColor:[UIColor whiteColor]];
 	[projetLabel setNumberOfLines:0];
@@ -110,7 +113,7 @@
 	[viewAbout addSubview:projetLabel];
 	[projetLabel release];
 	
-	UILabel *nomLabel = [[UILabel alloc] initWithFrame:CGRectMake(10.0, 160.0, 300.0, 20.0)];
+	UILabel *nomLabel = [[UILabel alloc] initWithFrame:CGRectMake(10.0, 110.0, 300.0, 20.0)];
 	[nomLabel setBackgroundColor:[UIColor clearColor]];
 	[nomLabel setTextColor:[UIColor whiteColor]];
 	[nomLabel setFont:[UIFont boldSystemFontOfSize:17.0]];
@@ -120,7 +123,7 @@
 	[viewAbout addSubview:nomLabel];
 	[nomLabel release];
 	
-	UILabel *suiteLabel = [[UILabel alloc] initWithFrame:CGRectMake(10.0, 180.0, 300.0, 40.0)];
+	UILabel *suiteLabel = [[UILabel alloc] initWithFrame:CGRectMake(10.0, 130.0, 300.0, 40.0)];
 	[suiteLabel setBackgroundColor:[UIColor clearColor]];
 	[suiteLabel setTextColor:[UIColor whiteColor]];
 	[suiteLabel setNumberOfLines:0];
@@ -128,8 +131,18 @@
 	[suiteLabel setText:@"Sources disponibles à l'adresse :\ncode.google.com/p/vieillescharrues"];
 	[viewAbout addSubview:suiteLabel];
 	[suiteLabel release];
-	//[textAbout loadHTMLString:@"<body style=\"background-color:black; font-family:verdana\"><p style=\"text-align:center; color:white;\" >Projet Open Source réalisé par :<br/>Thomas Belin<br/>éleve ingénieur à Polytech'Nantes</br><b>ThomasBelin4@gmail.com</b><br/>Sources disponibles à l'adresse :<br/>code.google.com/p/vieillescharrues</p></body>" baseURL:nil];
+
+	UILabel *cartesLabel = [[UILabel alloc] initWithFrame:CGRectMake(10.0, 170.0, 300.0, 120.0)];
+	[cartesLabel setBackgroundColor:[UIColor clearColor]];
+	[cartesLabel setTextColor:[UIColor whiteColor]];
+	[cartesLabel setNumberOfLines:0];
+	[cartesLabel setTextAlignment:UITextAlignmentCenter];
+	[cartesLabel setText:@"Cartes réalisées par :\n Justine Moal : justine.moal@gmail.com\n Nicolas Matelot :\nmatelotnicolas@gmail.com "];
+	[viewAbout addSubview:cartesLabel];
+	[cartesLabel release];
+	
 	[self.view.window addSubview:viewAbout];
+	
     
 }
 

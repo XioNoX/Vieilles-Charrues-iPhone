@@ -25,17 +25,17 @@
 
 
 @interface TableViewControllerConcert : UITableViewController <VCFluxUpdaterDelegate> {
-	IBOutlet UISegmentedControl *selector;
-	IBOutlet UIBarButtonItem *boutonMiseAjour;
-	IBOutlet UIActivityIndicatorView *activityIndicator;
+	IBOutlet UISegmentedControl				*selector;
+	IBOutlet UIBarButtonItem				*boutonMiseAjour;
+	IBOutlet UIActivityIndicatorView		*activityIndicator;
 	
-	UIView	*popUpView;
+	UIView									*popUpView;
 	
-	VCDataBaseController *dataBase;
-	NSMutableArray *datas;
-	NSArray *listeConcertParScene;
-	NSDictionary *listeGroupe;
-	NSDictionary *tableauDesScenes; //tableau contenant les noms des différentes scenes
+	VCDataBaseController	*dataBase;
+	NSMutableArray			*datas;
+	NSMutableArray			*listeConcertParScene;
+	NSDictionary			*listeGroupe;
+	NSDictionary			*tableauDesScenes; //tableau contenant les noms des différentes scenes
 }
 
 @property (retain, nonatomic) UIView *popUpView;

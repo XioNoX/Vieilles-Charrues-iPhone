@@ -135,7 +135,6 @@
 		E27B020711CE9ACD003B7AE2 /* carte_exterieure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E27B020611CE9ACD003B7AE2 /* carte_exterieure.jpg */; };
 		E27BFEDB11CE70B7003B7AE2 /* CellArtiste.m in Sources */ = {isa = PBXBuildFile; fileRef = E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */; };
 		E27C631211A5CE4E000DF7A5 /* UINavigationBar+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = E27C631111A5CE4E000DF7A5 /* UINavigationBar+Image.m */; };
-		E27C63DC11A5DFC2000DF7A5 /* dapreauTente.png in Resources */ = {isa = PBXBuildFile; fileRef = E27C63DB11A5DFC2000DF7A5 /* dapreauTente.png */; };
 		E281C94C11593754004044F8 /* VCNews.m in Sources */ = {isa = PBXBuildFile; fileRef = E281C94B11593754004044F8 /* VCNews.m */; };
 		E281C98711593E1E004044F8 /* VCNewsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E281C98611593E1E004044F8 /* VCNewsParser.m */; };
 		E281CA6211594F59004044F8 /* NewsDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E281CA6011594F59004044F8 /* NewsDetailsView.m */; };
@@ -190,8 +189,6 @@
 		E2E3419F1163B0F00073B122 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E3419E1163B0F00073B122 /* CoreLocation.framework */; };
 		E2F120C8118732440026B468 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F120C6118732440026B468 /* LoadingView.xib */; };
 		E2F8470211CBDF6200613529 /* VCFluxUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F8470111CBDF6200613529 /* VCFluxUpdater.m */; };
-		E2F97DE111A6D3630019E9ED /* chezMoi.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F97DE011A6D3630019E9ED /* chezMoi.png */; };
-		E2F97E5D11A6E7980019E9ED /* Polytech.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F97E5C11A6E7980019E9ED /* Polytech.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -338,7 +335,6 @@
 		E27BFEDA11CE70B7003B7AE2 /* CellArtiste.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellArtiste.m; sourceTree = "<group>"; };
 		E27C631011A5CE4E000DF7A5 /* UINavigationBar+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Image.h"; sourceTree = "<group>"; };
 		E27C631111A5CE4E000DF7A5 /* UINavigationBar+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Image.m"; sourceTree = "<group>"; };
-		E27C63DB11A5DFC2000DF7A5 /* dapreauTente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dapreauTente.png; sourceTree = "<group>"; };
 		E281C94A11593754004044F8 /* VCNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCNews.h; sourceTree = "<group>"; };
 		E281C94B11593754004044F8 /* VCNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCNews.m; sourceTree = "<group>"; };
 		E281C98511593E1E004044F8 /* VCNewsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCNewsParser.h; sourceTree = "<group>"; };
@@ -418,8 +414,6 @@
 		E2F120C6118732440026B468 /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
 		E2F8470011CBDF6200613529 /* VCFluxUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCFluxUpdater.h; sourceTree = "<group>"; };
 		E2F8470111CBDF6200613529 /* VCFluxUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCFluxUpdater.m; sourceTree = "<group>"; };
-		E2F97DE011A6D3630019E9ED /* chezMoi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chezMoi.png; sourceTree = "<group>"; };
-		E2F97E5C11A6E7980019E9ED /* Polytech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Polytech.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -695,9 +689,6 @@
 				E2A4809E11B2D2C40071B523 /* about.png */,
 				E2A4806611B2CA990071B523 /* AboutTom.png */,
 				E2B6909F11A7C98200D37572 /* supprimer.png */,
-				E2F97E5C11A6E7980019E9ED /* Polytech.png */,
-				E2F97DE011A6D3630019E9ED /* chezMoi.png */,
-				E27C63DB11A5DFC2000DF7A5 /* dapreauTente.png */,
 				E2C89264119579C1008EC430 /* FavoriSelected.png */,
 				E2C8926111957972008EC430 /* FavoriUnselected.png */,
 				E288BC1C118F4E3900CFF585 /* VieillesCharrues.png */,
@@ -898,9 +889,6 @@
 				E2CDB2B711A1AFB0006F63D6 /* ViewPlanVC.xib in Resources */,
 				E2CDB2E711A1BA6C006F63D6 /* ViewOuEstMaTente.xib in Resources */,
 				E2CDB2E911A1BB1D006F63D6 /* CellTente.xib in Resources */,
-				E27C63DC11A5DFC2000DF7A5 /* dapreauTente.png in Resources */,
-				E2F97DE111A6D3630019E9ED /* chezMoi.png in Resources */,
-				E2F97E5D11A6E7980019E9ED /* Polytech.png in Resources */,
 				E2B690A011A7C98200D37572 /* supprimer.png in Resources */,
 				E2A4806411B2C9BB0071B523 /* ViewControllerInfo.xib in Resources */,
 				E2A4806711B2CA990071B523 /* AboutTom.png in Resources */,

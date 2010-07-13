@@ -32,6 +32,32 @@
 	return self;
 }
 
+-(NSString *) description {
+	
+	return [NSString stringWithFormat:@"concert de : %@ de %@ à %@", idArtiste, heureDebut, heureFin];
+	
+}
+
+- (NSComparisonResult) compareConcert:(VCConcert *)concert {
+	NSComparisonResult retVal = NSOrderedSame;
+	
+	int selfValue = [[self heureDebut] intValue];
+	int otherValue = [[concert heureDebut] intValue];
+	
+	if (selfValue < 10) {
+		selfValue += 24;
+	}
+	if (otherValue < 10) {
+		otherValue += 24;
+	}
+	
+	if (selfValue > otherValue)
+		retVal = NSOrderedAscending;
+	else if (selfValue < otherValue) 
+		retVal = NSOrderedDescending;
+	return retVal;
+}
+
 -(id)initWithId:(NSNumber*) idenifiantConcert 
 		   jour:(NSNumber*) identifiantJour 
 		  scene:(NSNumber*) identifiantScene 

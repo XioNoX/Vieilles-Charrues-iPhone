@@ -34,13 +34,29 @@
 
 @synthesize popUpView;
 
+- (void) sortConcertOfDay {
+	
+
+	
+	NSMutableArray *tempArray = [[NSMutableArray alloc] init];
+	for (NSArray *arrayOfConcert in listeConcertParScene) {
+		arrayOfConcert = [arrayOfConcert sortedArrayUsingSelector:@selector(compareConcert:)];
+		[tempArray addObject:arrayOfConcert];
+	}
+
+	listeConcertParScene = tempArray;
+}
+
+
+		 
 - (IBAction) reloadTable
 {
 	[listeConcertParScene release];
 	[listeGroupe release];
-	listeConcertParScene = [[dataBase getConcertsDuJour:[NSNumber numberWithInt:(selector.selectedSegmentIndex +1)]] retain];
+	listeConcertParScene = [[NSMutableArray arrayWithArray:[dataBase getConcertsDuJour:[NSNumber numberWithInt:(selector.selectedSegmentIndex +1)]]] retain];
 	listeGroupe = [[dataBase  getListeArtistes] retain];
 	[self.tableView reloadData];
+	[self sortConcertOfDay];
 }
 
 
