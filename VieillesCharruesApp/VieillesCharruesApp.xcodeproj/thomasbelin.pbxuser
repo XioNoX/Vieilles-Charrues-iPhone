@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* VieillesCharruesAppAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 460}}";
+			sepNavIntBoundsRect = "{{0, 0}, {950, 416}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 501}";
+			sepNavVisRange = "{312, 797}";
 		};
 	};
 	1D3623250D0F684500981E51 /* VieillesCharruesAppAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {883, 585}}";
+			sepNavIntBoundsRect = "{{0, 0}, {950, 663}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1116}";
+			sepNavVisRange = "{613, 686}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* VieillesCharruesApp */ = {
@@ -21,9 +21,10 @@
 		);
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = armv7;
 		activeBuildConfigurationName = Debug;
 		activeExecutable = B74089631196D60100086CF8 /* VieillesCharruesApp */;
-		activeSDKPreference = iphonesimulator3.0;
+		activeSDKPreference = iphoneos4.0;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* VieillesCharruesApp */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* VieillesCharruesApp */,
@@ -54,7 +55,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					866,
+					772,
 					20,
 					48,
 					43,
@@ -93,7 +94,7 @@
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
 					20,
-					842,
+					748,
 					20,
 					48,
 					43,
@@ -133,10 +134,30 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 300131223;
-			PBXWorkspaceStateSaveDate = 300131223;
+			PBXPerProjectTemplateStateSaveDate = 300737727;
+			PBXWorkspaceStateSaveDate = 300737727;
 		};
 		perUserProjectItems = {
+			B71A3A4511ECE65800033529 /* PBXTextBookmark */ = B71A3A4511ECE65800033529 /* PBXTextBookmark */;
+			B71A3A4611ECE65800033529 /* XCBuildMessageTextBookmark */ = B71A3A4611ECE65800033529 /* XCBuildMessageTextBookmark */;
+			B71A3A4711ECE65800033529 /* PBXTextBookmark */ = B71A3A4711ECE65800033529 /* PBXTextBookmark */;
+			B71A3A4A11ECE6F800033529 /* PBXTextBookmark */ = B71A3A4A11ECE6F800033529 /* PBXTextBookmark */;
+			B71A3A4D11ECE70000033529 /* PBXTextBookmark */ = B71A3A4D11ECE70000033529 /* PBXTextBookmark */;
+			B71A3A4E11ECE70000033529 /* XCBuildMessageTextBookmark */ = B71A3A4E11ECE70000033529 /* XCBuildMessageTextBookmark */;
+			B71A3A4F11ECE70000033529 /* PBXTextBookmark */ = B71A3A4F11ECE70000033529 /* PBXTextBookmark */;
+			B71A3A6111ECE7FA00033529 /* PBXTextBookmark */ = B71A3A6111ECE7FA00033529 /* PBXTextBookmark */;
+			B71A3A7011ECEC4300033529 /* PBXTextBookmark */ = B71A3A7011ECEC4300033529 /* PBXTextBookmark */;
+			B71A3A7311ECECD700033529 /* PBXTextBookmark */ = B71A3A7311ECECD700033529 /* PBXTextBookmark */;
+			B71A3A7611ECED1300033529 /* PBXTextBookmark */ = B71A3A7611ECED1300033529 /* PBXTextBookmark */;
+			B71A3A7911ECED4300033529 /* PBXTextBookmark */ = B71A3A7911ECED4300033529 /* PBXTextBookmark */;
+			B71A3A7C11ECED5A00033529 /* PBXTextBookmark */ = B71A3A7C11ECED5A00033529 /* PBXTextBookmark */;
+			B71A3A7D11ECED5A00033529 /* PBXTextBookmark */ = B71A3A7D11ECED5A00033529 /* PBXTextBookmark */;
+			B71A3A7E11ECED5A00033529 /* PBXTextBookmark */ = B71A3A7E11ECED5A00033529 /* PBXTextBookmark */;
+			B71A3A7F11ECED5A00033529 /* PBXTextBookmark */ = B71A3A7F11ECED5A00033529 /* PBXTextBookmark */;
+			B71A3A8011ECED5A00033529 /* PBXTextBookmark */ = B71A3A8011ECED5A00033529 /* PBXTextBookmark */;
+			B71A3A8111ECED5A00033529 /* PlistBookmark */ = B71A3A8111ECED5A00033529 /* PlistBookmark */;
+			B71A3A8211ECED5A00033529 /* PBXTextBookmark */ = B71A3A8211ECED5A00033529 /* PBXTextBookmark */;
+			B71A3A8311ECED5A00033529 /* PBXTextBookmark */ = B71A3A8311ECED5A00033529 /* PBXTextBookmark */;
 			B7EA66DA11E39DCD00E29185 = B7EA66DA11E39DCD00E29185 /* PBXTextBookmark */;
 			B7EA670211E39E4000E29185 = B7EA670211E39E4000E29185 /* PBXTextBookmark */;
 			B7EA679011E39FB400E29185 = B7EA679011E39FB400E29185 /* PBXTextBookmark */;
@@ -146,7 +167,7 @@
 			B7EA679711E39FB400E29185 = B7EA679711E39FB400E29185 /* PBXBookmark */;
 			B7EA679911E39FB400E29185 = B7EA679911E39FB400E29185 /* PBXTextBookmark */;
 			B7EA679A11E39FB400E29185 = B7EA679A11E39FB400E29185 /* PBXTextBookmark */;
-			B7FDF81B11E3A3CD00D68DA0 /* PBXTextBookmark */ = B7FDF81B11E3A3CD00D68DA0 /* PBXTextBookmark */;
+			B7FDF81B11E3A3CD00D68DA0 = B7FDF81B11E3A3CD00D68DA0 /* PBXTextBookmark */;
 			B7FFE34811DDFAF1003047D0 = B7FFE34811DDFAF1003047D0 /* PBXTextBookmark */;
 			B7FFE34911DDFAF1003047D0 = B7FFE34911DDFAF1003047D0 /* PBXTextBookmark */;
 		};
@@ -166,6 +187,206 @@
 			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
 		};
 	};
+	B71A3A4511ECE65800033529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2C891E511956954008EC430 /* VCUtils.m */;
+		name = "VCUtils.m: 45";
+		rLen = 0;
+		rLoc = 1358;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 700;
+	};
+	B71A3A4611ECE65800033529 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Class 'VCNewsParser' does not implement the 'NSXMLParserDelegate' protocol";
+		fRef = E2F8470111CBDF6200613529 /* VCFluxUpdater.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 26;
+		rType = 1;
+	};
+	B71A3A4711ECE65800033529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2F8470111CBDF6200613529 /* VCFluxUpdater.m */;
+		name = "VCFluxUpdater.m: 27";
+		rLen = 0;
+		rLoc = 578;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 203;
+	};
+	B71A3A4A11ECE6F800033529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2F8470111CBDF6200613529 /* VCFluxUpdater.m */;
+		name = "VCFluxUpdater.m: 27";
+		rLen = 0;
+		rLoc = 578;
+		rType = 0;
+		vrLen = 973;
+		vrLoc = 203;
+	};
+	B71A3A4D11ECE70000033529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B7EA676711E39F7700E29185 /* BrowserViewController.m */;
+		name = "BrowserViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 416;
+		vrLoc = 0;
+	};
+	B71A3A4E11ECE70000033529 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'createDirectoryAtPath:attributes:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:168)";
+		fRef = E2C891E511956954008EC430 /* VCUtils.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 44;
+		rType = 1;
+	};
+	B71A3A4F11ECE70000033529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2C891E511956954008EC430 /* VCUtils.m */;
+		name = "VCUtils.m: 45";
+		rLen = 0;
+		rLoc = 1358;
+		rType = 0;
+		vrLen = 965;
+		vrLoc = 810;
+	};
+	B71A3A6111ECE7FA00033529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2F8470111CBDF6200613529 /* VCFluxUpdater.m */;
+		name = "VCFluxUpdater.m: 145";
+		rLen = 0;
+		rLoc = 3628;
+		rType = 0;
+		vrLen = 947;
+		vrLoc = 231;
+	};
+	B71A3A7011ECEC4300033529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2F8470111CBDF6200613529 /* VCFluxUpdater.m */;
+		name = "VCFluxUpdater.m: 145";
+		rLen = 0;
+		rLoc = 3628;
+		rType = 0;
+		vrLen = 947;
+		vrLoc = 231;
+	};
+	B71A3A7311ECECD700033529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2F8470111CBDF6200613529 /* VCFluxUpdater.m */;
+		name = "VCFluxUpdater.m: 145";
+		rLen = 0;
+		rLoc = 3628;
+		rType = 0;
+		vrLen = 640;
+		vrLoc = 231;
+	};
+	B71A3A7611ECED1300033529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2F8470111CBDF6200613529 /* VCFluxUpdater.m */;
+		name = "VCFluxUpdater.m: 145";
+		rLen = 0;
+		rLoc = 3628;
+		rType = 0;
+		vrLen = 947;
+		vrLoc = 231;
+	};
+	B71A3A7911ECED4300033529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2F8470111CBDF6200613529 /* VCFluxUpdater.m */;
+		name = "VCFluxUpdater.m: 145";
+		rLen = 0;
+		rLoc = 3628;
+		rType = 0;
+		vrLen = 947;
+		vrLoc = 231;
+	};
+	B71A3A7C11ECED5A00033529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2C891E511956954008EC430 /* VCUtils.m */;
+		name = "VCUtils.m: 45";
+		rLen = 0;
+		rLoc = 1358;
+		rType = 0;
+		vrLen = 892;
+		vrLoc = 1775;
+	};
+	B71A3A7D11ECED5A00033529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2CDB2B411A1AFB0006F63D6 /* ViewPlanVC.m */;
+		name = "ViewPlanVC.m: 37";
+		rLen = 0;
+		rLoc = 1361;
+		rType = 0;
+		vrLen = 1051;
+		vrLoc = 878;
+	};
+	B71A3A7E11ECED5A00033529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2E341601163AE670073B122 /* ViewLocation.h */;
+		name = "ViewLocation.h: 43";
+		rLen = 0;
+		rLoc = 1195;
+		rType = 0;
+		vrLen = 481;
+		vrLoc = 917;
+	};
+	B71A3A7F11ECED5A00033529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* VieillesCharruesAppAppDelegate.m */;
+		name = "VieillesCharruesAppAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 686;
+		vrLoc = 613;
+	};
+	B71A3A8011ECED5A00033529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* VieillesCharruesAppAppDelegate.h */;
+		name = "VieillesCharruesAppAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 797;
+		vrLoc = 312;
+	};
+	B71A3A8111ECED5A00033529 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* VieillesCharruesApp-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleDisplayName,
+		);
+		name = "/Users/thomasbelin/Desktop/iPhone/VieillesCharruesApp/VieillesCharruesApp-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	B71A3A8211ECED5A00033529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
+		name = "ViewLocation.m: 108";
+		rLen = 0;
+		rLoc = 3097;
+		rType = 0;
+		vrLen = 2671;
+		vrLoc = 6425;
+	};
+	B71A3A8311ECED5A00033529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2E341611163AE670073B122 /* ViewLocation.m */;
+		name = "ViewLocation.m: 108";
+		rLen = 0;
+		rLoc = 3097;
+		rType = 0;
+		vrLen = 2841;
+		vrLoc = 6007;
+	};
 	B74089631196D60100086CF8 /* VieillesCharruesApp */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -173,7 +394,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -234,9 +455,9 @@
 	};
 	B7EA676711E39F7700E29185 /* BrowserViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1044, 2899}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1044, 2561}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 486}";
+			sepNavVisRange = "{0, 416}";
 		};
 	};
 	B7EA679011E39FB400E29185 /* PBXTextBookmark */ = {
@@ -588,16 +809,16 @@
 	};
 	E2C891E511956954008EC430 /* VCUtils.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1286, 1443}}";
-			sepNavSelRange = "{1898, 0}";
-			sepNavVisRange = "{1706, 343}";
+			sepNavIntBoundsRect = "{{0, 0}, {1349, 1495}}";
+			sepNavSelRange = "{1358, 0}";
+			sepNavVisRange = "{1772, 887}";
 		};
 	};
 	E2CDB2B411A1AFB0006F63D6 /* ViewPlanVC.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1951, 728}}";
 			sepNavSelRange = "{1361, 0}";
-			sepNavVisRange = "{610, 1326}";
+			sepNavVisRange = "{878, 1051}";
 		};
 	};
 	E2CDB2E311A1BA6C006F63D6 /* ViewOuEstMaTente.h */ = {
@@ -724,17 +945,17 @@
 	};
 	E2E341601163AE670073B122 /* ViewLocation.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1471, 910}}";
+			sepNavIntBoundsRect = "{{0, 0}, {950, 884}}";
 			sepNavSelRange = "{1195, 0}";
-			sepNavVisRange = "{0, 1599}";
+			sepNavVisRange = "{917, 481}";
 		};
 	};
 	E2E341611163AE670073B122 /* ViewLocation.m */ = {
 		uiCtxt = {
 			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1678, 296}\";\n            s = 0;\n        },\n                {\n            r = \"{2003, 476}\";\n            s = 0;\n        },\n                {\n            r = \"{2536, 561}\";\n            s = 0;\n        },\n                {\n            r = \"{5496, 155}\";\n            s = 0;\n        },\n                {\n            r = \"{5693, 96}\";\n            s = 0;\n        },\n                {\n            r = \"{5841, 164}\";\n            s = 0;\n        },\n                {\n            r = \"{6055, 162}\";\n            s = 0;\n        },\n                {\n            r = \"{6254, 169}\";\n            s = 0;\n        },\n                {\n            r = \"{6450, 868}\";\n            s = 0;\n        },\n                {\n            r = \"{7369, 761}\";\n            s = 0;\n        },\n                {\n            r = \"{8192, 16}\";\n            s = 0;\n        },\n                {\n            r = \"{8317, 227}\";\n            s = 0;\n        },\n                {\n            r = \"{8581, 155}\";\n            s = 0;\n        },\n                {\n            r = \"{8762, 83}\";\n            s = 0;\n        },\n                {\n            r = \"{8866, 226}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 9101}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1471, 2119}}";
+			sepNavIntBoundsRect = "{{0, 0}, {950, 2418}}";
 			sepNavSelRange = "{1767, 0}";
-			sepNavVisRange = "{1593, 1622}";
+			sepNavVisRange = "{4265, 408}";
 			sepNavWindowFrame = "{{61, 173}, {750, 558}}";
 		};
 	};
@@ -747,9 +968,9 @@
 	};
 	E2F8470111CBDF6200613529 /* VCFluxUpdater.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {936, 1898}}";
-			sepNavSelRange = "{2263, 0}";
-			sepNavVisRange = "{2019, 690}";
+			sepNavIntBoundsRect = "{{0, 0}, {936, 1846}}";
+			sepNavSelRange = "{3628, 0}";
+			sepNavVisRange = "{231, 947}";
 		};
 	};
 }
