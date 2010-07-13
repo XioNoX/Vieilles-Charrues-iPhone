@@ -204,7 +204,7 @@
 	[titleLabel release];
 	
 	
-	return sectionView;
+	return [sectionView autorelease];
 	
 }
 

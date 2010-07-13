@@ -50,6 +50,7 @@
 	[htmlStr appendString:@"</body></html>"];
 	
 	[site loadHTMLString: htmlStr baseURL:nil];
+	[htmlStr release];
 	[site setDelegate:self];
 	
 	[imageGroupe setImage:imageArtiste];

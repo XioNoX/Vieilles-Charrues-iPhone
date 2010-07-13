@@ -63,6 +63,7 @@
 	[htmlStr appendString:nouvelle.description];
 	[htmlStr appendString:@"</html>"];
 	[self.description loadHTMLString:htmlStr baseURL:nil ];
+	[htmlStr release];
 	[description setDelegate:self];
 	
 	

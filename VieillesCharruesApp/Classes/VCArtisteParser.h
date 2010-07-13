@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface VCArtisteParser : NSXMLParser
+@interface VCArtisteParser : NSXMLParser 
 {
 	NSMutableArray *listeArtistes;
 	NSMutableString *buildingElement;

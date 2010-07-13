@@ -55,7 +55,7 @@
 			[arrayOfNews addObjectsFromArray:parserVC.listeNews];
 			[arrayOfNews addObjectsFromArray:parserTwit.listeNews];
 			[[VCDataBaseController sharedInstance] mettreAJourNews:arrayOfNews];
-			
+			[arrayOfNews release];
 			[delegate majEnded:0];
 		}
 		else 
