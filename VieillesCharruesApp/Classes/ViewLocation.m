@@ -105,6 +105,10 @@
 	[carteScrollView setContentSize:carte.frame.size];
 	[plan setFrame:carte.frame];
 	[loadingView removeFromSuperview];
+	
+	
+	[plan addSubview:pointTente];
+	[plan addSubview:pointLocalisation];
 }
 
 -(void) loadImage {
@@ -171,9 +175,6 @@
 	[nomTente release];
 	[pointTente setHidden:YES];
 	
-	
-	[plan addSubview:pointTente];
-	[plan addSubview:pointLocalisation];
 	[carteScrollView setMaximumZoomScale:3];
 	[carteScrollView setMinimumZoomScale:1];
 	

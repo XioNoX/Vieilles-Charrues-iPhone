@@ -288,6 +288,8 @@
 			E2C2879711ECE69F004B25B7 /* PBXTextBookmark */ = E2C2879711ECE69F004B25B7 /* PBXTextBookmark */;
 			E2C2879811ECE69F004B25B7 /* PBXTextBookmark */ = E2C2879811ECE69F004B25B7 /* PBXTextBookmark */;
 			E2C2879911ECE69F004B25B7 /* PBXTextBookmark */ = E2C2879911ECE69F004B25B7 /* PBXTextBookmark */;
+			E2C287A311ECED67004B25B7 /* PBXTextBookmark */ = E2C287A311ECED67004B25B7 /* PBXTextBookmark */;
+			E2C287A611ECED71004B25B7 /* PBXTextBookmark */ = E2C287A611ECED71004B25B7 /* PBXTextBookmark */;
 			E2C8094311BA7E9B00F2A230 = E2C8094311BA7E9B00F2A230 /* PBXBookmark */;
 			E2C8094E11BA7E9B00F2A230 = E2C8094E11BA7E9B00F2A230 /* PBXBookmark */;
 			E2C8095311BA7E9B00F2A230 = E2C8095311BA7E9B00F2A230 /* PBXBookmark */;
@@ -686,7 +688,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		location = libobjc.A.dylib;
-		modificationTime = 300738194.721004;
+		modificationTime = 300739573.754108;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 		symbolName = objc_exception_throw;
@@ -1476,6 +1478,26 @@
 		vrLoc = 1086;
 	};
 	E2C2879911ECE69F004B25B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2C111601189B48C007C69D9 /* VCArtisteParser.h */;
+		name = "VCArtisteParser.h: 12";
+		rLen = 0;
+		rLoc = 224;
+		rType = 0;
+		vrLen = 521;
+		vrLoc = 0;
+	};
+	E2C287A311ECED67004B25B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E24EE8941195872100E0ABF9 /* CellDetailHeader.m */;
+		name = "CellDetailHeader.m: 53";
+		rLen = 0;
+		rLoc = 2076;
+		rType = 0;
+		vrLen = 1535;
+		vrLoc = 610;
+	};
+	E2C287A611ECED71004B25B7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = E2C111601189B48C007C69D9 /* VCArtisteParser.h */;
 		name = "VCArtisteParser.h: 12";
