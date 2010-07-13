@@ -111,10 +111,9 @@
 
 }
 
--(void)updateLocation
-{
-	CGFloat longit = locationController.locationManager.location.coordinate.longitude;
-	CGFloat latit = locationController.locationManager.location.coordinate.latitude;
+-(void)updateLocation {
+	CGFloat longit = pointInternBasDroit.y;//locationController.locationManager.location.coordinate.longitude;
+	CGFloat latit = pointInternBasDroit.x;//locationController.locationManager.location.coordinate.latitude;
 	
 	
 	if(longit != 0.0 || latit != 0.0)
@@ -127,8 +126,7 @@
 	}
 }
 
--(IBAction) ajouterTente
-{
+-(IBAction) ajouterTente {
 	UIAlertView *alert= [[UIAlertView alloc] initWithTitle:@"Nom de la nouvelle tente" message:@"vide" delegate:self cancelButtonTitle:@"Annuler" otherButtonTitles:@"Valider",nil];
 	
 	alert.tag = 0;
@@ -218,8 +216,7 @@
 	 
 }
 
--(IBAction) supprimerTente:(UIButton*)sender
-{
+-(IBAction) supprimerTente:(UIButton*)sender {
 	UIAlertView *alertSuppression = [[UIAlertView alloc] initWithTitle:@"Supprimer tente" message:@"Supprimer la tente ?" delegate:self cancelButtonTitle:@"Annuler" otherButtonTitles:@"Valider",nil];
 	alertSuppression.tag = sender.tag;
 	[alertSuppression show];

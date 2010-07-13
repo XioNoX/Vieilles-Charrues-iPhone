@@ -232,6 +232,7 @@
 	locationAcutelle.y = self.locationController.locAtuelle.coordinate.longitude;  // -3.5624027;
 	locationAcutelle.x = self.locationController.locAtuelle.coordinate.latitude; 	//48.2702259;
 	
+	
 	if ([self isInBounds:locationAcutelle]) {
 		[pointLocalisation setHidden:NO];
 		float positionX = [self determinerPositionX:locationAcutelle.x] - (pointLocalisation.frame.size.height/2);
