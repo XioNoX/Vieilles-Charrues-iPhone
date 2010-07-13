@@ -106,9 +106,35 @@
 	[plan setFrame:carte.frame];
 	[loadingView removeFromSuperview];
 	
-	
+	imageisLoaded = YES;
 	[plan addSubview:pointTente];
 	[plan addSubview:pointLocalisation];
+	
+	if (![pointTente isHidden]) {
+		
+		CGPoint positionTente = CGPointMake(tente.latitude, tente.longitude);
+		
+		
+		
+		if([self isInBounds:positionTente]) {
+			float positionX = [self determinerPositionX:tente.latitude] - (pointTente.frame.size.width/2);
+			float positionY = [self determinerPositionY:tente.longitude] - (pointTente.frame.size.height/2);
+			
+			NSLog(@"pos x : %f\npos Y : %f", positionX, positionY);
+			
+			nomTente.text = tente.nom;
+			[pointTente setHidden:NO];
+			pointTente.frame = CGRectMake(positionX, positionY, pointTente.frame.size.width, pointTente.frame.size.height);
+		}
+		else {
+			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Attention" message:@"Cette tente n'est pas sur le site du festival" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+			
+			[alert show];
+			[alert release];
+		}
+		
+		
+	}
 }
 
 -(void) loadImage {
@@ -134,7 +160,7 @@
 -(id) initMap:(BOOL)isExternParam {
 	
 	self = [super init];
-	
+	imageisLoaded = NO;
 	
 	plan = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 367.0)];
 	
@@ -203,20 +229,18 @@
 }
 
 
--(float) determinerPositionX:(float) longitude
-{
+-(float) determinerPositionX:(float) longitude {
 	float LONGUEUR = (pointHautGauche.x	- pointBasDroit.x);
 	
 	float distance = (pointHautGauche.x - longitude);
-	return (distance/LONGUEUR) * plan.frame.size.width;
+	return (distance/LONGUEUR) * carte.frame.size.width;
 }
 
--(float) determinerPositionY:(float) latitude
-{
+-(float) determinerPositionY:(float) latitude {
 	float HAUTEUR = (pointHautGauche.y	- pointBasDroit.y);
 	
 	float distance = (pointHautGauche.y - latitude);
-	return (distance/HAUTEUR) * plan.frame.size.height;
+	return (distance/HAUTEUR) * carte.frame.size.height;
 }
 
 -(BOOL) isInBounds:(CGPoint) loc {
@@ -227,8 +251,7 @@
 	
 }
 
--(void) updateLocation
-{
+-(void) updateLocation {
 	locationAcutelle.y = self.locationController.locAtuelle.coordinate.longitude;  // -3.5624027;
 	locationAcutelle.x = self.locationController.locAtuelle.coordinate.latitude; 	//48.2702259;
 	
@@ -249,27 +272,11 @@
 
 }
 
--(void) setTenteLocation:(VCTente *)tenteParam
-{
+-(void) setTenteLocation:(VCTente *)tenteParam {
 	tente = [tenteParam retain];
 	
-	CGPoint positionTente = CGPointMake(tente.latitude, tente.longitude);
+	[pointTente setHidden:NO];
 	
-	if([self isInBounds:positionTente]) {
-		float positionX = [self determinerPositionX:tente.latitude] - (pointTente.frame.size.width/2);
-		float positionY = [self determinerPositionY:tente.longitude] - (pointTente.frame.size.height/2);
-		
-		nomTente.text = tente.nom;
-		[pointTente setHidden:NO];
-		pointTente.frame = CGRectMake(positionX, positionY, pointTente.frame.size.width, pointTente.frame.size.height);
-	}
-	else {
-		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Attention" message:@"Cette tente n'est pas sur le site du festival" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
-		
-		[alert show];
-		[alert release];
-	}
-
 	
 }
 

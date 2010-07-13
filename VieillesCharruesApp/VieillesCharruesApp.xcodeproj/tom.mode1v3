@@ -230,8 +230,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -274,7 +272,10 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>30</integer>
+									<integer>12</integer>
+									<integer>8</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -308,6 +309,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -325,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E2C287F311ECF32F004B25B7</string>
+										<string>E2C2886A11ECFC1F004B25B7</string>
 										<key>history</key>
 										<array>
 											<string>E2C111F81189C783007C69D9</string>
@@ -388,7 +391,6 @@
 											<string>E2F04F2711D1252F00682CB6</string>
 											<string>E2F04F2811D1252F00682CB6</string>
 											<string>E2F04F2911D1252F00682CB6</string>
-											<string>E25E377011D157B000DF12B9</string>
 											<string>E2C0B8E211DBAFAA00805718</string>
 											<string>E2C0B8E411DBAFAA00805718</string>
 											<string>E2C0B90B11DBB05C00805718</string>
@@ -438,8 +440,9 @@
 											<string>E2C287CC11ECF190004B25B7</string>
 											<string>E2C287CD11ECF190004B25B7</string>
 											<string>E2C287CF11ECF190004B25B7</string>
-											<string>E2C287E111ECF294004B25B7</string>
-											<string>E2C287E211ECF294004B25B7</string>
+											<string>E2C2884911ECFAE4004B25B7</string>
+											<string>E2C2886811ECFC1F004B25B7</string>
+											<string>E2C2886911ECFC1F004B25B7</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -637,14 +640,14 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>E2C2886B11ECFC1F004B25B7</string>
 		<string>E2C287EF11ECF32D004B25B7</string>
-		<string>E2C287EB11ECF2C6004B25B7</string>
 		<string>E2C2879A11ECE69F004B25B7</string>
 		<string>E2C2871D11ECD29B004B25B7</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>E2CEC4521156723F00ABEE81</string>
 		<string>/Users/tom/Documents/ProjetsInfo/VieillesCharrues/iPhone/VieillesCharruesApp/VieillesCharruesApp.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1680 969 0 0 1680 1028 </string>
@@ -1022,7 +1025,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

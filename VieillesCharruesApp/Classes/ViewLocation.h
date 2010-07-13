@@ -39,6 +39,7 @@
 	UILabel						*nomTente;
 	
 	BOOL						isExtern;
+	BOOL						imageisLoaded;
 	
 	NSTimer						*timer;
 	CGFloat						initialDistance;

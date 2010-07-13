@@ -112,8 +112,8 @@
 }
 
 -(void)updateLocation {
-	CGFloat longit = pointInternBasDroit.y;//locationController.locationManager.location.coordinate.longitude;
-	CGFloat latit = pointInternBasDroit.x;//locationController.locationManager.location.coordinate.latitude;
+	CGFloat longit = locationController.locationManager.location.coordinate.longitude;
+	CGFloat latit = locationController.locationManager.location.coordinate.latitude;
 	
 	
 	if(longit != 0.0 || latit != 0.0)
